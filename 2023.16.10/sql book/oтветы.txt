@@ -24,5 +24,22 @@ from
 	film f 
 order by
 	f.rating,
-	f.length
+	f.length;
+
+3.
+
+select 
+	f.title,
+	f.rating ,
+	f.length ,
+	min(f.length) over(partition by f.rating) as min_rating_length,
+	max(f.length) over(partition by f.rating) as max_rating_lenght,
+	avg(f.length) over(partition by f.rating) as avg_rating_length,
+	count(f.length) over(partition by f.rating) as cnt_rating_lenght
+from 
+	film f 
+order by
+	f.rating,
+	f.length; 
+
 
