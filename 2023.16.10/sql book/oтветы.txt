@@ -1,0 +1,28 @@
+﻿
+1.
+
+select
+	f.title,
+	f.rating ,
+ 	f.length,
+	min(f.length) over(partition by f.rating) as min_rating_length
+from
+	film f 
+order by
+	f.rating,
+	f.length
+
+2.
+
+select 
+	f.title,
+	f.rating ,
+	f.length ,
+	min(f.length) over(partition by f.rating) as min_rating_length,
+	min(f.length) over() as min_length
+from 
+	film f 
+order by
+	f.rating,
+	f.length
+
