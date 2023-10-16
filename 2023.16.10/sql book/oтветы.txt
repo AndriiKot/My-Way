@@ -43,3 +43,36 @@ order by
 	f.length; 
 
 
+4.
+
+select 
+	f.title,
+	f.rating ,
+	f.length ,
+	min(f.length) over w as min_rating_length,
+	max(f.length) over w as max_rating_lenght,
+	avg(f.length) over w as avg_rating_length,
+	count(f.length) over w as cnt_rating_lenght
+from 
+	film f 
+window w as (partition by f.rating)
+order by
+	f.rating,
+	f.length ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
