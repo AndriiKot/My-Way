@@ -1,3 +1,4 @@
+"use strict";
 var first_var = 'I am string';
 var second_var = 143;
 var isOld = false;

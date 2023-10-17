@@ -1,4 +1,6 @@
-﻿const first_var: string = 'I am string';
+﻿"use strict"
+
+const first_var: string = 'I am string';
 const second_var: number = 143;
 const isOld: boolean = false;
 const some_var3: null = null;

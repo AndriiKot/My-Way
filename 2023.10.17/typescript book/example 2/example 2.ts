@@ -1,0 +1,19 @@
+﻿"use strict";
+
+const user: {
+    name: string,
+    age: number,
+    log: boolean;
+} = {
+    name: 'Andrii',
+    age: 38,
+    log: true
+};
+
+const my_cat: {
+    name: string,
+    weight: number
+} = {
+    name: "Lubchik",
+    weight: 5
+};
