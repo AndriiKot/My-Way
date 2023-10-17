@@ -1,1 +1,2 @@
 ﻿p "hello!"
+puts "HI!"
