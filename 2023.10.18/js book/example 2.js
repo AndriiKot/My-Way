@@ -7,5 +7,17 @@ const fn2 = (a,b) => {
     return a + b
 };
 
-console.dir(fn1(1,3));
-console.dir(fn2(4,2));
+const counter = 1_000_000;
+
+const testTime = (n,fn) => {
+    console.dir(fn);
+
+    console.time();
+        for(let i = 0; i < n; i++){
+            fn();
+        }
+    console.timeEnd();
+};
+
+testTime(counter,fn1);
+testTime(counter,fn2);
