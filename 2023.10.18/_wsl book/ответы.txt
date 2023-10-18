@@ -1,4 +1,5 @@
-﻿
+﻿Внекоторых случаех команды в водить в PowerShell
+
 1.
 Cmd:
 > wsl --status
@@ -18,4 +19,57 @@ Cmd:
 
 Выполняется установка: Подсистема Windows для Linux
 Установка «Подсистема Windows для Linux» выполнена.
+
+
+3.
+Cmd:
+> winver
+
+4.
+Cmd:
+> wsl --set-default-version 2
+
+
+5.
+Cmd:
+> wsl -l -v
+
+6.
+Cmd:
+> wsl --list --online
+
+7.
+Cmd:
+> wsl -s Ubuntu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
