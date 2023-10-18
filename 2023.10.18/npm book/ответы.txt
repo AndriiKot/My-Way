@@ -1,3 +1,101 @@
 ﻿
-1. Node Package Manager
 
+1.
+ Node Package Manager
+
+2.
+  npm -v
+
+3.
+    npm init
+
+  or default values:
+
+    npm init -y
+    npm init --yes
+
+4.
+  npm search bootstrap
+ 
+  or
+
+  npm s bootstrap
+
+5.
+  npm view bootstrap
+
+  or
+
+  npm v bootstrap
+
+6.
+  npm repo bootstrap
+
+7.
+  npm home bootstrap
+
+8.
+  npm search "bootstarp grid"
+
+  or
+
+  npm s "bootstrap grid"
+
+9.
+  
+  npm install bootstrap
+
+  or 
+
+  npm i bootstrap
+
+ 
+    added 2 packages, and audited 3 packages in 1s
+
+	2 packages are looking for funding
+	  run `npm fund` for details
+
+	found 0 vulnerabilities
+
+
+  перевод:
+
+	добавлено 2 пакета и проверено 3 пакета за 1 секунду
+
+		2 пакета ищут финансирование
+			  запустите `npmfund` для получения подробной информации
+
+		найдено 0 уязвимостей
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
