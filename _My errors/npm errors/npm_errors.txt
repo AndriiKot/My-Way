@@ -1,0 +1,39 @@
+﻿
+
+1.
+npm ERR! code EPERM
+npm ERR! syscall open
+npm ERR! path C:\package.json
+npm ERR! errno -4048
+npm ERR! Error: EPERM: operation not permitted, open 'C:\package.json'
+npm ERR!  [Error: EPERM: operation not permitted, open 'C:\package.json'] {
+npm ERR!   errno: -4048,
+npm ERR!   code: 'EPERM',
+npm ERR!   syscall: 'open',
+npm ERR!   path: 'C:\\package.json'
+npm ERR! }
+npm ERR!
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It's possible that the file was already in use 
+         (by a text editor or antivirus),
+npm ERR! or that you lack permissions to access it.
+npm ERR!
+npm ERR! If you believe this might be a permissions issue,
+          please double-check the
+npm ERR! permissions of the file and its containing directories, 
+         or try runningnpm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+         C:\..\-debug-0.log
+
+
+1.
+fixed bug:
+I renamed the folder and tried again. The error has disappeared
+пофиксил просто переименовал папку
+Скорей всего в названии папки был в конце пробел
+Название папки оставил прежнее. Теперь npm init -y работает коректно
+
+
+
+
