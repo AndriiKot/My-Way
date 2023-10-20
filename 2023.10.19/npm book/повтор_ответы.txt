@@ -31,4 +31,11 @@
   npm s "bootstrap grid"
 
 
+9.
+  
+  npm install bootstrap
+
+  or 
+
+  npm i bootstrap
 

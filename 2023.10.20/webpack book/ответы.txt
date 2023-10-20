@@ -1,0 +1,15 @@
+﻿
+1.
+  mkdir webpack-demo
+
+2.
+  cd webpack-demo
+
+3.
+  npm init 
+
+  or
+
+  npm
+
+
