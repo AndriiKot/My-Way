@@ -19,6 +19,35 @@
 
   npm i webpack webpack-cli --save-dev
 
+5.
+  node_modules
+
+6.
+...
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <script src="https://unpkg.com/lodash@4.17.20"></script>
+  </head>
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
