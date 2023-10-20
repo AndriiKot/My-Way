@@ -1,0 +1,105 @@
+﻿
+1.
+  mkdir webpack-demo
+
+2.
+  cd webpack-demo
+
+3.
+  npm init 
+
+  or
+
+  npm  init -y
+
+4.
+  npm install webpack webpack-cli --save-dev
+
+  or 
+
+  npm i webpack webpack-cli --save-dev
+
+5.
+  node_modules
+
+6.
+...
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <script src="https://unpkg.com/lodash@4.17.20"></script>
+  </head>
+...
+
+7.
+function component() {
+  const element = document.createElement('div');
+
+  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+
+  return element;
+}
+
+document.body.appendChild(component());
+
+8.
+ в packege.json нужно удалить поле main 
+ а также создать новое поле private со значение true
+
+9.
+ npm install name --save   // для продакшена
+ napm install name --save-dev // для разработки
+
+10.
+  npm install --save lodash
+
+ index.js
+   import _ from 'lodash';
+   ...
+
+11. 
+  npx webpack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
