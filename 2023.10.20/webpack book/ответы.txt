@@ -10,6 +10,15 @@
 
   or
 
-  npm
+  npm  init -y
+
+4.
+  npm install webpack webpack-cli --save-dev
+
+  or 
+
+  npm i webpack webpack-cli --save-dev
+
+
 
 
