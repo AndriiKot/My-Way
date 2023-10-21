@@ -30,3 +30,152 @@
   npm search "bootstrap grid"
 
 9.
+  npm i bootstrap
+  npm install bootstrap
+
+10.
+  node_modules
+
+11.
+  Dependencies
+  DevDependencies
+
+{
+  ...
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "mocha": "^10.2.0"
+  }
+  ...
+}
+
+12.
+  npm i axios --save-prod
+  npm i axios -P
+  npm install axios -P
+  npm install --save-prod
+
+13.
+   Dependencies - Библиотеки и фреймворки, которые напрямую используются в нешем проекте
+                  Например: Bootstrap, Vue.js, React.js, Axios, Normalize ...
+                  Работа проекта напримую зависить от этих пакетов.
+                  
+                    
+   DevDependencies - Используются при разработке. Сборщики, линтеры, шаблонизаторы, средства тестирования
+                     Работа проекта от них не зависит
+
+14.
+  npm i gulp mocha --save-dev
+  npm install gulp mocha --save-dev
+  npm i gulp mocha -D
+  npm install gulp mocha -D
+
+15.
+  npm list
+
+16.
+{
+ ...
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "gulp": "gulp -v"
+  },
+ ...
+}
+
+  npm run gulp
+
+17.
+
+  "version": "1.0.0",
+
+  1.0.X   X - patch. В пакет внесены незначительные изменения, например, исправлены ошибки
+          Можно обновлять так как совместимость будет полная
+  1.X.0   X - minor. Минорная версия. В пакет внесены серьезные изменения.
+          Можно обновлять так как совместимость осталась с прошлой версией
+  X.0.0   X - major. Мажорная версия. В пакет внесены критические изменения 
+          Несовместима с прошлой версией.
+
+18.
+  npm outdated
+
+19.
+  npm remove bootstrap
+  npm r bootstrap
+  npm uninstall bootstrap
+  npm un bootstrap
+  
+removed 2 packages, and audited 425 packages in 2s
+
+34 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
