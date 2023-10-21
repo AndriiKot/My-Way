@@ -1,10 +1,12 @@
 ﻿"use strict";
 
-const fn1 = () => {
+const fn1 = (fn) => {
+    fn();
     console.log("Hello, fn1");
 };
 
-const fn2 = () => {
+const fn2 = (fn) => {
+    fn();
     console.log('Hello, fn2');
 };
 
