@@ -15,3 +15,18 @@
   npm s bootstrap
   npm search bootstrap
 
+5. 
+  npm view bootstrap
+  npm v bootstrap
+
+6.
+  npm repo bootstrap
+
+7.
+  npm home bootstrap
+
+8.
+  npm s "bootstrap grid"
+  npm search "bootstrap grid"
+
+9.
