@@ -1,0 +1,17 @@
+﻿
+1. Node Package Manager
+
+2.
+  npm -v
+  or
+  npm --version
+
+3.
+  npm init
+  npm init -y
+  npm init --yes
+
+4.
+  npm s bootstrap
+  npm search bootstrap
+
