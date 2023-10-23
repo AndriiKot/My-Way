@@ -1,0 +1,7 @@
+
+1.
+  gulp -v
+
+
+2.
+  gulp rm --global gulp
