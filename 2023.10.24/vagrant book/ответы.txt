@@ -19,9 +19,33 @@ the comments in the Vagrantfile as well as documentation on
 В этот каталог был помещен Vagrantfile. Ты сейчас
 готов «окунуться» в вашу первую виртуальную среду! Пожалуйста прочти
 комментарии в Vagrantfile, а также документацию по
-`vagrantup.com` для получения дополнительной информации об использовании Vagrant.
+vagrantup.com  для получения дополнительной информации об использовании Vagrant.
 
 
 5.
-  vagrant up
+vagrant up
+
+6.
+vagrant status
+
+7.
+vagrant ssh
+Cntrl + D приврать сеанс
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
