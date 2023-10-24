@@ -1,0 +1,13 @@
+﻿
+1. Скачайте Vagrant
+
+2. Установите Vargrant
+
+3. в командной строке выведете версию установленого vagrant.
+
+4. создайте бокс для VirtualBox ubuntu/xenial64
+
+5. запустите машину в VirtualBox через vagrant.
+
+
+
