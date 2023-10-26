@@ -1,7 +1,7 @@
 require 'benchmark'
 
                
-n = 1_000_000_0
+n = 10_000_000
 
 daysprogress = File.readlines('progress.txt')
 days_strip = 0;
@@ -11,7 +11,7 @@ days_not_strip  = 0;
 
 Benchmark.bm do |x|
 
-x.report('.strip.end_with? '){       
+x.report('.strip.end_with?(")") '){       
 	n.times { 
         daysprogress.each do |line|
             days_strip += 1 if line.strip.end_with?(')')  
@@ -19,7 +19,7 @@ x.report('.strip.end_with? '){
      } 
 }
 
-x.report('.end_with? '){       
+x.report('.end_with?(")\n")  '){       
    n.times { 
     daysprogress.each do |line|
         days_not_strip += 1 if line.end_with?(")\n")  
@@ -29,7 +29,8 @@ x.report('.end_with? '){
 
 end
 
-puts "#{days_strip} days of training"
-puts "#{days_not_strip} days of training"
+puts "\nChecking for correct results: "
+puts "#{'.strip.end_with?(")"  '}: #{days_strip} days of training"
+puts "#{'.end_with?(")\n")  '}: #{days_not_strip} days of training"
 
 
