@@ -21,17 +21,13 @@ daysprogress.each do |line|
 
 end
 
-hash_technologies.each do |key,value|
-    p key
+
+
+hash_technologies.keys.sort!.each do |technologi|
+    puts "technology: #{technologi}"
 end
 
-puts
-
-hash_technologies.keys.sort!.each_with_index do |technologi,i|
-    p technologi
-end
-
-p hash_technologies.size
+puts "Total: #{hash_technologies.size}"
 
 
 
