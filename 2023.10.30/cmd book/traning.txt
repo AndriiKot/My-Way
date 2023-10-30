@@ -21,5 +21,23 @@
    md "..\fo.der1"
    md "main\folder1"
 
-3.7 ending
+9. rd  main
+   rmdir main
+   rd main /s
+   rd main /s /q
+
+10.
+  del text1.txt
+  erase text1.txt
+
+  def text1.txt text2.txt
+  erase text1.txt text2.txt
+
+
+  del folder1\text2.txt folder2\text3.txt
+  del folder1\*.txt /q
+  del folder1\*.txt /s /q
+
+
+
 
