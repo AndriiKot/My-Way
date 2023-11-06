@@ -16,6 +16,8 @@ node_modules
 npm i gulp -D
 npm i gulp-sass sass -D
 
+sass -v
+
 gulpfilde.js
 
 
@@ -34,8 +36,30 @@ index.html:
 ...
 </body>
 
+
 gulpfile.js:
 const {scr, dest} = require('gulp');
+
+const scss = require('gulp-sass')(require('sass'));
+
+function styles() {
+    return src('app/scss/style.scss')
+      .pipe(scss())
+      .pipe(dest('app/css'))
+}
+
+exports.styles = styles;
+
+
+gulp styles
+
+
+
+
+
+
+
+
 
 
 
