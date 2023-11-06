@@ -53,6 +53,49 @@ exports.styles = styles;
 
 gulp styles
 
+function styles() {
+    return src('app/scss/style.scss')
+      .pipe(scss({ outputStyle: 'compressed' }))
+      .pipe(dest('app/css'))
+}
+
+npm i gulp-concat -D
+
+
+const concat = require('gulp-concat');
+
+function styles() {
+    return src('app/scss/style.scss')
+      .pipe(concat('style.min.css'))
+      .pipe(scss({ outputStyle: 'compressed' }))
+      .pipe(dest('app/css'))
+}
+
+npm i gulp-uglify-es -D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
