@@ -1,0 +1,41 @@
+﻿Steps:
+
+node -v
+npm -v 
+gulp -v
+
+npm i gulp-cli -g
+npm init
+
+
+.gitignore:
+node_modules
+*.log
+.DS_Store
+
+npm i gulp -D
+npm i gulp-sass sass -D
+
+gulpfilde.js
+
+
+app /index.html
+    /scss/style.scss
+    /js/main.js
+    /images
+dist
+
+index.html:
+<haead>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <script src="js/main.min.js"></script>
+...
+</body>
+
+gulpfile.js:
+const {scr, dest} = require('gulp');
+
+
+
