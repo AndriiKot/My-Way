@@ -22,3 +22,9 @@ console.log('New syntax: ');
 await fn3();
 await fn2();
 await fn1();
+
+function(){let a = 10;
+
+}
+
+
