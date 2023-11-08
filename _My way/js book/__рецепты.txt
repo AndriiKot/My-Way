@@ -1,0 +1,16 @@
+﻿
+Копиравание объектов:
+https://habr.com/ru/companies/usetech/articles/729434/
+
+Глубокое клонирование:
+
+structuredClone(obj)
+lodash.cloneDeep(obj)
+JSON.parse(JSON.stringify(obj))
+Полифил cloneDeep(obj)
+
+Поверхностное клонирование:
+
+Оператор Spread
+Object.assign()
+Object.create()

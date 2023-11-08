@@ -1,0 +1,20 @@
+﻿"use strict";
+
+5.
+const ArrayPricesTest = [11, 22, 55, 33];
+const MAX_PURCHASE = 2000;
+
+const calculateTotal = (prices) => {
+
+};
+
+console.dir(calculateTotal(ArrayPricesTest))
+
+
+Модифицируйте функции calulateTotal так чтобы она в качестве параметра принимала массив цен и возвращала
+общую сумму, если в качестве параметра переданные не массив то выдать исключение 'Array expected'
+также подготовьте MAX_PURCHASE и calculateTotal на экспорт.
+
+6.
+ Создайте файл main.js и подключите файл из Example 5
+

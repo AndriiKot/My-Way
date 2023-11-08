@@ -1,0 +1,3 @@
+﻿
+web api для полного копирование объекта: 
+structuredClone(obj)
