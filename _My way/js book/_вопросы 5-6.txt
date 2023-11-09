@@ -1,5 +1,4 @@
-﻿"use strict";
-
+﻿
 5.
 const ArrayPricesTest = [11, 22, 55, 33];
 const MAX_PURCHASE = 2000;
