@@ -1,10 +1,8 @@
-﻿"use strict";
+﻿'use strict';
 
 function myFn() {
-  let bar = "bar";
-  if (bar == "bar") {
-    console.log("Hi!!!");
+  const bar = 'bar';
+  if (bar === 'bar') {
+    console.log('Hi!!!');
   }
 }
-
-
