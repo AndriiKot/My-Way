@@ -1,1 +1,1 @@
-﻿
+﻿'use scrict';
