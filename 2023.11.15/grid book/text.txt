@@ -1,0 +1,41 @@
+﻿
+Grid Container (контейнер)
+
+    <div class="container">
+        <div class="item item-1">Lorem ipsum dolor sit amet consectetur adipisih ed.</div>
+        <div class="item item-2">Lorem ipsum dolor sit, amet consectetur adipisndus!</div>
+        <div class="item item-3">Lorem ipsum, dolor sit amet consectetur adipisacic!</div>
+        <div class="item item-4">Lorem ipsum dolor sit amet consectetur adipi expedi</div>
+    </div>
+
+.container
+    родительский элемент с display: gird 
+    настраивает отступы между дочерними элементами (свойство gap)
+    может настраивает количество строк и колонок
+
+item
+    вложенный в контейнер элемент
+    имеет настройки размеров и позиционирования
+
+Gird Line (линия)
+    разделительная линия в структуре сетки
+    вертикальная и горизонтальная
+    отступы gap между ячейками находятся на Grid лини
+
+Grid Cell (ячейка)
+    пространство между соседними строками и двумя соседними
+    линиями сетки столбцов
+    едины "блок" сетки
+
+Grid Track
+    пространство между двумя соседними
+    линия сетки
+    аналог столбца или строки сетки
+
+Grid Area 
+    область ячеек внутри сетки
+    может состоять из любого количество ячеек
+
+    
+
+

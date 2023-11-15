@@ -1,9 +1,9 @@
-﻿"use strict";
+'use strict';
 // Example 1
-console.log("\nExample 1\n");
+console.log('\nExample 1\n');
 
 const values = {
-  name: "Mouse",
+  name: 'Mouse',
   price: 25,
   stock: false,
   avg: (a, b) => (a + b) / 2n,
@@ -17,7 +17,7 @@ for (const key in values) {
 }
 
 // Example 2
-console.log("\nExample 2");
+console.log('\nExample 2');
 
 const cnt = 1_000_000_000;
 
@@ -48,7 +48,7 @@ for (let i = 0; i < cnt; i++) {
 console.timeEnd();
 
 // Example 3
-console.log("\nExample 3\n");
+console.log('\nExample 3\n');
 
 const myArray = [11, 22, 33, 44];
 
@@ -63,7 +63,7 @@ for (const element of myArray) {
 console.log(`Total: ${count}`);
 
 // 4. Создайте асинхронную функцию, вызовете её и присвойте значение в переменную и напечатайте результат в консоль.
-console.log("\nExample 4\n");
+console.log('\nExample 4\n');
 const fn3 = () => {
   console.log(`Hello I am not async function:\n ${fn3}!`);
 };

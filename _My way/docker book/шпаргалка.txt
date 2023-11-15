@@ -1,0 +1,133 @@
+﻿
+git clone https://github.com/docker/getting-started-app.git
+
+
+touch Dockerfile
+
+FROM node:18-alpine
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 3000
+
+docker build -t getting-started .
+
+docker run -dp 127.0.0.1:3000:3000 getting-started
+
+http://localhost:3000.
+
+docker ps
+
+- <p className="text-center">No items yet! Add one above!</p>
++ <p className="text-center">You have no todo items yet! Add one above!</p>
+
+docker build -t getting-started .
+
+docker run -dp 127.0.0.1:3000:3000 getting-started
+
+Флаг -d(сокращение от --detach) запускает контейнер в фоновом режиме. Флаг -p(сокращение от --publish)
+создает сопоставление портов между хостом и контейнером. Флаг -pпринимает 
+строковое значение в формате HOST:CONTAINER, где HOST— адрес хоста, а CONTAINER— порт контейнера. Команда публикует
+порт контейнера 3000 в 127.0.0.1:3000( localhost:3000) на хосте.
+Без сопоставления портов вы не сможете получить доступ к приложению с хоста
+
+docker: Error response from daemon: driver failed programming external
+connectivity on endpoint festive_lalande (85f69fabbdfdc1c20bad424d034b3e3e440e5aa6f1807616dd342c850ea6ab12):
+Bind for 127.0.0.1:3000 failed: port is already allocated.
+
+Ошибка произошла из-за того, что вы не можете запустить новый контейнер,
+пока работает старый контейнер. Причина в том, что старый контейнер уже 
+использует порт хоста 3000, и только один процесс на компьютере (включая контейнеры)
+может прослушивать определенный порт. Чтобы это исправить, нужно удалить старый контейнер.
+
+docker ps
+
+docker stop <the-container-id>
+
+docker rm <the-container-id>
+
+docker rm -f <the-container-id>
+
+docker run -dp 127.0.0.1:3000:3000 getting-started
+
+
+
+Чтобы отправить образ, сначала необходимо создать репозиторий в Docker Hub.
+
+Зарегистрироватьсяили войдите в Docker Hub..
+
+Нажмите кнопку «Создать репозиторий» .
+
+В качестве имени репозитория используйте getting-started. Убедитесь, что видимость общедоступна .
+
+Выберите Создать .
+
+
+docker push andriikot134/getting-started:tagname
+
+The push refers to repository [docker.io/andriikot134/getting-started]
+An image does not exist locally with the tag: andriikot134/getting-started
+
+docker image ls
+
+Чтобы это исправить, вам нужно пометить существующее изображение, которое вы создали, и дать ему другое имя.
+
+docker login -u YOUR-USER-NAME
+
+docker tag getting-started andriikot134/getting-started
+
+docker push andriikot134/getting-started
+
+Using default tag: latest
+The push refers to repository [docker.io/andriikot134/getting-started
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

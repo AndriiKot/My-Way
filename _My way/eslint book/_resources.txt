@@ -1,0 +1,10 @@
+﻿
+official site:
+https://eslint.org/docs/latest/
+
+rules reference:
+https://eslint.org/docs/latest/rules/
+
+youtube video en:
+https://www.youtube.com/watch?v=fslNny60HzI
+

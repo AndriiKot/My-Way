@@ -1,6 +1,6 @@
-﻿"use strict";
+'use strict';
 
-const calc = require("./example 5");
+const calc = require('./example 5');
 
 console.dir({ calc });
 console.dir(calc.MAX_PURCHASE);

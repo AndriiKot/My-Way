@@ -1,0 +1,15 @@
+{
+  "name": "js-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example 1-4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint" : "eslint *.js --fix"
+  },
+  "author": "Andrii",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  }
+}
