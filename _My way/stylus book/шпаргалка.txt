@@ -1,0 +1,14 @@
+﻿
+npm install stylus -g
+stylus -w style.styl -o style.css
+
+body 
+    background blue
+**
+blue = blue
+body 
+    background blue
+**
+$blue = red
+body 
+    background $blue
