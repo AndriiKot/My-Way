@@ -24,7 +24,7 @@ docker ps
 
 docker build -t getting-started .
 
-docker run -dp 127.0.0.1:3000:3000 getting-started
+docker run -dp 127.0.0.1:3000:3000 getting-started   !!! Error
 
 Флаг -d(сокращение от --detach) запускает контейнер в фоновом режиме. Флаг -p(сокращение от --publish)
 создает сопоставление портов между хостом и контейнером. Флаг -pпринимает 
@@ -81,6 +81,9 @@ docker push andriikot134/getting-started
 
 Using default tag: latest
 The push refers to repository [docker.io/andriikot134/getting-started
+
+// Docker Playground
+   docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started
 
 
 
