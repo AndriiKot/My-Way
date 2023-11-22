@@ -87,6 +87,15 @@ The push refers to repository [docker.io/andriikot134/getting-started
 
 
 
+Сохранение БД
+docker run -d ubuntu bash -c "shuf -i 1-10000 -n 1 -o /data.txt && tail -f /dev/null"
+
+docker exec <container-id> cat /data.txt
+
+
+
+
+
 
 
 
