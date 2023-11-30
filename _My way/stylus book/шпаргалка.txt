@@ -11,9 +11,9 @@ var_black = #000
 $blue_color = rgb(60, 60, 189)
 font-size = 15px
 fot-stack = "Lucida Grande", Arial, sans-serif
-empty = ()
-margin-left @width
-z-index: 1 unless @z-index
 **
+
+color blue
+border solid 1px @color
 
 **

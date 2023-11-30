@@ -1,0 +1,6 @@
+﻿
+gem install bundler jekyll
+jekyll -v
+
+jekyll server
+

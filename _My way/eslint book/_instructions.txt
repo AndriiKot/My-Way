@@ -19,6 +19,7 @@ npx eslint ./index.js --fix
   },
  ...
 }
+
 npm run lint
 install ESLint for VSCode
 
