@@ -1,0 +1,16 @@
+{
+  "name": "2023.12.04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exmp-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint" : "eslint *"
+  },
+  "keywords": [],
+  "author": "AndriiKot",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  }
+}

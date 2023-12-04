@@ -1,13 +1,5 @@
-﻿
-npm install grunt-cli -g
-npm init -y
-
-npm install grunt -D
-npm install grunt-contrib-concat --save-dev
-npm install --save-dev node-sass grunt-sass
-
-Gruntfile.js
-module.exports = function(grunt) {
+﻿module.exports = function(grunt) {
+    const sass = require('node-sass');
 
     grunt.initConfig({
         concat: {
@@ -19,43 +11,25 @@ module.exports = function(grunt) {
                 src: ['css/*.css'],
                 dest: 'build/styles.css'               
             }
+        },
+        sass: {
+            options: {
+                implementation: sass,
+                sourceMap: true
+            },
+            dist: {
+                files: {
+                     './css/styles.css': './css/sass/styles.scss'
+                }
+            }
         }
+    
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-sass');
 
     grunt.registerTask('concat-js', ['concat:js']);
     grunt.registerTask('concat-css',['concat:css']);
-    
+    // grunt.registerTask('task-sass',['sass']);
 };
-
-grunt concat-js
-grunt concat-css
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

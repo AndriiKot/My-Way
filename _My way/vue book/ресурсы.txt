@@ -1,0 +1,2 @@
+﻿Сайт по веб. Курс Vue
+https://code.mu/ru/javascript/framework/vue/book/prime/basis/properties-inside-methods/

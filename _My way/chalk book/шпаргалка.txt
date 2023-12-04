@@ -1,0 +1,13 @@
+﻿
+https://www.youtube.com/watch?v=_oHByo8tiEY
+
+npm init
+
+{
+	...
++	  "type": "module",
+	...
+}
+
+Позволяет использовать нам синтаксис импорта и экспорта
+

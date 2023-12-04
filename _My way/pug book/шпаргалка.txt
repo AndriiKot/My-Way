@@ -1,0 +1,7 @@
+﻿
+npm install pug-cli
+npm install pug
+
+>pug 01.pug 01.html
+>pug -w 01.pug 01.html
+

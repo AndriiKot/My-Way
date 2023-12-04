@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <sections>
+        <sect id="s1">Мобильные телефоны</sect>
+        <sect id="s2">Фотоаппораторы</sect>
+        <sect id="s3">Телевизоры</sect>
+    </sections>
+    <products>
+        <prod sect_id="s1">
+            <brand>Apple</brand>
+            <model>iPhone 12</model>
+            <articul>AAAIPHONE-12</articul>
+            <price>999</price>
+        </prod>
+        <prod sect_id="s1">
+            <brand>Samsung</brand>
+            <model>A5</model>
+            <articul>samgunga5-10</articul>
+            <price>1200</price>
+        </prod>
+        <prod sect_id="s2">
+            <brand>Sony</brand>
+            <model>DWF1100</model>
+            <articul>sonyyww1100</articul>
+            <price>2302</price>
+        </prod>
+    </products>
+</catalog>
