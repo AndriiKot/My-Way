@@ -5,6 +5,8 @@ npm init
 	создаёт пакет package.json
 npm init -y
 npm init --yes
+
+(npm start)
          
 
 npm search gulp

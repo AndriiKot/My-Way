@@ -1,0 +1,37 @@
+﻿
+module.exports = function(grunt) {
+
+    grunt.registerTask('my_first_gulp_task', function() {
+        console.log('Hello! I am fist Grunt Task!');
+    });
+    
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

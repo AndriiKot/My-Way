@@ -1,4 +1,7 @@
 ﻿СТЕК технологий XML
 https://blog.skillfactory.ru/glossary/xml/
 
+DTD:
+https://www.youtube.com/watch?v=Ys2fRADtIzQ
+
 
