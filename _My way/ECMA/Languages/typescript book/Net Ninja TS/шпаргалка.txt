@@ -1,0 +1,9 @@
+﻿
+> index.ts
+> tsc index.ts
+> index.js
+
+> index.ts
+  let age: number = 30;
+
+  

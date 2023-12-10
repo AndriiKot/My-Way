@@ -7,7 +7,7 @@ npm install grunt-exec -D
 npm install grunt-contrib-watch -D 
 
 npm install grunt-contrib-concat --save-dev
-npm install --save-dev node-sass grunt-sass
+npm install --save-dev grunt-contrib-watch grunt-exec
 
 Gruntfile.js
 module.exports = function(grunt) {
