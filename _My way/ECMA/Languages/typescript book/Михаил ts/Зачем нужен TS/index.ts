@@ -2,8 +2,14 @@
 
 const url = 'https://jsonplaceholder.typicode.com/todos/1';
 
+interface Todo {
+    id: number;
+    title: string;
+    completed: boolean;
+}
+
 axios.get(url).then(response => {
-    const todo = response.data;
+    const todo = response.data as Todo;
     console.log(todo);
 
     const id = todo.id;
