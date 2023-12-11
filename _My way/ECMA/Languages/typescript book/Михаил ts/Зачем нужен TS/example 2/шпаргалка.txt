@@ -1,0 +1,54 @@
+﻿
+npm init -y
+
+site JSONPlaceholder:
+https://jsonplaceholder.typicode.com/
+
+todo:
+https://jsonplaceholder.typicode.com/todos/1
+
+npm install axios
+
+$ touch index.ts
+
+>cd index.ts
+
+import axios from 'axios';
+const url = 'https://jsonplaceholder.typicode.com/todos/1';
+
+> npm install -g ts-node
+
+//Example 1
+> cd index.ts
+
+import axios from 'axios';
+
+const url = 'https://jsonplaceholder.typicode.com/todos/1';
+
+interface Todo {
+    id: number;
+    title: string;
+    completed: boolean;
+}
+
+axios.get(url).then(response => {
+    const todo = response.data as Todo;
+    console.log(todo);
+
+    const id = todo.id;
+    const title = todo.title;
+    const finished = todo.completed;
+
+    console.log(`
+        TODO ID: ${id},
+        TODO TITLE: ${title},
+        IS TODO finished: ${finished}
+    `);
+});
+
+
+// Example 2
+
+
+
+
