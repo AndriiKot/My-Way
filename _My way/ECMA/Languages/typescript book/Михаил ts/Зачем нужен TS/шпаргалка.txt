@@ -1,0 +1,23 @@
+﻿
+npm init -y
+
+site JSONPlaceholder:
+https://jsonplaceholder.typicode.com/
+
+todo:
+https://jsonplaceholder.typicode.com/todos/1
+
+npm install axios
+
+$ touch index.ts
+
+>cd index.ts
+
+import axios from 'axios';
+const url = 'https://jsonplaceholder.typicode.com/todos/1';
+
+> npm install -g ts-node
+
+
+
+
