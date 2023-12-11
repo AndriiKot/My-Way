@@ -7,4 +7,9 @@ https://jsonplaceholder.typicode.com/
 todo:
 https://jsonplaceholder.typicode.com/todos/1
 
+tsc -init
+	tsconfig.json
+
 npm install axios
+npm install -g ts-node
+

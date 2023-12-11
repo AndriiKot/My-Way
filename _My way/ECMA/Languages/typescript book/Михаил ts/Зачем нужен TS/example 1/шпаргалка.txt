@@ -18,7 +18,7 @@ const url = 'https://jsonplaceholder.typicode.com/todos/1';
 
 > npm install -g ts-node
 
-//Example 2
+//Example 1
 > cd index.ts
 
 import axios from 'axios';
@@ -39,14 +39,15 @@ axios.get(url).then(response => {
     const title = todo.title;
     const finished = todo.completed;
 
-    logTodo(id, title, finished);
-});
-
-function logTodo(id: number, title: string, completed: boolean) {
     console.log(`
         TODO ID: ${id},
         TODO TITLE: ${title},
-        IS TODO finished: ${completed}
+        IS TODO finished: ${finished}
     `);
+});
 
-}
+
+
+
+
+
