@@ -1,0 +1,11 @@
+﻿
+В js всего 8 типов
+*  undefined
+*  null
+*  boolean
+*  number
+*  BigIng
+*  string
+*  symbol
+*  object
+
