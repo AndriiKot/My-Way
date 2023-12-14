@@ -1,4 +1,10 @@
 ﻿
+cd %AppData%/npm/node_modules
+	путь все установленных глобально пакетов по умолчанию на Wondows
+
+cd /usr/local/lib/node_modules 
+	путь все установленных глобально пакетов по умолчанию на Linux или macOS
+
 npm -v
 
 npm init 
