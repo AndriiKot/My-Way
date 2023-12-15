@@ -1,0 +1,25 @@
+﻿
+mkdir app.js
+npm i
+npm i --save lodash
+npm install axios
+npm install jquery
+rd /s node_modules 
+rd /s /q node_modules
+npm install
+
+
+{
+  "exports": "./app.js",
+  "main": "./app.js",
+  "type": "module",
+}
+
+//app.js
+import pkg from "lodash";
+const { random, uniq } = pkg;
+import axios from "axios";
+
+
+
+
