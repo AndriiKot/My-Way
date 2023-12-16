@@ -9,3 +9,21 @@
 *  symbol
 *  object
 
+```
+let x: number;
+x = 10;
+```
+
+```
+const y: number = 10; // !!! 'const' declarations must be initialized. !!!
+```
+
+
+
+
+
+
+
+
+
+
