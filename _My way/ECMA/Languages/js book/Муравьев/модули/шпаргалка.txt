@@ -11,14 +11,96 @@ npm install
 
 {
   "exports": "./app.js",
-  "main": "./app.js",
-  "type": "module",
+  "main": "./app.js"
 }
 
 //app.js
+
 import pkg from "lodash";
 const { random, uniq } = pkg;
 import axios from "axios";
+
+or 
+
+import { random, uniq } from "lodash"
+import axios from "axios";
+
+
+npm install webpack webpack-cli --save-dev
+
+module.exports = {
+  devtool: 'source-map',
+  entry: {
+    filename: './app.js'
+  },
+  output: {
+    filename: 'bundle.js'
+  }
+};
+
+{ 
+ ...
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+ ... 
+}
+
+  
+<script src="./dist/bundle.js"></script>
+
+npm run build
+
+npm install -D babel-loader @babel/core @babel/preset-env
+
+module.exports = {
+... some code ...
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+    ],
+  },
+... some code ...
+};
+
+!!!!!!!!!!!!!!!!!!!!!!!!!
+
+module.exports = {
+  devtool: 'source-map',
+  entry: {
+    filename: './app.js'
+  },
+  output: {
+    filename: 'bundle.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+    ],
+  },
+};
+
+!!!!!!!!!!!!!!!!!!!!!
+
 
 
 
