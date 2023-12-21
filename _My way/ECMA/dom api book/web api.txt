@@ -8,3 +8,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/DOMParser
 tutorial yotube
 https://www.youtube.com/watch?v=lUCQgqc4K2A
 
+YouTube fetch
+https://www.youtube.com/watch?v=2jZNJuXCzC4
+
+
