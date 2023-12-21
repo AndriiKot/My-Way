@@ -1,12 +1,20 @@
 ﻿
 mkdir app.js
-npm i
+npm init -y
+
+```
 npm i --save lodash
 npm install axios
 npm install jquery
+```  or
+```
+npm i lodash axios jquery
+```
+```
 rd /s node_modules
 rd /s /q node_modules
 npm install
+```
 
 
 {
@@ -20,7 +28,7 @@ import pkg from "lodash";
 const { random, uniq } = pkg;
 import axios from "axios";
 
-or 
+or
 
 import { random, uniq } from "lodash"
 import axios from "axios";
@@ -29,6 +37,7 @@ import axios from "axios";
 npm install webpack webpack-cli --save-dev
 $ touch webpack.config.js
 
+``` webpack.config.js
 module.exports = {
   devtool: 'source-map',
   entry: {
@@ -39,68 +48,68 @@ module.exports = {
   }
 };
 
-{ 
+{
  ...
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
- ... 
+ ...
 }
+```
 
-  
 <script src="./dist/bundle.js"></script>
 
 npm run build
 
 npm install -D babel-loader @babel/core @babel/preset-env
 
+```
+смотреть файл:
+    шпаргалка_babel_wepback.txt
+
+```
+
+
+```webpack.config.js
 module.exports = {
-... some code ...
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env'],
-          },
-        },
-      },
-    ],
-  },
-... some code ...
-};
+ ...
+  watch: true,
+ ...
+}
 
-!!!!!!!!!!!!!!!!!!!!!!!!!
+DEFAULT EXPORT
+```./src/constants.js
+"use strict";
 
-module.exports = {
-  devtool: 'source-map',
-  entry: {
-    filename: './app.js'
-  },
-  output: {
-    filename: 'bundle.js'
-  },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env'],
-          },
-        },
-      },
-    ],
-  },
-};
+const key = "default export key 123";
 
-!!!!!!!!!!!!!!!!!!!!!
+export default key;
+
+  ./app.js
+
+import keySicret from "./src/constants.js"
+console.log(keySicret);
+```
+
+NAMED EXPORT
+```./src/constants.js
+"use strict";
+
+export const key = "default export key 123";
+
+  ./app.js
+
+import { key } from "./src/constants.js"
+console.log(key);
+```
+
+
+
+
+
+
+
 
 
 
