@@ -1,12 +1,12 @@
 import { random, uniq } from "lodash";
 import axios from "axios";
-import { key, citiesUrl, mapCities, month, number } from "./src/constants.js";
+import { key, citiesUrl as url, mapCities, month, num } from "./src/constants.js";
 
 
-axios.get(citiesUrl).then((data) => {
+axios.get(url).then((data) => {
   const cities = data.data;
   const citiesMapped = mapCities(cities);
   console.log(citiesMapped);
 });
 
-console.log(number, month)
+console.log(num, month);

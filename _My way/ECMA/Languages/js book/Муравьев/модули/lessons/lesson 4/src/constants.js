@@ -16,4 +16,4 @@ export const mapCities = (cities) => {
 const month = 'October';
 const number = 10;
 
-export { month, number }
+export { month, number as num}
