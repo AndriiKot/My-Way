@@ -1,0 +1,8 @@
+﻿
+Базовый синтаксис JavaScript(2018)
+ YouTube:
+	https://www.youtube.com/watch?v=xJn3k1f4BiM&t=2584s
+ GitHub:
+	https://github.com/HowProgrammingWorks/Reusable
+	https://github.com/HowProgrammingWorks/Cheatsheet
+	https://github.com/HowProgrammingWorks/DataTypes

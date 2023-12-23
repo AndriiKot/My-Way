@@ -7,7 +7,6 @@ https://habr.com/ru/companies/usetech/articles/729434/
 structuredClone(obj)
 lodash.cloneDeep(obj)
 JSON.parse(JSON.stringify(obj))
-Полифил cloneDeep(obj)
 
 Поверхностное клонирование:
 
