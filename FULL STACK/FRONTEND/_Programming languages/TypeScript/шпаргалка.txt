@@ -1,14 +1,26 @@
 ﻿
-> npm install -g typescript 
-> tsc -v
-> tsc hello.ts
-> node hello.js
-> tsc -init
+>
+ npm install -g typescript 
+>
+ tsc -v
+>
+ tsc hello.ts
+>
+ node hello.js
+
+>
+  tsc -init
   tsconfig.json
-> tsc
-     Любой исходный файл TypeScript  c раширением .ts будет генерировать файл JavaScript с расширением .js 
-> tsc --locale ru
-> View| Command Pallet|Tasks: configure default build task | tsc: build - tsconfig.json
+
+>
+ tsc
+     Любой исходный файл TypeScript  c раширением .ts будет генерировать файл JavaScript с расширением .js
+ 
+>
+ tsc --locale ru
+
+>
+ View| Command Pallet|Tasks: configure default build task | tsc: build - tsconfig.json
     "tasks": [
     {
       "type": "typescript",
@@ -21,4 +33,10 @@
       "label": "tsc: build - tsconfig.json"
     }
   ]
+
+> 
+ts-node script.ts
+
+
+
 
