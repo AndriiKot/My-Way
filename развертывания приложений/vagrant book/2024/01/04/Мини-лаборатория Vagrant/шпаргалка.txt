@@ -9,5 +9,8 @@
     VirtualBox 7.0.12 Oracle VM VirtualBox Extension Pack
         Примечание:
             'Extension Pack' должен быть иметь такую версию как 'VirtualBox platform packages'
-            
+
+скачать Vagrant
+    https://www.vagrantup.com/
+
       
