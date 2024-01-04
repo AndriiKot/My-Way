@@ -1,0 +1,13 @@
+﻿
+скачать VirtualBox 
+    VirtualBox 7.0.12 platform packages
+    or
+    VirtualBox 'last v' platform packages
+    https://www.virtualbox.org/wiki/Downloads
+
+скачать VirtualBox Extension Pack
+    VirtualBox 7.0.12 Oracle VM VirtualBox Extension Pack
+        Примечание:
+            'Extension Pack' должен быть иметь такую версию как 'VirtualBox platform packages'
+            
+      
