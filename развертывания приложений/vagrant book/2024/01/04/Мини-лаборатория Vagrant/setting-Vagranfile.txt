@@ -5,7 +5,7 @@
   config.vm.box_check_update = false
     # false значение указывает на то что не нужно искать обновления 
 
-  config.vm.network "forwarded_port", guest: 80, host: 8080
+  # config.vm.network "forwarded_port", guest: 80, host: 8080
 
   # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
 
@@ -33,9 +33,9 @@
 
     end
 
-    config.vm.hostname = 'ubuntu-otus'
+  # config.vm.hostname = 'ubuntu-otus'
       # Задаём имя хоста по умолчанию оно генерируется само
-      
+
   # config.vm.provision "shell", inline: <<-SHELL
   #   apt-get update
   #   apt-get install -y apache2
