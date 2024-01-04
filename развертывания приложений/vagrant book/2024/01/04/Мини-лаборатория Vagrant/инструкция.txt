@@ -13,6 +13,13 @@
 скачать Vagrant
     https://www.vagrantup.com/
 
+
+Vagrant Cloud
+    Discover Vagrant Boxes
+        https://app.vagrantup.com/boxes/search
+
+
+
  
 
       

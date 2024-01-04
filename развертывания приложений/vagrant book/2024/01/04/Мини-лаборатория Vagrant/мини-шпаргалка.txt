@@ -28,6 +28,10 @@ vagrant reload
 vagrant status
     Показывает текущее состояние виртуальной машины.
 
+vagrant global-status
+    Показывает текущее состояние виртуальной машины в независимости от вашего расположения
+
+
 vagrant plugin install 
     Устанавливает плагины для Vagrant.
 
