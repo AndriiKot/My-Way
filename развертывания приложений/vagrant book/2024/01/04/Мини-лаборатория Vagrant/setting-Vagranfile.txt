@@ -28,6 +28,10 @@
    
       vb.memory = "1024"
         # задаём сколько ресурсов мы выделяем для ВМ.
+
+      vb.cpus = '2'
+        # задаём сколько процессорных ядер мы выделим для ВМ.
+        
     end
   #
   # View the documentation for the provider you are using for more
