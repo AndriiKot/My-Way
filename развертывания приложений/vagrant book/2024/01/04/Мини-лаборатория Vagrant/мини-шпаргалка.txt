@@ -2,6 +2,8 @@
 vagrant init
     Создаёт новый Vagrantfile в текущей директории.
 
+vagrant init ubuntu/xenial64
+
 vagrant up
     Запускает ВМ в соответствии с Vagrantfile.
 
