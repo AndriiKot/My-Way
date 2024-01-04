@@ -1,0 +1,34 @@
+﻿
+vagrant init
+    Создаёт новый Vagrantfile в текущей директории.
+
+vagrant up
+    Запускает ВМ в соответствии с Vagrantfile.
+
+vagrant ssh
+    Подключение в ВМ по ssh.
+
+vagrant halt
+    Останавливает ВМ.
+
+vagrant destroy
+    Удаляет ВМ.
+
+vagrant suspend 
+    Сохраняет состояние ВМ и останавливает её.
+
+vagrant resume
+    Возобновляет работу ВМ.
+
+vagrant reload
+    Перезагружает ВМ.
+
+vagrant status
+    Показывает текущее состояние виртуальной машины.
+
+vagrant plugin install 
+    Устанавливает плагины для Vagrant.
+
+vagrant plugin list
+    Показывает список установленных плагинов.
+
