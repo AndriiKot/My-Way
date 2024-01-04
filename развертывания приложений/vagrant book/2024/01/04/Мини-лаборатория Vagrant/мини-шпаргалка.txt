@@ -10,7 +10,7 @@ vagrant up
 vagrant ssh
     Подключение в ВМ по ssh.
 
-vargant ssh default
+vagrant ssh default
 
 vagrant halt
     Останавливает ВМ.
