@@ -28,14 +28,14 @@
       vb.cpus = '2'
         # задаём сколько процессорных ядер мы выделим для ВМ.
 
-    end
-  #
-  # View the documentation for the provider you are using for more
-  # information on available options.
+      vb.name = 'ubuntu'
+        # задаём имя ВМ
 
-  # Enable provisioning with a shell script. Additional provisioners such as
-  # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
-  # documentation for more information about their specific syntax and use.
+    end
+
+    config.vm.hostname = 'ubuntu-otus'
+      # Задаём имя хоста по умолчанию оно генерируется само
+      
   # config.vm.provision "shell", inline: <<-SHELL
   #   apt-get update
   #   apt-get install -y apache2
