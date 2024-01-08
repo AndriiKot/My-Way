@@ -9,6 +9,10 @@
  node hello.js
 
 >
+ts-node hello.ts 
+  ts-node hello.ts Равнозначно двум командам (tsc hello.ts , а затем node hello.js)
+
+>
   tsc -init
   tsconfig.json
 
