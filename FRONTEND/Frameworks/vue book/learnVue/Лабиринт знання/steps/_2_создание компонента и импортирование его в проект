@@ -1,4 +1,5 @@
-﻿cmd:
+﻿// Создаём новый компонент
+cmd:
 cd src
 
 cmd:
@@ -11,4 +12,20 @@ MyComponentVue.vue:
     <template>
         <h1>My Component Vue</h1>
     </template>
+
+// Импортируем компонент в главный файл js (main.js)
+cmd:
+cd main.js
+
+main.js: 
+    import MyComponentVue from './MyComponentVue' // Импортируем
+
+    const app = createApp(App);
+    app.component('my-component', MyComponentVue);  // даём компоненту имя по которому мы будем обращаться 
+    app.mount('#app');  // добавляем компонент в тег атрибутом 'id="app"'
+    
+
+
+    
+
 
