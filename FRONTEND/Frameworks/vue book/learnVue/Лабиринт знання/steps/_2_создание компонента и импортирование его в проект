@@ -1,1 +1,4 @@
 ﻿
+cd src
+cmd:
+md MyComponentVue
