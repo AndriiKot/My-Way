@@ -1,4 +1,14 @@
-﻿
+﻿cmd:
 cd src
+
 cmd:
-md MyComponentVue
+copy con MyComponentVue.vue
+
+cmd:
+cd MyComponentVue.vue
+
+MyComponentVue.vue:
+    <template>
+        <h1>My Component Vue</h1>
+    </template>
+
