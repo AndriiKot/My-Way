@@ -3,7 +3,7 @@
     <h1>My Component Vue</h1>
     <h1>Счётчик: {{ counter }}</h1>
     <button class="btn btn-danger" v-on:click="decrease">Уменьшить</button>
-    <button class="btn btn-success" v-on:click="encrease">Увеличить</button>
+    <button class="btn btn-success" v-on:click="increase">Увеличить</button>
   </div>
 </template>
 
@@ -15,10 +15,12 @@ export default {
     };
   },
   methods: {
-    encrease() {
+    increase() {
+      if(this.counter === 100) { return }
       this.counter += 1;
     },
     decrease() {
+      if(this.counter === 0){ return }
       this.counter -= 1;
     },
   },
