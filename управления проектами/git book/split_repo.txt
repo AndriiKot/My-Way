@@ -1,0 +1,48 @@
+﻿
+Установка filter-repo
+https://jessehouwing.net/installing-git-filter-repo-on-windows/
+
+Филтрация
+https://ghbvf.net/b/posts/git-filter-repo/
+
+Удаление каталогов и файлов
+https://docs.github.com/ru/repositories/working-with-files/managing-files/deleting-files-in-a-repository
+
+
+
+ !!!!!!!!!!!!! Пользователи Windows должны использовать /для разделения папок   !!!!!!!
+
+
+
+c:\>
+pip3 install git-filter-repo
+
+
+(wsl 
+sudo apt update && upgrade
+or
+sudo apt install python3 python3-pip ipython3
+
+sudo apt install pipx
+pipx install  git-filter-repo
+)
+
+
+c:\>
+git filter-repo --path "MODAL WINDOW\modal window v1"
+git filter-repo --path 
+
+c:\>
+git filter-repo --path "path/../"  --invert-paths
+
+
+(Создать новый репозиторий или добавить в уже имеющий)
+git remote add origin https://github.com/AndriiKot/TEST.git
+
+c:\>
+git push -u origin main
+
+
+
+
+
