@@ -1,0 +1,43 @@
+﻿Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/focal64" 
+    # Показывает с каким окружением (box) мы будем работать
+
+  config.vm.box_check_update = false
+    # false значение указывает на то что не нужно искать обновления 
+
+  # config.vm.network "forwarded_port", guest: 80, host: 8080
+
+  # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+
+  # config.vm.network "private_network", ip: "192.168.33.10"
+    # будет работать если в ВМ в поле для настройки сети дать этой сите имя private
+
+  # config.vm.network "public_network"
+
+  # config.vm.synced_folder "../data", "/vagrant_data"
+
+  # config.vm.synced_folder ".", "/vagrant", disabled: true
+
+    config.vm.provider "virtualbox" do |vb|
+    # vb.gui = true
+        # при запуски ВМ будет отобразится графический интерфейс ВМ.
+   
+      vb.memory = "1024"
+        # задаём сколько ресурсов мы выделяем для ВМ.
+
+      vb.cpus = '2'
+        # задаём сколько процессорных ядер мы выделим для ВМ.
+
+      vb.name = 'ubuntu'
+        # задаём имя ВМ
+
+    end
+
+  # config.vm.hostname = 'ubuntu-otus'
+      # Задаём имя хоста по умолчанию оно генерируется само
+
+  # config.vm.provision "shell", inline: <<-SHELL
+  #   apt-get update
+  #   apt-get install -y apache2
+  # SHELL
+end

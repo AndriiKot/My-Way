@@ -1,0 +1,32 @@
+﻿
+>
+vagrant -v
+
+> 
+vagrant init ubuntu/xenial64
+
+Vagrantfile  
+  config.vm.box = "ubuntu/xenial64"
+
+>
+vagrant up
+
+>
+vagrant ssh
+   подключится к VirtualBox по ssh
+>
+exit
+logout
+Cntrl + D
+
+>
+vagrant destroy
+    Уничтожить процесс
+
+>
+vagrant box list
+
+>
+ vagrant box remove ubuntu/xenial64
+    
+	

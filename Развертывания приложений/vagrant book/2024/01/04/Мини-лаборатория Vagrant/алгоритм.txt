@@ -1,0 +1,7 @@
+﻿
+1.
+vagrant init ubuntu/xenial64
+        Создаёт новый Vagrantfile в текущей директории.
+
+2.
+
