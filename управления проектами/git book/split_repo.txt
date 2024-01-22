@@ -27,6 +27,13 @@ sudo apt install pipx
 pipx install  git-filter-repo
 )
 
+git clone https://HOSTNAME/USERNAME/REPOSITORY-NAME
+cd REPOSITORY-NAME
+git filter-repo --path FOLDER-NAME/
+Creating a new repository
+git remote add origin https://HOSTNAME/USERNAME/REPOSITORY-NAME.git
+git remote -v
+git push -u origin BRANCH-NAME
 
 c:\>
 git filter-repo --path "MODAL WINDOW\modal window v1"
