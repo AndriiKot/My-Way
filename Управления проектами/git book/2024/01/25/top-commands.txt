@@ -1,0 +1,3 @@
+﻿
+cmd:
+git status
