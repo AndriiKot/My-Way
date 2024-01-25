@@ -1,5 +1,12 @@
-﻿mkdir my_project-git
+﻿cmd:
+mkdir my_project-git
 
+cmd:
+cd my_project-git
+
+my_project-git:
 git init .
 git init \path
 git init 
+
+    Создаёт базу данных git 
