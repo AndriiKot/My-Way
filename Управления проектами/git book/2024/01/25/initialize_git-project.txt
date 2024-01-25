@@ -1,0 +1,5 @@
+﻿mkdir my_project-git
+
+git init .
+git init \path
+git init 
