@@ -1,0 +1,125 @@
+
+Алгоритмы 
+
+site:
+    https://www.atlassian.com/software/jira
+
+регистрация 
+    Gmail: .....
+
+Jira Software:
+Scrum: 
+
+```
+Особенности:
+    Отчет "ОК"
+
+Peculiarities:
+    Reports: "OK"
+
+```
+
+```
+Projects/My First Jira Project/Backlog
+
+Backlog:
+    + Create a task
+
+Бэклог:
+    + Создать задачу
+```
+TASK
+```
+    Create a task
+        + Test 1(task1)
+        + Test 2(task1)
+        + Test 3(task1)
+        + Test 4(task1)
+
+    + Создать задачу
+        + Test 1(task1)
+        + Test 2(task1)
+        + Test 3(task1)
+        + Test 4(task1)
+```
+
+STORY POINT
+```
+    Story Point:
+    (formula Fibonacci: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233)
+
+        + Test 1(task1)  1
+        + Test 2(task1)  8
+        + Test 3(task1)  5
+        + Test 4(task1)  13
+```
+
+```
+    Перемещение задач
+        + Test 3(task1)  5
+        + Test 4(task1)  13
+        + Test 1(task1)  1
+        + Test 2(task1)  8
+```
+
+SPRINT
+```
+    Доска Спринт
+         Test 3(task1)  5
+         Test 4(task1)  13
+         Test 1(task1)  1
+
+    Board Sprint 1
+         Test 3(task1)  5
+         Test 4(task1)  13
+         Test 1(task1)  1
+```
+
+START A SPRINT
+``` Start a Sprint
+
+    Запустить спринт
+    Цель спринта:
+        Отобразить инфу о проекте 
+     
+```
+  
+``` 
+    Запустить спринт
+
+```
+
+``` 
+    Группировать:
+        подзадачам
+
+```
+
+```
+    Разбить задачу на под задачи
+```
+
+```
+    Перенесите все подзадачи Task1 к выпоенным 
+    и помете Task1 как готовый 
+```
+
+```
+    Посмотрите прогресс
+```
+
+```
+    Завершите спринт
+```
+
+
+
+
+
+
+
+
+
+
+
+
