@@ -1,0 +1,31 @@
+﻿cmd:
+git init myApp
+
+myApp:
+git branch
+    
+git echo "ver1" > index.html
+
+git status
+    On branch main
+
+git add .
+git commit -m "version 1"
+
+git branch
+    * main
+
+git log
+    commit 4fcbc71d883aed17ea14fea3ffdd3dc6b4cca772 (HEAD -> main)
+
+cmd:
+    echo "ver2" > index.html
+    echo "ver2.1" >> index.html
+
+git add .
+git commit -m "version 2"
+
+git branch fix_error
+    
+
+

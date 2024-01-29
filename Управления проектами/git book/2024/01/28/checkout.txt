@@ -1,0 +1,24 @@
+
+git branch fix_error
+
+git branch
+    * main
+      fix_error
+
+git checkout fix_error
+    * fix_error
+      main
+
+DELETE BRANCH
+
+git checkout main
+git branch -d fix_error
+
+!!! git checkout -b fix_error
+  alias 
+    git branch fix_error
+    git checkout fix_error
+!!!
+
+
+

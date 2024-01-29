@@ -1,0 +1,20 @@
+git checkout -b andrii_fix_error
+    echo "ver3" > index.html
+
+git add .
+git commit -m "version 3.0"
+
+git checkout main
+git merge andrii_fix_error
+
+git branch -d andrii_fix_error
+
+// DELETE
+git checkout -b test
+    echo "ver4" > index.html
+git add .
+git commit -m "version 4.0"
+
+git checkout main
+git branch -D test
+
