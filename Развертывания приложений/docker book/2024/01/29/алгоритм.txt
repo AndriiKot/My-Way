@@ -15,7 +15,8 @@ Installed:
     Рекомендуется использовать Visual Studio Code
     Recommends using Visual Studio Code
 
-Get the app
+
+Get the app:
 Загрузить исходный код приложения на свой компьютер:
 
 1. Клонируйте репозиторий для начала работы
@@ -25,8 +26,23 @@ Get the app
     git clone https://github.com/docker/getting-started-app.git MyApp 
     git clone https://github.com/docker/getting-started-app.git MyApp/
 
+
 IMAGE:
-    Build the app's image
-    Создание образа приложения
-    $ cd MyApp/
-    $ type nul > Dockerfile
+    Build the app's image:
+    Создание образа приложения:
+        $ cd MyApp/
+        $ type nul > Dockerfile
+
+    Dockerfile:
+        FROM node:18-alpine
+        WORKDIR /app
+        COPY . .
+        RUN yarn install --production
+        CMD ["node", "src/index.js"]
+        EXPOSE 3000
+
+    !!! Развернуть Containers - Docker Desktop !!!
+        MyApp:
+            $ docker build -t getting-started .
+                Создаём образ(Build the image.)
+                
