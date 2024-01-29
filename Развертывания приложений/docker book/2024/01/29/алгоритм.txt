@@ -45,4 +45,20 @@ IMAGE:
         MyApp:
             $ docker build -t getting-started .
                 Создаём образ(Build the image.)
-                
+
+START AN APP CONTAINER:
+ЗАПУСК ПРИЛОЖЕНИЯ:
+    docker run -dp 127.0.0.1:3000:3000 <name image>
+    Example:
+    docker run -dp 127.0.0.1:3000:3000 getting-started
+        Флаг -d(сокращение от --detach) запускает контейнер в фоновом режиме. 
+
+ПРОВЕРИТЬ ЗАПУШЕННЫЙ КОНТЕЙНЕР
+    docker ps
+    CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                      NAMES
+    df784548666d        getting-started     "docker-entrypoint.s…"   2 minutes ago       Up 2 minutes        127.0.0.1:3000->3000/tcp   priceless_mcclintock
+
+
+ http://localhost:3000
+
+
