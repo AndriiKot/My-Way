@@ -1,0 +1,32 @@
+﻿
+АЛГОРИТМ
+ALGORITHMS
+
+Installed:
+1.
+    Установить  Docker Desktop
+    Installed  Docker Desktop
+
+2.
+    Установить Git client
+    Installed Git client
+
+3.
+    Рекомендуется использовать Visual Studio Code
+    Recommends using Visual Studio Code
+
+Get the app
+Загрузить исходный код приложения на свой компьютер:
+
+1. Клонируйте репозиторий для начала работы
+    git clone <name-repo>
+    Example:
+    git clone https://github.com/docker/getting-started-app.git
+    git clone https://github.com/docker/getting-started-app.git MyApp 
+    git clone https://github.com/docker/getting-started-app.git MyApp/
+
+IMAGE:
+    Build the app's image
+    Создание образа приложения
+    $ cd MyApp/
+    $ type nul > Dockerfile
