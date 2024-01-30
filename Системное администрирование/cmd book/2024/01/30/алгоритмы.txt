@@ -1,0 +1,89 @@
+﻿ОТКРЫТЬ КОМАНДНУЮ СТРОКУ
+Win
+    Поиск:
+            cmd
+
+or
+
+Win + R
+    cmd
+
+
+cmd:
+    color <params>
+    color help
+    Example:
+        color a
+
+
+cmd:
+    cls
+        Очистить консоль
+
+    
+cmd:
+    md Lessons
+        Создаёт папку Lessons
+    md "Lessons/lesson_1/"
+        Создаёт папку 'Lessons' в которой есть под папка 'lesson_1'
+    
+
+cmd:
+    cd "Lessons/lesson_1/"
+        Перейти в папку 'lesson_1'
+    
+cmd:
+    copy con not_keys.txt
+    'some text' 
+        Создаёт файл с содержимым 'some text'
+            Ctrl + C 
+                выход из файла с сохранением
+            Ctrl + Z, Enter 
+                выход из файла с сохранением
+    or
+    echo "some text" > not_keys.txt
+        Создаёт файл с содержимым 'some text'
+    or 
+    type nul > not_keys.txt
+        Создаёт пустой файл 'not_keys.txt'
+
+cmd:
+    ren:
+        ren not_keys.txt cmd_not_keys.txt
+            Переименовывает файл 'not_keys.txt' в файл 'cmd_not_keys.txt'
+        ren folder1 folder2
+            Переименовывает папку 'folder1' в папку 'folder2'
+
+
+cmd:
+    move:
+        move cmd_not_keys.txt lesson_1/
+            Переместить файл 'cmd_not_keys.txt' в папку 'lesson_1'
+
+cmd: 
+    tree 
+    tree /f
+
+cmd:
+    type cmd_not_keys.txt
+        Посмотреть содержимое файла cmd_not_keys.txt
+
+cmd:
+    dir
+        Выводит содержимое папки
+    
+cmd:
+    dir > text_1.txt
+        Выводит содержимое в файл text_1.txt
+    tree > text_2.txt 
+        Выводит содержимое в файл text_2.txt
+    dir >> text_1.txt
+        Дописывает результат выполнения команды в конец файла text_1.txt
+    tree >> text_2.txt
+        Дописывает результат выполнения комадны в конец файла text_2.txt
+
+
+
+
+    
+

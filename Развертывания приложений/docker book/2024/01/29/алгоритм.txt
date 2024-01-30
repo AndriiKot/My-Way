@@ -43,15 +43,18 @@ IMAGE:
 
     !!! Развернуть Containers - Docker Desktop !!!
         MyApp:
-            $ docker build -t getting-started .
-                Создаём образ(Build the image.)
+            cmd:
+                docker build -t getting-started .
+                    Создаём образ(Build the image.)
 
 START AN APP CONTAINER:
 ЗАПУСК ПРИЛОЖЕНИЯ:
-    docker run -dp 127.0.0.1:3000:3000 <name image>
-    Example:
-    docker run -dp 127.0.0.1:3000:3000 getting-started
-        Флаг -d(сокращение от --detach) запускает контейнер в фоновом режиме. 
+    cmd:
+        docker run -dp 127.0.0.1:3000:3000 <name image>
+
+        Example:
+            docker run -dp 127.0.0.1:3000:3000 getting-started
+                Флаг -d(сокращение от --detach) запускает контейнер в фоновом режиме. 
 
 ПРОВЕРИТЬ ЗАПУШЕННЫЙ КОНТЕЙНЕР
     docker ps
@@ -60,5 +63,47 @@ START AN APP CONTAINER:
 
 
  http://localhost:3000
+
+
+UPDATE THE APPLICATION
+ОБНОВЛЕНИЕ ПРИЛОЖЕНИЯ
+    Example:
+        In the src/static/js/app.js file, update line 56 to use the new empty text
+            - <p className="text-center">No items yet! Add one above!</p>
+            + <p className="text-center">You have no todo items yet! Add one above!</p>
+
+!!!ERROR!!!
+    CMD:
+        docker build -t getting-started .
+        docker run -dp 127.0.0.1:3000:3000 getting-started
+
+        docker: Error response from daemon: driver failed programming external connectivity on endpoint laughing_burnell 
+        (bb242b2ca4d67eba76e79474fb36bb5125708ebdabd7f45c8eaf16caaabde9dd): Bind for 127.0.0.1:3000 failed: port is already allocated.
+        Ошибка 
+!!!ERROR!!!
+
+REMOVE THE OLD CONTAINER:
+УДАЛИТЬ СТАРЫЙ КОНТЕЙНЕР:
+    CMD:
+        docker stop
+        docker rm
+        or
+        docker rm -f 
+        Example_1: 
+            docker stop 816be8cde7f1
+            docker rm 816be8cde7f1
+        Example_1_1:
+            docker rm -f 816be8cde7f1
+        Example_2:
+            docker stop <names-container>
+            docker rm <names-container>
+        Example_2_1:
+            docker rm -f <name-container>
+
+        
+
+    
+
+
 
 

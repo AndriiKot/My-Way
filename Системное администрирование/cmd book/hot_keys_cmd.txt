@@ -1,0 +1,21 @@
+﻿Win: cmd
+Win + R: cmd
+
+CMD:
+    color <params>
+    cls
+    md Lessons
+    md "Lessons/lesson_1"
+    cd "Lessons/lesson_1/"  
+    copy con not_keys.txt
+            Ctrl + C 
+            Ctrl + Z, Enter 
+    echo "some text" > not_keys.txt
+    type nul > not_keys.txt
+    ren not_keys.txt cmd_not_keys.txt
+            
+
+
+
+    
+
