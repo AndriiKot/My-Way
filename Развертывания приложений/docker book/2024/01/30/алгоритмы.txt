@@ -1,0 +1,28 @@
+
+ПОДЕЛИТСЯ ПРИЛОЖЕНИЕМ:
+CREATE A REPOSITORY:
+
+1.
+    Sing on to 'Docker Hub'
+    Перейти на сайт 'Docker Hub'
+
+2.
+    Docker Hub:
+        Create repository 
+            name:
+                    getting-started
+
+            button:
+                    Create
+                
+3.
+
+cmd:
+    docker image ls
+        Выводит список всех образов
+cmd:
+    docker login -u <user-name>
+    Password: *****
+cmd:
+    docker tag getting-started <user-name>/getting-started-new_name
+

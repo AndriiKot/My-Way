@@ -1,0 +1,80 @@
+﻿
+    Installed  Docker Desktop
+    Installed Git client
+    Recommends using Visual Studio Code
+
+    git clone <name-repo>
+        Example:
+                git clone https://github.com/docker/getting-started-app.git MyApp/
+        $ cd MyApp/
+        $ type nul > Dockerfile
+
+    Dockerfile:
+        FROM node:18-alpine
+        WORKDIR /app
+        COPY . .
+        RUN yarn install --production
+        CMD ["node", "src/index.js"]
+        EXPOSE 3000
+
+    !!! Развернуть Containers - Docker Desktop !!!
+        MyApp:
+            cmd:
+                docker build -t getting-started .
+
+START AN APP CONTAINER:
+        docker run -dp 127.0.0.1:3000:3000 <name image>
+
+        Example:
+            docker run -dp 127.0.0.1:3000:3000 getting-started
+
+ПРОВЕРИТЬ ЗАПУШЕННЫЙ КОНТЕЙНЕР
+    docker ps
+
+ http://localhost:3000
+
+
+UPDATE THE APPLICATION
+ОБНОВЛЕНИЕ ПРИЛОЖЕНИЯ
+    Example:
+        In the src/static/js/app.js file, update line 56 to use the new empty text
+            - <p className="text-center">No items yet! Add one above!</p>
+            + <p className="text-center">You have no todo items yet! Add one above!</p>
+
+!!!ERROR!!!
+    CMD:
+        docker build -t getting-started .
+        docker run -dp 127.0.0.1:3000:3000 getting-started
+
+        docker: Error response from daemon: driver failed programming external connectivity on endpoint laughing_burnell 
+        (bb242b2ca4d67eba76e79474fb36bb5125708ebdabd7f45c8eaf16caaabde9dd): Bind for 127.0.0.1:3000 failed: port is already allocated.
+        Ошибка 
+!!!ERROR!!!
+
+REMOVE THE OLD CONTAINER:
+УДАЛИТЬ СТАРЫЙ КОНТЕЙНЕР:
+    CMD:
+        docker stop
+        docker rm
+        or
+        docker rm -f 
+        Example_1: 
+            docker stop 816be8cde7f1
+            docker rm 816be8cde7f1
+        Example_1_1:
+            docker rm -f 816be8cde7f1
+        Example_2:
+            docker stop <names-container>
+            docker rm <names-container>
+        Example_2_1:
+            docker rm -f <name-container>
+
+
+
+        
+
+    
+
+
+
+
