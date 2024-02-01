@@ -1,4 +1,5 @@
-﻿
+﻿require 'fileutils'
+
 def find_nested_folders(folder_path, folder_name)
     nested_folders = []
   
@@ -20,5 +21,11 @@ def find_nested_folders(folder_path, folder_name)
     return nested_folders
   end
 
-  p find_nested_folders("./",'folder1')
+  p  arr = find_nested_folders("./",'folder1')
+
+  arr.each do |path|
+    FileUtils.remove_entry_secure(path)
+  end
+
+  
 
