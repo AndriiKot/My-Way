@@ -4,8 +4,12 @@ arr = ARGV.each_slice(2).to_a      # [[path, folder],[path, foder] ...]
 arr_paths_folders = arr.uniq || [] # removing duplicate if there are any
 
 def enter_path_and_folder(arr = []) 
-    print "Enter path: "; path = gets.strip
-    print "Enter folder: "; folder = gets.strip
+    print "Enter path: "
+    path = gets.strip
+    print "Enter folder: "
+    folder = gets.strip
+    # arr += [[path, folder]]
+    # arr = arr.uniq
     (arr += [[path, folder]]).uniq!
     print "Do you want to add elements to be deleted?(Y/N): "
     gets.strip[0]&.casecmp?('y') ? enter_path_and_folder(arr) : arr
@@ -15,7 +19,7 @@ arr_paths_folders = arr_paths_folders.size == 0 ? enter_path_and_folder() : arr_
 
 def array_find_nested_folders(folder_path, folder_name)
     nested_folders = []
-    File.directory?(folder_path) ? nil : (return nested_folders)
+    return nested_folders if File.direcroty?(folder_path)
   
     Dir.foreach(folder_path) do |item|
       next if item == '.' || item == '..'
@@ -39,9 +43,4 @@ def array_find_nested_folders(folder_path, folder_name)
       FileUtils.remove_entry_secure(path)
     end
   end
-
-
-
-
-  
 
