@@ -1,0 +1,43 @@
+﻿
+
+TOP:
+Установить name и email
+
+git config --global user.name "User Name"
+git config --global user.email user@mail.com
+
+    Установить своё имя и адрес эл. почты. При каждом commit будет подписан этими значениями
+    Все настройки находятся в файле .gitconfig
+    В .gitconfig можно и в ручную задавать настройки
+
+Просмотр name и email
+    git config user.name
+    git config user.email
+
+Текстовый редактор по умолчанию
+git config --global core.editor "code --wait"
+	Назначить текстовый редактор по умолчанию
+    можно и в ручную задать в файле .gitconfig
+    
+Просмотр текстового редактора по умолчанию
+git config core.editor
+
+
+Посмотреть все настройки по умолчанию:
+    git config -l
+    or
+    git config --list
+
+Показывает все установленные настройки и узнать где именно они заданы, используйте команду:
+    git config --list --show-origin
+
+Чтобы установить имя вертки main по умолчанию
+    git config --global init.defaultBranch main
+
+
+
+git config --global user.name "User Name"
+git config --global user.email user@mail.com
+
+
+
