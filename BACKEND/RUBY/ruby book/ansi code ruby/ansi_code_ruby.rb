@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 print 'Enter :  '
 word = gets.strip
 loop do
@@ -7,7 +5,7 @@ loop do
     print "\u001b[38;5;#{rand(255)}m"
     print chr
     print "\u001b[0m"
-  end
+end
   print ' '
   sleep 0.03
 end
