@@ -2,8 +2,8 @@
 Win + R: cmd
 
 CMD:
-    color <params>
     cls
+    dir
     md Lessons
     md "Lessons/lesson_1"
     cd "Lessons/lesson_1/"  
