@@ -1,5 +1,4 @@
 ﻿
-
 TOP:
 Установить name и email
 
@@ -15,10 +14,13 @@ git config --global user.email user@mail.com
     git config user.email
 
 Текстовый редактор по умолчанию
+В Git Bash:
 git config --global core.editor "code --wait"
+or CMD:
+git config --global --unset-all core.editor
 	Назначить текстовый редактор по умолчанию
-    можно и в ручную задать в файле .gitconfig
-    
+   	можно и в ручную задать в файле .gitconfig
+
 Просмотр текстового редактора по умолчанию
 git config core.editor
 
@@ -33,11 +35,6 @@ git config core.editor
 
 Чтобы установить имя вертки main по умолчанию
     git config --global init.defaultBranch main
-
-
-
-git config --global user.name "User Name"
-git config --global user.email user@mail.com
 
 
 
