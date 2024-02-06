@@ -1,0 +1,12 @@
+﻿
+
+git clone https:// ....
+    Клонирование репозитория 
+
+git add .
+
+git commit -m "some commit" 
+
+git push
+or 
+git push origin 

@@ -1,0 +1,24 @@
+﻿
+git push -u origin main
+    -u означает что по умолчанию изменения будут производится
+    в ветку main
+    после в вода этой команды можно в водить git push
+    
+git push
+
+git push origin <branch>
+    За пушить изменения в ветку где <branch> имя ветки
+
+
+git push origin HEAD
+    HEAD указывает на текущую ветку (current branch). 
+    Не надо запоминать имя ветки, на которой вы находитесь.
+
+git push origin --all
+    Отправление всех изменений всех веток в удалённый репозиторий
+
+git push origin branch:server_branch
+    Для пуша в другую ветку 
+    где branch - имя локальной ветки
+    где server_branch - имя удалённой ветки
+    
