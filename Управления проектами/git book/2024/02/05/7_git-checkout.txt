@@ -1,0 +1,7 @@
+﻿
+git checkout -b "fixing"
+    Создаёт новую ветку 'fixing'
+
+git checkout fixing
+    Переходит на ветку 'fixing'
+

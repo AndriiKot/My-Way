@@ -8,7 +8,9 @@ git push
 
 git push origin <branch>
     За пушить изменения в ветку где <branch> имя ветки
-
+    Example:
+            git push origin fixing          
+                    Отправление изменений на удалённый репозиторий в ветку 'fixing'
 
 git push origin HEAD
     HEAD указывает на текущую ветку (current branch). 
