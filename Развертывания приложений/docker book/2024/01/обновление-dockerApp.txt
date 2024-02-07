@@ -1,0 +1,8 @@
+﻿1.
+docker rm -f <hash>
+2.
+docker build -t <name-container> .
+3.
+docker run -dp 127.0.0.1:3000:3000 <name-container>
+4.
+http://localhost:3000
