@@ -18,9 +18,16 @@ git push origin v1.0.0
 
 git tag -d v1.0.0
     Удаление локально tag с именем 'v1.0.0' 
+    Example:
+        git tag -d v1.0.0 v2.0.0
+            Удаление несколько тегов
 
 git push origin --delete v1.0.0
     Удаление с удаленного репозитория tag с именем 'v1.0.0'
+    Example:
+        git push origin --delete v1.0.0 v2.0.0
+            Удаление несколько тегов на удалённом репозитории
+        
 
 
 
