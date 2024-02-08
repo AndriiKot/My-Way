@@ -5,3 +5,11 @@ git checkout -b "fixing"
 git checkout fixing
     Переходит на ветку 'fixing'
 
+git checkout -- file.txt
+    Отменяет изменения в файле file.txt 
+    которые находятся в статусе   Untracked
+    (Принимается до команды 'add')
+    
+    
+
+

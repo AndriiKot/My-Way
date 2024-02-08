@@ -6,3 +6,7 @@ git branch
 git branch -D fixing
     Удаление ветки с именем 'fixing'
 
+git branch -m <olg branch name> <new branch name>
+    Переименование ветки
+
+
