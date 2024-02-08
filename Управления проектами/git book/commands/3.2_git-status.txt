@@ -1,0 +1,18 @@
+﻿
+UNTRACKED:
+echo "Hello Git" > hello_git.txt
+    Untracked
+        status
+STAGED:
+git add hello_git.txt
+    Staged
+        status
+LOCAL REPOSITORY:    
+git commit -m "Version 1"
+    Copy in Local Repository
+        status
+
+REMOTE REPOSITORY:
+git push
+    Copy in Remote Repository
+        status

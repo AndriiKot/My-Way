@@ -1,0 +1,15 @@
+﻿
+Создать git базу в текущей директории
+git init
+or
+git init .
+        
+Создать git базу в указанной директории
+git init MyRepo
+or
+git init "C:\..\..\"
+
+
+
+
+

@@ -1,0 +1,38 @@
+﻿
+git add добавляет изменение из рабочего каталога в раздел проиндексированных файлов
+
+git add .
+    Добавляет все файлы которых было произведёно изменения
+
+git add *
+    Добавляет все файлы которых было произведёно изменения
+
+git add test_1.txt
+    Добавляет только файл test_1.txt в котором было произведено изменения
+
+
+Example:
+CMD:
+git status
+>>
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+git add .
+git status
+>>
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   text1.txt
+

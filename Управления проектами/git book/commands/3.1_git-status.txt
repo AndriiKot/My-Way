@@ -1,0 +1,31 @@
+﻿
+Посмотреть текущее состояние репозитория а также узнать на 
+какой ветки вы находитесь
+
+git status
+
+On branch main
+    Показывает на какой ветки вы находитесь
+
+No commits yet
+    Показывает что нет изменений 
+
+Untracked files:
+   ... 
+   ...
+        Показывает какие новые файлы были добавлены(Untracked files(Неотслеживаемые файлы))
+
+Changes to be committed:
+    new file1.txt
+        Показывает что есть новый файл который добавлен 
+
+
+Changes not staged for commit:
+    modified:  file1.txt
+        Показывает что в файле file1.txt произошли изменения
+
+Changes not staged for commit:
+    deleted: file.txt
+        Показывает что файл file1.txt был удалён
+
+
