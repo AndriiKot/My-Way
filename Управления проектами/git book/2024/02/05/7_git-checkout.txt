@@ -1,14 +1,23 @@
 ﻿
 git checkout -b "fixing"
-    Создаёт новую ветку 'fixing'
+    Создаёт новую ветку 'fixing' и переход на неё
 
 git checkout fixing
     Переходит на ветку 'fixing'
 
-git checkout -- file.txt
-    Отменяет изменения в файле file.txt 
-    которые находятся в статусе   Untracked
-    (Принимается до команды 'add')
+git checkout <tag name>
+    Переход на tag по изменения
+
+git checkout <hash>
+    Перейти на старый коммит при помощи хеш 
+
+git checkout 
+    Отменяет все изменения которые не попали в коммит
+
+git checkout -- file1.txt 
+        Отменяет изменения которые находятся
+        в статусе Untracked файла fil1.txt
+     
     
     
 
