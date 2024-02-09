@@ -1,0 +1,55 @@
+﻿
+cmd:
+docker run -i -t ubuntu /bin/bash
+    Запуск контейнера докер 
+    -i (открывает командную строку 'ubuntu')
+
+cmd:
+docker ps
+or
+docker container ls
+    Посмотреть все запушенные контейнеры
+
+CONTAINER ID   IMAGE     COMMAND       CREATED              STATUS              PORTS     NAMES
+1eebfbce97e3   ubuntu    "/bin/bash"   About a minute ago   Up About a minute             cranky_proskuriakova
+
+STATUS Up 
+    Значит что контейнер запущен 
+
+
+cmd:
+docker container ls -a 
+or
+docker ps -a
+    Посмотреть все контейнеры запушенные и закрытые
+
+cmd:
+docker container --help
+    Посмотреть справку о команде 'container'
+
+cmd:
+docker images --help
+    Посмотреть справку о команде 'images'
+
+К докеру можно обращаться по 'ID' или 'NAMES'
+
+cmd:
+docker stop <NAMES or ID>
+    Остановить контейнер
+
+cmd:
+docker start -i <NAMES or ID>
+    Запуск контейнера и открытие командной строки
+
+cmd:
+docker attach <NAMES or ID>
+    Открыть командную строку уже запущенного контейнера
+
+cmd:
+docker run (Работает с образом )
+docker start (Запускает по id уже существующий контейнер)
+
+
+
+
+
