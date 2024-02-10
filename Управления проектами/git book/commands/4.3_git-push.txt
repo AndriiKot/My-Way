@@ -1,4 +1,15 @@
 ﻿
+git push --set-upstream origin <name new branch>
+    Только для первого пуща новой ветки 
+
+git push --delete origin <name new branch>
+    Удаляет ветку на удалённом репозитории(Обычно
+    идёт после команды 'git branch -D <name new branch> or 
+    git branch -d <name new branch>)
+
+git push --force 
+	Принудительная загрузка изменений на удалённый репозиторий
+
 git push -u origin main
     -u означает что по умолчанию изменения будут производится
     в ветку main

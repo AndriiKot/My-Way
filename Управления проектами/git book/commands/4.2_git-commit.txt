@@ -18,3 +18,8 @@ Example:
 $ git commit -m 'Some commit'
 $ git add file1.txt
 $ git commit --amend
+
+git commit --amend --no-edit
+    Вернёт прошлый коммит который был изменён 
+    при помощи 'git commit --amend'
+

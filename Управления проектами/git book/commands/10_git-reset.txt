@@ -1,3 +1,13 @@
 ﻿
 git reset
     (git reset --mexed)
+
+DANGER:
+git reset --hard HEAD~2
+    Удаляет два последних коммита 
+
+DANGER:
+git reset --soft HEAD~3
+    Все изменения остаются но удаляются три последних 
+    коммита а остальные сдвигаются
+

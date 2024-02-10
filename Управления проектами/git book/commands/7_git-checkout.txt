@@ -9,10 +9,10 @@ git checkout <tag name>
     Переход на tag по изменения
 
 git checkout <hash>
-    (будет указано только HEAD)
+    (при команде 'git log' будет указано только HEAD)
     Перейти на старый коммит при помощи хеш (чтобы вернутся
     git checkout <name branch>
-    будет указано <name branch> и HEAD)
+    при команде 'git log' будет указано <name branch> и HEAD)
 
 git checkout -- *
     Отменяет все изменения которые не попали в коммит
