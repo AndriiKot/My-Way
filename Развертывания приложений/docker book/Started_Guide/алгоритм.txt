@@ -1,11 +1,35 @@
 ﻿
+АЛГОРИТМ
+ALGORITHMS
+
+Installed:
+1.
+    Установить  Docker Desktop
     Installed  Docker Desktop
+
+2.
+    Установить Git client
     Installed Git client
+
+3.
+    Рекомендуется использовать Visual Studio Code
     Recommends using Visual Studio Code
 
+
+Get the app:
+Загрузить исходный код приложения на свой компьютер:
+
+1. Клонируйте репозиторий для начала работы
     git clone <name-repo>
-        Example:
-                git clone https://github.com/docker/getting-started-app.git MyApp/
+    Example:
+    git clone https://github.com/docker/getting-started-app.git
+    git clone https://github.com/docker/getting-started-app.git MyApp 
+    git clone https://github.com/docker/getting-started-app.git MyApp/
+
+
+IMAGE:
+    Build the app's image:
+    Создание образа приложения:
         $ cd MyApp/
         $ type nul > Dockerfile
 
@@ -21,15 +45,22 @@
         MyApp:
             cmd:
                 docker build -t getting-started .
+                    Создаём образ(Build the image.)
 
 START AN APP CONTAINER:
+ЗАПУСК ПРИЛОЖЕНИЯ:
+    cmd:
         docker run -dp 127.0.0.1:3000:3000 <name image>
 
         Example:
             docker run -dp 127.0.0.1:3000:3000 getting-started
+                Флаг -d(сокращение от --detach) запускает контейнер в фоновом режиме. 
 
 ПРОВЕРИТЬ ЗАПУШЕННЫЙ КОНТЕЙНЕР
     docker ps
+    CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                      NAMES
+    df784548666d        getting-started     "docker-entrypoint.s…"   2 minutes ago       Up 2 minutes        127.0.0.1:3000->3000/tcp   priceless_mcclintock
+
 
  http://localhost:3000
 
@@ -68,8 +99,6 @@ REMOVE THE OLD CONTAINER:
             docker rm <names-container>
         Example_2_1:
             docker rm -f <name-container>
-
-
 
         
 

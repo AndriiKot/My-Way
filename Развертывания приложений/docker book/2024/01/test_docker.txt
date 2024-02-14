@@ -1,2 +1,0 @@
-﻿1.
-docker push andriikot134/test-contaimer-docker:tagname
