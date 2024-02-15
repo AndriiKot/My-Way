@@ -1,3 +1,6 @@
 ﻿
 fzf:
 https://github.com/junegunn/fzf
+
+Кастомный Windows Terminal(базовая настройка):
+https://www.youtube.com/watch?v=kgibCYZVSKw
