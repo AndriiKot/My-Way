@@ -1,8 +1,0 @@
-﻿
-git config --global user.name '..'
-git config --global user.email '..'
-	добавляется в каждый коммит user.name и user.email
-
-git config -l
-	посмотреть всё конфигурацию 
-

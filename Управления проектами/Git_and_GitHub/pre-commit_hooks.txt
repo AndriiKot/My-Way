@@ -1,0 +1,3 @@
+﻿
+pre-commit hooks
+https://dou.ua/forums/topic/32915/

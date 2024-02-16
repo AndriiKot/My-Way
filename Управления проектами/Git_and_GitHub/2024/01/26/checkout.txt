@@ -1,0 +1,6 @@
+﻿
+git checkout -- file.txt
+    Отменяет изменения в файле file.txt 
+    которые находятся в статусе   Untracked
+
+

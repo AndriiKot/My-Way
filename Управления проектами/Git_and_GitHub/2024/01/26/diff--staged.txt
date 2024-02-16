@@ -1,0 +1,13 @@
+﻿
+echo "some text" > text_1.txt
+
+git add text_1.txt
+
+git status
+    Staged
+
+git diff --staged.txt
+    Показывает изменения которые произошли в статусе Staged
+
+
+

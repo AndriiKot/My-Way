@@ -6,6 +6,9 @@ git branch
 git branch -r   
     Выводит список УДАЛЁННЫХ веток
 
+git branch -m <branch_new_name>
+    Переименование текущей ветки
+
 git branch -a
     (git branch --all)
     Показывает все ветки включая и удалённые

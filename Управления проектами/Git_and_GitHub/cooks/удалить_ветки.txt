@@ -1,0 +1,14 @@
+﻿
+git branch -d <name_branch>
+    Удаление локальной ветки , если изменения были
+    не закомментированы то операция будет не выполнена 
+    и всплывёт предупреждение
+
+git branch -D <name_branch>
+    Принудительное удаление локальной ветки 
+
+
+git push origin --delete <name_branch>
+    Удаление удалённой ветки 
+  or
+git push origin :<name_branch>

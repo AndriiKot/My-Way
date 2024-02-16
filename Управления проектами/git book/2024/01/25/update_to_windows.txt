@@ -1,6 +1,0 @@
-﻿
-git  --version 
-git -v
-
-git update-git-for-windows
-	обновить версию git на windows
