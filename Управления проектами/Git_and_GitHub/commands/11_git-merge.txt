@@ -1,9 +1,12 @@
 ﻿
 git merge <name branch>
     Example:
-        Если мы хотим в сетку 'main' слить её с веткой 'fixing'
+        Если мы хотим  ветку  'main' слить с веткой 'fixing'
         то переходим на ветку 'main'
         git checkout main
         git branch  
             main
         git merge fixing
+
+если будут конфликты веток то git предложит разрешить конфликты 
+

@@ -1,6 +1,10 @@
 ﻿
 git push --set-upstream origin <name new branch>
+or 
+git push -u origin master
     Только для первого пуща новой ветки 
+    Дальше можно использовать команду 'git push'
+   
 
 git push --delete origin <name new branch>
     Удаляет ветку на удалённом репозитории(Обычно
