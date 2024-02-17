@@ -8,6 +8,8 @@ git merge <name branch>
             main
         git merge fixing
 
+git merge -m "Merging commit " <name branch>
+
 если будут конфликты веток то git предложит разрешить конфликты 
 
 можно мержить ветки через удалённый репозиторий команда 'pull request'

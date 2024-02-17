@@ -1,0 +1,8 @@
+﻿
+git cat-file -t <hash>
+
+git cat-file -p <hash>
+    Информация о объекте
+
+
+

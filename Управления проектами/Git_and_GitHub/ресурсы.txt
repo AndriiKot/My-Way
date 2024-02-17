@@ -12,6 +12,12 @@ video YouTube:
 49 min 34 sec
 https://www.youtube.com/watch?v=zZBiln_2FhM
 
+3.
+Bogdan Stashchuk 
+video YouTube:
+3 hours 58 min 48 sec
+https://www.youtube.com/watch?v=O00FTZDxD0o
+
 
 FOR ADVANCED:
 1.
@@ -22,11 +28,22 @@ https://www.youtube.com/watch?v=Sj5jdTxmfKg
 
 
 
+FOR EXPERT:
+1.
+webdevkin.ru
+playlist:
+https://www.youtube.com/watch?v=qFCPt3LmP8M&list=PLm-ReICwxMDZTCR8LgKjXlX3CIQVH8Y9f&index=1
+
+
+
+
+
+
+TOPIC
 SSH Keys:
 5 min 42 sec - 7 min 25 sec
 https://www.youtube.com/watch?v=nZriVFWoTec
 
-FOR EXPERT:
 
 
 
