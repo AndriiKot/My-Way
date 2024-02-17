@@ -1,0 +1,4 @@
+﻿
+Linux с нуля до DevOps / DevNet инженера
+palylist:
+https://www.youtube.com/watch?v=c6Emz5rMaOg&list=PLMiVLClzZDbSgFhOdRHibHFWAseZx8T6T
