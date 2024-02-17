@@ -2,16 +2,31 @@
 Win + R: cmd
 
 CMD:
-    cls
-    dir
-    md Lessons
-    md "Lessons/lesson_1"
-    cd "Lessons/lesson_1/"  
+
+type file_1.txt
+        Чтения файла file_1.txt и вывод содержимого в консоль
+
+cls
+        Очистить консоль
+
+dir
+        Вывод всех файлов и папок в консоль  
+md      
+        Создание папки или папок
+                md Lessons
+                md "Lessons/lesson_1"
+                md lesson_1 lesson_2
+cd 
+        Перейти в указанную директорию 
+                cd "Lessons/lesson_1/"  
+Создать файл:
     copy con not_keys.txt
             Ctrl + C 
             Ctrl + Z, Enter 
     echo "some text" > not_keys.txt
     type nul > not_keys.txt
+
+Переименования файла или директории:
     ren not_keys.txt cmd_not_keys.txt
             
 
