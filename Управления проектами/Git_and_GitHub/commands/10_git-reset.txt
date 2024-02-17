@@ -1,10 +1,17 @@
 ﻿
+git reset --hard
+    удаляет все не закомментированы изменения
+
 git reset
     (git reset --mexed)
 
 DANGER:
 git reset --hard HEAD~2
     Удаляет два последних коммита 
+
+git reset --hard hash
+    Возвращает проект к указанному коммиту
+    git push origin -f
 
 DANGER:
 git reset --soft HEAD~3
