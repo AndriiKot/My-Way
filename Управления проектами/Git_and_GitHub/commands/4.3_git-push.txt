@@ -2,6 +2,7 @@
 git push --set-upstream origin <name new branch>
 or 
 git push -u origin master
+git push -u origin HEAD
     Только для первого пуща новой ветки 
     Дальше можно использовать команду 'git push'
    

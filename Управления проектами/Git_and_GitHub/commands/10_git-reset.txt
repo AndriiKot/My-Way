@@ -12,6 +12,7 @@ git reset --hard HEAD~2
 git reset --hard hash
     Возвращает проект к указанному коммиту
     git push origin -f
+        Принудительная перезапись удалённой ветки
 
 DANGER:
 git reset --soft HEAD~3

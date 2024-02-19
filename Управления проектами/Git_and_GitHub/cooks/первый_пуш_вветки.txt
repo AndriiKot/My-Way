@@ -1,0 +1,5 @@
+﻿
+git push --set-upstream origin HEAD
+or 
+git push -u origin HEAD
+

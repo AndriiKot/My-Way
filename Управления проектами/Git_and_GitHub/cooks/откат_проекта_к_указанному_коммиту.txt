@@ -1,0 +1,17 @@
+﻿
+git reset --hard hash
+    Возвращает проект к указанному коммиту
+    git push origin -f
+
+DANGER:
+git push origin -f
+or 
+git push origin --force
+Принудительная перезапись удалённой ветки
+с этой командой надо быть осторожным
+
+
+
+
+
+

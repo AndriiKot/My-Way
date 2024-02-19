@@ -1,0 +1,14 @@
+﻿
+
+Удалить последний коммит 
+git reset --hard HEAD~1
+
+git reset --hard HEAD~2
+Удалить два последний коммита
+
+git reset --hard hash
+    Возвращает проект к указанному коммиту
+    git push origin -f
+
+
+
