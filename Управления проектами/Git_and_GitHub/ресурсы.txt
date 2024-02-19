@@ -34,6 +34,11 @@ webdevkin.ru
 playlist:
 https://www.youtube.com/watch?v=qFCPt3LmP8M&list=PLm-ReICwxMDZTCR8LgKjXlX3CIQVH8Y9f&index=1
 
+2.
+letsCode
+playlist:
+https://www.youtube.com/watch?v=GsPsjYO16ls&list=PLU2ftbIeotGr_C-6t_lXH1Z3VgS5TLLdb&index=6
+
 
 TOPIC
 SSH Keys:

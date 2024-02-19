@@ -4,3 +4,10 @@ git config --global alias.g 'log --all --decorate --oneline --graph'
 
 cmd:
 git config --global alias.g "log --all --decorate --oneline --graph"
+
+можно задавать количество коммитов например 
+
+git g -10
+    Выводить последние 10 коммитов
+
+    

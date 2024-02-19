@@ -13,6 +13,15 @@ git config --global user.email user@mail.com
     git config user.name
     git config user.email
 
+git config --list --local
+    Посмотреть локальные настройки config
+
+git config --list --global
+    Посмотреть глобальные настройки config
+
+git config --list
+    Посмотреть и глобальные и локальные настройки 
+
 Текстовый редактор по умолчанию
 В Git Bash:
 git config --global core.editor "code --wait"
