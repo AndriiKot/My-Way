@@ -1,0 +1,17 @@
+  <body>
+    <main>
+      <h1></h1>
+      <section>
+      </section>
+
+      <section>
+      </section>
+
+      <section>
+      </section>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+
