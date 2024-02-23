@@ -1,77 +1,55 @@
-﻿//- <!-- 
-//-   label примеры использования:
-//-   атрибут 'for' в label связывает с одноименным id в input 
-//- -->
-
-//- <!--
-//-  action - определяет адрес скрипта который обрабатывает данную форму
-//- fieldset - используется в форме для обледенения родственных элементов
-//- legend - заголовок для набора полей форм(идёт сразу за тегом <fieldset>)
-//- label  - метка для элемента <input> так же обеспечивает лучшее взаимодействие со страницей
-//- -->
-
-
-//- <form action='#'>
-//-    <label for="male">Male</label>
-//-    <input type="radio" id="male"><br>
-//-    <label for="female">Female</label>
-//-    <input type="radio" id="female"><br>
-//-    <input type="submit" value="Submit">
-//- </form>
-
-
-mixin form_l(fieldset,legend,el = 1)
-  form(action="#") 
-    if fieldset 
+mixin l_i(i = 1)
+  while i-- > 0  
+    label(for="") 
+    input(id="")
+ 
+mixin L_i(i = 1)
+  while i-- > 0  
+    label
+      input
+      
+mixin fn_l_i(f,l,el = 1,fn = 'l')
+  if fn == 'l'
+    if f
       fieldset 
-        if legend 
+        if l
           legend 
-            while el-- > 0  
-              label(for="") 
-              input(id="")
+          +l_i(el)
         else
-          while el-- > 0  
-            label(for="") 
-            input(id="")
+          +l_i(el)
     else
-      while el-- > 0  
-        label(for="") 
-        input(id="")
+      +l_i(el)
+  else 
+    if f
+      fieldset 
+        if l
+          legend 
+          +L_i(el)
+        else
+          +L_i(el)
+    else
+      +L_i(el)
 
-
-mixin form_L(el = 1)
+mixin form(el = 1,fn = 'l',fieldset = 0,legend  = 0)
   form(action="#") 
-    while el-- > 0  
-      label
-        input
-  
+    +fn_l_i(fieldset,legend,el,fn)
 
-+form_l(1,1,2)
-//- +form_L()
+// 
+  1
++form
+// 
+  2
++form(1,1)
+// 
+  3
++form(1,1,1,1)
+//
+  4
++form(5,1,1,1)
+//
+  5
++form(5,'l',1,1)
 
-//- <!-- input внутри label -->
-//- <form action="https://freecatphotoapp.com/submit-cat-photo">
-//-      <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
-//-      <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
-//-      <button type="submit">Submit</button>
-//- </form>
-
-//- <!-- Пример использования fieldset: -->
-//- <form action="https://freecatphotoapp.com/submit-cat-photo">
-//-    <fieldset>
-//-      <legend>Is your cat an indoor or outdoor cat?</legend>
-//-      <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
-//-      <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
-//-    </fieldset>
-//-    <fieldset>
-//-      <legend>What's your cat's personality?</legend>
-//-      <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
-//-      <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
-//-      <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
-//-    </fieldset>
-//-    <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-//-    <button type="submit">Submit</button>
-//- </form>
 
 
 
