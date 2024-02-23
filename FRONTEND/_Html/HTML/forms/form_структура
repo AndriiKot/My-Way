@@ -1,0 +1,20 @@
+<!-- Version 1 -->
+ <fieldset>
+   <legend>Заголовок формы</legend>
+   <label>
+        <input> Текст относящийся к элементу input
+   </label>
+ </fieldset>
+
+<!-- fieldset - используется в форме для обледенения родственных элементов
+legend - заголовок для набора полей форм(идёт сразу за тегом <fieldset>)
+label  - метка для элемента <input> так же обеспечивает лучшее взаимодействие со страницей -->
+
+<!-- Version-2 -->
+<fieldset>
+    <legend>Заголовок формы</legend>
+    <input id="loving"> <label for="loving">Loving</label>
+    <input id="lazy"> <label for="lazy">Lazy</label>
+    <input id="energetic"> <label for="energetic">Energetic</label>
+</fieldset>
+
