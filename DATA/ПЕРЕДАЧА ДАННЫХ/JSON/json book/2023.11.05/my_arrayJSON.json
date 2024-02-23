@@ -1,0 +1,12 @@
+﻿{
+    "phones": [
+        {
+            "phoneType": "official",
+            "phoneNumber": "9320323"
+        },
+        {
+            "phoneType": "contact",
+            "phoneNumber": "8203340"
+        }
+    ]
+}

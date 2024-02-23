@@ -1,5 +1,0 @@
-﻿Сайт по веб. Курс Vue
-https://code.mu/ru/javascript/framework/vue/book/prime/basis/properties-inside-methods/
-
-YouTube Лабиринт знання:
-https://www.youtube.com/watch?v=f986CJRcPwM&list=PLGS5TF12xmz-E7BPX63Zsv0uuV5qK_vMG

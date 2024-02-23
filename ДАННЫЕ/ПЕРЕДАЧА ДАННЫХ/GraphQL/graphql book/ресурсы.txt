@@ -1,5 +1,0 @@
-﻿
-Tutorial:
-https://www.howtographql.com/
-
-

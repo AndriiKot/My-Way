@@ -1,0 +1,17 @@
+﻿Gulp  4.0.2
+node -v  
+npm -v
+.gitignore node_modules *.log .DS_Store
+npm init   npm init -y  npm init --yes
+npm rm --global gulp                rm -g gulp
+npm install --global gulp-cli       npm i -g gulp-cli
+npm install --save-dev gulp         npm i gulp -D  ... "devDependencies": { "gulp": "^4.0.2" } ...
+CLI version: 2.3.0     		    клиент версия
+Local version: 4.0.2                локальная версия
+gulpfile.js
+npm i gulp-sass sass -D        packaje.json { ... , "devDependencies": {"gulp": "^4.0.2", "gulp-sass": "^5.1.0","sass": "^1.69.5" }}
+
+
+     
+
+

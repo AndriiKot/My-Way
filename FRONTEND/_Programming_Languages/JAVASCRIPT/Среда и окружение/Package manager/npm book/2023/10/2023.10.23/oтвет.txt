@@ -1,0 +1,13 @@
+﻿
+1.
+.gitignore
+
+2. Создаём файл '.gitignore' и заносим туда каталог 'node_modules' так как там хранятся сторонние
+пакеты
+
+3.
+npm install
+
+or
+
+npm i

@@ -1,0 +1,43 @@
+﻿
+1. cd ..
+2. cd "c:\"
+3. cd /d "d:\"
+4. cd ..\..
+5. dir
+6. dir /a
+   dir /a /b
+   dir /a /w
+   dir /w
+7. tree 
+   tree /f
+   tree /f /a
+   tree /f /a | more
+   tree /f > tree._1.txt
+   tree /f  /a > tree_2.txt
+
+8. md folder_1
+   md "folder 1"
+   md folder_1 folder_2 folder_3
+   md "..\fo.der1"
+   md "main\folder1"
+
+9. rd  main
+   rmdir main
+   rd main /s
+   rd main /s /q
+
+10.
+  del text1.txt
+  erase text1.txt
+
+  def text1.txt text2.txt
+  erase text1.txt text2.txt
+
+
+  del folder1\text2.txt folder2\text3.txt
+  del folder1\*.txt /q
+  del folder1\*.txt /s /q
+
+
+
+

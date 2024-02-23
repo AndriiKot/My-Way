@@ -1,8 +1,0 @@
-﻿Error:
-Errors occur when copying all directories and files
-
-xcopy web demo /e
-File creation error - The system cannot find the file specified.
-
-fixing error:
-xcopy web demo /e /c

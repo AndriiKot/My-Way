@@ -1,0 +1,50 @@
+﻿>
+!!!
+npm install grunt --save-dev
+!!!
+>
+>
+npm install -g grunt-cli
+>
+npm install grunt-contrib-less --save-dev
+>
+npm install grunt-contrib-watch --save-dev
+
+Example (Grunt(watch and less)
+
+
+module.exports = function (grunt) {
+  grunt.loadNpmTasks("grunt-contrib-less");
+  grunt.loadNpmTasks("grunt-contrib-watch");
+
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+    less: {
+      development: {
+        options: {
+          compress: true,
+          yuicompress: true,
+         optimization: 2,
+        },
+        files: {
+          "./main.css": "./less_css/main.less",
+        },
+      },
+    },
+    watch: {
+      styles: {
+        files: ["less_css/**/*.less"], 
+        tasks: ["less"],
+        options: {
+          nospawn: true,
+        },
+      },
+    },
+  });
+
+  grunt.registerTask("default", ["watch"]);
+};
+
+
+
+

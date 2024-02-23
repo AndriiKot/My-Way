@@ -1,0 +1,63 @@
+﻿
+1.
+  npm i gulp-cli -g
+
+2.
+  npm list -g
+
+
+3. 
+{
+  ...
+  "dependenies": {
+   ... ,
+   "bootstrap": "4.6.0"
+  },
+  ...
+}
+
+
+4.
+{
+ ...
+ "dependenies": {
+  ...,
+  "bootstrap": "^4.6.0"
+  },
+  ...
+}
+
+
+5.
+{
+ ...
+ "dependenies": {
+  ...,
+ "bootstrap": "*"
+},
+...
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

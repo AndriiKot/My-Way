@@ -1,0 +1,138 @@
+﻿Steps:
+
+node -v
+npm -v 
+gulp -v
+
+npm i gulp-cli -g
+npm init
+
+
+.gitignore:
+node_modules
+*.log
+.DS_Store
+
+npm i gulp -D
+npm i gulp-sass sass -D
+
+sass -v
+
+gulpfilde.js
+
+
+app /index.html
+    /scss/style.scss
+    /js/main.js
+    /images
+dist
+
+index.html:
+<haead>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <script src="js/main.min.js"></script>
+...
+</body>
+
+
+gulpfile.js:
+const {scr, dest} = require('gulp');
+
+const scss = require('gulp-sass')(require('sass'));
+
+function styles() {
+    return src('app/scss/style.scss')
+      .pipe(scss())
+      .pipe(dest('app/css'))
+}
+
+exports.styles = styles;
+
+
+gulp styles
+
+....
+function styles() {
+    return src('app/scss/style.scss')
+      .pipe(scss({ outputStyle: 'compressed' }))
+      .pipe(dest('app/css'))
+}
+...
+
+npm i gulp-concat -D
+
+...
+const concat = require('gulp-concat');
+
+function styles() {
+    return src('app/scss/style.scss')
+      .pipe(concat('style.min.css'))
+      .pipe(scss({ outputStyle: 'compressed' }))
+      .pipe(dest('app/css'))
+}
+...
+
+npm i gulp-uglify-es -D
+
+...
+const uglify = require('gulp-uglify-es').default;
+
+function scripts() {
+  return src('app/js/main.js')
+    .pipe(concat('main.min.js'))
+    .pipe(uglify())
+    .pipe(dest('app/js'))
+}
+...
+
+exports.scripts = scripts;
+
+npm i browser-sync -D
+
+
+...
+
+function browsersync() {
+  browserSync.init({
+    server: {
+      baseDir: "app/"
+    }
+  });
+}
+
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

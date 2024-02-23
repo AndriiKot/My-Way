@@ -1,0 +1,29 @@
+﻿
+
+Перемещение файлов:
+
+1.
+  move demo.txt ..
+
+2.
+  move /y demo.txt ..
+
+3.
+  move demo.txt ..\new_demo.txt
+
+4.
+  move *.txt ..
+
+5.
+  move *.* ..
+
+Перемещение каталогов:
+
+1.
+  move main ..
+
+2.
+  move main "..\new main"
+
+
+

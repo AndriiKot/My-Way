@@ -1,0 +1,7 @@
+﻿
+1.
+  md %date%
+
+2.
+   copy "cmd book"\*.* "..\_My way\cmd book\2023.10.16"
+

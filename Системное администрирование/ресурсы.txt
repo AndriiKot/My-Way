@@ -1,8 +1,0 @@
-﻿
-fzf:
-https://github.com/junegunn/fzf
-
-direnv
-
-Кастомный Windows Terminal(базовая настройка):
-https://www.youtube.com/watch?v=kgibCYZVSKw

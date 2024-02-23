@@ -1,0 +1,10 @@
+﻿
+1. Данн код:
+
+const element_https = document.querySelectorAll(...);  получите NodeList у которого атрибут 'href' начинается на  'https:'
+
+const element_domen_ua = document.querySelectorAll(); получите NodeList у которого атрибут 'href' заканчивается на 'ua'  
+
+const elment_googl = document.querySelectorAll(...); толучите NodeList у которого атрибут 'href' содержит 'googl'
+
+

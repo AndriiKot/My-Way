@@ -1,0 +1,29 @@
+
+TestBm_1 (Checking for correct results? )
+title:          count days
+
+       user     system      total        real
+.strip.end_with?(")")  21.015000   0.109000  21.124000 ( 36.671579)
+.end_with?(")\n")   12.813000   0.109000  12.922000 ( 22.313592)
+
+Checking for correct results: 
+.strip.end_with?(")"  : 120000000 days of training
+.end_with?(")\n")  : 120000000 days of training
+
+
+
+
+TestBm_2
+title:          date formatting
+
+       user     system      total        real
+"Today: #{t.strftime("%Y-%m-%d")}"   0.281000   0.890000   1.171000 (197.943261)
+"Today: #{t.year}-#{t.month}-#{t.day}"  3.375000   0.000000   3.375000 (  3.507273)
+
+Checking for correct results:
+Today: 2023-10-26
+Today: 2023-10-26
+
+
+
+

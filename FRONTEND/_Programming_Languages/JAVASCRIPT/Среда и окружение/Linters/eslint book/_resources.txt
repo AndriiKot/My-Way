@@ -1,0 +1,13 @@
+﻿
+official site:
+https://eslint.org/docs/latest/
+
+rules reference:
+Справка по правилам:
+https://eslint.org/docs/latest/rules/
+
+youtube video en:
+32 min
+https://www.youtube.com/watch?v=fslNny60HzI
+
+

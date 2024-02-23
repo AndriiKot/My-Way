@@ -1,0 +1,8 @@
+﻿div.red_and_blue [class^="red"] {
+    color: red;
+}
+
+div.red_and_blue {
+    color: blue;
+}
+

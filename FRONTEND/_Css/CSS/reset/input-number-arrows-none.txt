@@ -1,0 +1,30 @@
+﻿
+//SCSS:
+@mixin input-number-arrows-none($element) {
+  #{$element}::-webkit-outer-spin-button,
+  #{$element}::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  #{$element}[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+
+//CSS:
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+ 
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+

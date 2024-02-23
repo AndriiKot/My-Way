@@ -1,0 +1,43 @@
+﻿
+1.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM API tutirial</title>
+</head>
+<body>
+    <p id="caption">
+        Web is not <b>Dead</b>
+    </p>
+    <script src="./script.js"></script>    
+</body>
+</html>
+
+2.
+ script.js
+
+ const element = document.getElementById('caption');
+
+3.
+  console.log(element.innerHTML) => Web is not <b>Dead</b>   
+            Выводится сам елемент и если в нём есть вложенные теги то выводиться и сами теги с его содержимым
+ 
+  console.log(element.innerText) => Web is not Dead
+
+4.
+ ...
+  element.addEventListener('click', (event) => {
+    console.dir({ event });
+  });
+ ...
+
+
+
+
+
+
+
+
+                                           

@@ -1,8 +1,0 @@
-﻿
-.element {
-  pointer-events: none;
-}
-
-// .element events: none означает что элемент не может быть целью (target) событий мыши
-
-

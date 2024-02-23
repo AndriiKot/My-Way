@@ -1,0 +1,6 @@
+﻿
+data() {
+  return {
+    attr: 'img.png',
+  }
+}

@@ -1,0 +1,11 @@
+﻿
+Клиент серверная архитектура
+HTTP. Структура, методы, заголовки и статус коды
+API - application programming interface
+Rest API архитектурный стиль. Концепции, формат данных. Идемпотентность. Версионирование. Документирование (Open API и Swagger)
+SOAP - протокол обмена структурированными сообщениями
+GraphQL - язык запросов
+Websockets - real time
+RPC - Удаленный вызов процедур
+gRPC (protobuf, http2, protoc)
+tRPC

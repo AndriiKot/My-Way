@@ -1,0 +1,21 @@
+﻿
+Projects
+  Create project
+    Software development
+	Scrum
+
+
+Add project details
+	name "name project"
+        key  "NP"
+
+Настройки
+	Функции  
+    Отчёты (ok)
+
+Вернутся к проекту
+  Перейти в бэклог 
+
+Отствание
+ +
+  Мне нужен список обращений чтобы понять на сколько мы отладили систему

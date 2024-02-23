@@ -1,0 +1,139 @@
+﻿
+<?xml version="1.0">
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<?xml-stylesheet type="text/css" href="//msiter.ru/cd_catalog.css"?>
+
+<!-- Комментарии 1 -->
+
+
+<pairelment> .. </pairelement>  это элемент 
+
+<someroot date="02.12.2023" type="proudects">...</someroot>
+<sect id="s1">Мобильные телефоны</sect>
+
+<someelement val="2314" /> !!!
+<title />                  !!!
+<_element />
+<gangster name='George "Shotgun" Ziegler'>
+
+
+Экранирование спецсимволов:
+
+< - &lt    !!!! можно писать в атрибутах !!!
+> - &gt    !!!! можно писать в атрибутах !!!
+" - &quot  !!!! можно писать в атрибутах !!!
+& - &amp   !!!! можно писать в атрибутах !!!
+
+<![CDATA[ gga; " < > &&&& текст с спецсимволами]]>    только внутри элемента
+
+!!!В документе должен быть только один корень !!!
+!!!Внутри элемента учитывается пробелы!!!
+!!!Регистр символов важен !!!
+!!!Значение параметров: Всегда в двойных кавычках!!!
+!!!Одинарные элементы должны закрываться !!!
+!!!Имена элементов должны начинаться с буквы или символа подчеркивания!!!
+!!!Имена элементов не могут содержать пробельные символы!!!
+!!!Имена элементов не могут начинаться с цифры или символа пунктуации!!!
+!!!Избегайте символ ":". Двоеточие зарезервировано для механизма пространства имен!!!
+
+
+
+Пустые ельматы:
+<green></green>
+<GREEN />
+<phone type="mobile" number="+7613412">
+
+
+Не валидный XML:
+<brand>  !!! Error
+	Samsung  !!!
+	<brand_url>http://</brand_url>   !!!
+</brand>   !!!
+
+Валидный XML:
+<brand>
+	<brand_name>Samsung</brand_name>
+	<brand_url>http://</brand_url>
+<brand>
+
+Валидныи XML v2:
+<brand name="Samsung">
+	<brand_url>http://gaf</brand_url>
+</brand>
+
+Пример 1 v1:
+...
+<kaf_list>
+	<kafedra graduate="true" knum="503">
+		<sotrudniki>
+			<teacher zav="true"> Гоголь Н.В </teacher>
+			<teacher>Толстой Л.Н</teacher>
+		</sotrudniki>
+	</kafedra>
+</kaf_list>
+...
+
+Пример 1 v2:
+...
+<kaf_list>
+	<kafedra  knum="503">
+		<graduated/>
+		<sotrudniki>
+			<teacher zav="true"> Гоголь Н.В </teacher>
+			<teacher>Толстой Л.Н</teacher>
+		</sotrudniki>
+	</kafedra>
+</kaf_list>
+...
+
+<Person> ... </Person>
+<size> ... </size>
+<CUSTOMER> ... </CUSTOMER>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

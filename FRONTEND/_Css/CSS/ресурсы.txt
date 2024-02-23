@@ -1,0 +1,7 @@
+﻿
+YouTube:
+(placeholder)
+(pattern :focus:valid)
+    https://www.youtube.com/watch?v=_1YPmR81I0c
+
+    

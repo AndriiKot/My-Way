@@ -1,0 +1,96 @@
+﻿
+
+1.
+const values = {
+	name: 'Mouse',
+	price: 25,
+	stock: false,
+	avg: (a, b) => (a + b) / 2n,
+	reference: null,
+	primitive: undefined,
+	numbers: [NaN, Infinity],
+};
+
+for(const key in values) {
+	console.dir(typeof values[key]);
+}
+
+2.
+
+const fn1 = (a = 0,b = 0) => (a + b);
+const fn2 = (a,b) => { 
+    a = a || 0;
+    b = b || 0;
+    return a + b
+};
+
+const counter = 1_000_000;
+
+const testTime = (n,fn) => {
+    console.dir(fn);
+
+    console.time();
+        for(let i = 0; i < n; i++){
+            fn();
+        }
+    console.timeEnd();
+};
+
+testTime(counter,fn1);
+testTime(counter,fn2);
+
+3.
+const myArray = [11, 22, 33, 44];
+
+for(const element of myArray) {
+    console.dir(element);
+};
+
+let amount = 0
+
+for(const element of myArray){
+    amount += element;
+}
+
+console.log(`amount: ${amount}`);
+
+
+4.
+const fn1 = async () => {
+    console.log(`Hello I am function:\n ${fn1}!`)
+};
+
+const main = async () => {
+    const res = await fn1();
+    return res;
+};
+
+
+console.log(main());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

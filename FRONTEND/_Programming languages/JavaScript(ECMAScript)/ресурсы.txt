@@ -1,4 +1,0 @@
-﻿
-Hot Examples:
-Hot Examples - Агрегатор примеров использования исходного кода
-https://javascript.hotexamples.com/ru/

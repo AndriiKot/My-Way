@@ -1,0 +1,22 @@
+﻿"use strict";
+
+
+const purchase = {
+  Electronics: [
+    { name: 'Laptop', price: 1500 },
+    { name: 'Keyboard', price: 100 },
+    { name: 'HDMI cable', price: 10 },
+  ],
+  Textile: [
+    { name: 'Bag', price: 50 },
+  ],
+};
+
+7. Создайте две переменные 'electronics' и 'textile' присвойте к ним массив 'Electronics' и 'Textile'
+   соответственно. Выведете результат в консоль.
+
+8. Создайте две переменные 'bag' и 'price'. Присвойте к переменной 'bag' значение первого элемента 'tixtile'.
+К переменной 'price' присвойте значение поля 'price' последнего элемента.
+Выведете результат в консоль
+
+

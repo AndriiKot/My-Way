@@ -1,0 +1,31 @@
+﻿
+npm install -g @vue/cli
+vue --version
+npm run server
+
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+import HelloWorld from './components/HelloWorld.vue';
+
+export default defineComponent({
+  name: 'App',
+  components: {
+    HelloWorld
+  }
+});
+</script>
+
+!!! defineComponent() !!!  Нужен для корректной работы ts !!!
+
+add index.html
+add style.css
+
+npm run serve !!!
+
+App running at:
+  - Local:   http://localhost:8080/
+  - Network: http://192.168.0.68:8080/
+
+
+

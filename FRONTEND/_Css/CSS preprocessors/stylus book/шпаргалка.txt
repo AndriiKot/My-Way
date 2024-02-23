@@ -1,0 +1,19 @@
+﻿
+npm install stylus -g
+stylus -w style.styl -o style.css
+
+body 
+    background blue
+**
+var_blue_color = blue
+var_red_color = rgb(199, 73, 73)
+var_black = #000
+$blue_color = rgb(60, 60, 189)
+font-size = 15px
+fot-stack = "Lucida Grande", Arial, sans-serif
+**
+
+color blue
+border solid 1px @color
+
+**

@@ -1,0 +1,12 @@
+﻿
+> index.ts
+> tsc index.ts
+> index.js
+> tsc init
+
+> index.ts
+  let age: number = 30;
+  let userName: string = "Andrii";
+  let isFunction: boolean;
+
+ 

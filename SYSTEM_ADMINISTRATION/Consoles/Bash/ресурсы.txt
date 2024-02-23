@@ -1,0 +1,4 @@
+﻿
+bash scripts:
+https://habr.com/ru/articles/726316/
+

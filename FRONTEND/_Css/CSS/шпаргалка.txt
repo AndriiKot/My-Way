@@ -1,0 +1,16 @@
+﻿**
+p [class^="red"] {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+        <p class="red">Lorem ipsum dolor sit amet. </p>        red
+        <p class="blue">Lorem ipsum dolor sit amet. </p>       blue
+        <p class="red blue">Lorem ipsum dolor sit amet. </p>   red
+    !!! <p class="red-1 blue">Lorem ipsum dolor sit amet. </p> red   !!!
+        <p class="blue red">Lorem ipsum dolor sit amet. </p>   blue
+**
+
+
