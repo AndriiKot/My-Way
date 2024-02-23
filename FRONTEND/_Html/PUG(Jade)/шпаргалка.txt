@@ -1,0 +1,19 @@
+﻿
+npm install pug   -g
+npm install pug-cli -g
+
+pug --version
+pug -V
+
+pug index.pug --pretty -w
+	-w Следит за файлом 'index.pug' и отправляет изменения в 'index.html' если такого файла нет то создаёт его
+	--pretty не ужимает файл .html
+
+pug index.pug -w
+	Сжимает файл .html
+
+
+
+
+
+
