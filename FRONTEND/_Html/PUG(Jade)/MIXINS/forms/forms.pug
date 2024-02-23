@@ -19,8 +19,9 @@
 //-    <input type="submit" value="Submit">
 //- </form>
 
-mixin form_l(el = 1)
+mixin form_l(el = 1,fieldset,legend)
   form(action="#") 
+  
     while el-- > 0  
       label(for="") 
       input(id="")

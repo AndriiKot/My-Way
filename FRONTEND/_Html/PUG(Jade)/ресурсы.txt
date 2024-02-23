@@ -1,0 +1,13 @@
+﻿
+GitHub Gist
+Препроцессор Pug(Jade):
+https://gist.github.com/neretin-trike/53aff5afb76153f050c958b82abd9228#%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B
+
+Docs(official):
+https://pugjs.org/api/getting-started.html
+
+Docs(ru):
+https://zaurmag.ru/html5-css3/html-preprotsessor-pug-jade.html
+
+Gulp-Pack github:
+https://github.com/zaurmag/gulp-pack
