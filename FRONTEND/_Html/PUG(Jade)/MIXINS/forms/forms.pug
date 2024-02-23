@@ -19,9 +19,15 @@
 //-    <input type="submit" value="Submit">
 //- </form>
 
+//-
+    А это многострочный комментарий
+    Много много текста комментария и этот 
+    многострочный комментарий в html 
+    разметке не выводится.
+
 mixin form_l(el = 1,fieldset,legend)
   form(action="#") 
-  
+
     while el-- > 0  
       label(for="") 
       input(id="")
