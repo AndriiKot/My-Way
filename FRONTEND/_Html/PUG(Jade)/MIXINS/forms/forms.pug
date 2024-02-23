@@ -19,18 +19,25 @@
 //-    <input type="submit" value="Submit">
 //- </form>
 
-//-
-    А это многострочный комментарий
-    Много много текста комментария и этот 
-    многострочный комментарий в html 
-    разметке не выводится.
 
-mixin form_l(el = 1,fieldset,legend)
+mixin form_l(fieldset,legend,el = 1)
   form(action="#") 
+    if fieldset 
+      fieldset 
+        if legend 
+          legend 
+            while el-- > 0  
+              label(for="") 
+              input(id="")
+        else
+          while el-- > 0  
+            label(for="") 
+            input(id="")
+    else
+      while el-- > 0  
+        label(for="") 
+        input(id="")
 
-    while el-- > 0  
-      label(for="") 
-      input(id="")
 
 mixin form_L(el = 1)
   form(action="#") 
@@ -39,8 +46,8 @@ mixin form_L(el = 1)
         input
   
 
-+form_l()
-+form_L()
++form_l(1,1,2)
+//- +form_L()
 
 //- <!-- input внутри label -->
 //- <form action="https://freecatphotoapp.com/submit-cat-photo">
