@@ -1,0 +1,26 @@
+﻿
+GIT SUBTREE В ДЕТАЛЯХ:
+https://freehost.com.ua/faq/articles/git-subtree-u-detaljah/
+
+$ mkdir test_subtree
+$ cd test_subtree
+$ git init
+$ touch .testfile
+$ git add .testfile
+$ git commit -m "Initial commit test_subtree"
+$ git subtree add --prefix <name_subtree_folder> https://github.com/...  main
+$ git subtree pull --prefix <name_subtree_folder> https://github.com/... main
+
+
+Для удаленного отслеживания внесенных изменений.
+Переходим в свой проект и водим
+$
+git remote add -f <name_new_folder> https://github.com/...
+    где <name_new_folder> это произвольное имя где будут все данные из удаленного репозитория 
+$
+git subtree add --prefix <name_main_project> <name_new_folder>  main
+$
+git fetch <name_new_folder> main
+$
+git subtree pull --prefix  <name_main_project>  <name_new_folder>  main
+
