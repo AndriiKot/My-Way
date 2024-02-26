@@ -8,8 +8,12 @@ $ git init
 $ touch .testfile
 $ git add .testfile
 $ git commit -m "Initial commit test_subtree"
-$ git subtree add --prefix <name_subtree_folder> https://github.com/...  main
-$ git subtree pull --prefix <name_subtree_folder> https://github.com/... main
+$ 
+	git subtree add --prefix <name_subtree_folder> https://github.com/...  main
+git subtree add --prefix 
+$ 
+	git subtree pull --prefix <name_subtree_folder> https://github.com/... main
+git subtree pull --prefix 
 
 
 Для удаленного отслеживания внесенных изменений.
