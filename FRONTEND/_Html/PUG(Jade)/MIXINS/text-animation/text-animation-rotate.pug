@@ -1,0 +1,7 @@
+﻿mixin container-text__split-string(text='string',classNameContainer = 'container-text',nowrapText = true)
+    div(class= classNameContainer)
+        each chr in text.split('')
+            if chr == ' ' && nowrapText
+                div(style='visibility: hidden;') X
+            else 
+               div #{chr}
