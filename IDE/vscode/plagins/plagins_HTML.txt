@@ -1,0 +1,12 @@
+﻿1.
+HTML Preview
+Toggle Preview - ctrl+shift+v
+
+2.
+Auto rename tag
+
+3.
+CSS Peek
+
+4.
+HTML CSS Support
