@@ -1,4 +1,7 @@
 ﻿
+Подбор цветов от material:
+https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+
 colors:
 https://www.canva.com/ru_ru/obuchenie/100-cvetovyx-sochetnij/
 
