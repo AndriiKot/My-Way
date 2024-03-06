@@ -1,0 +1,4 @@
+﻿
+Начните использовать Prettier правильно:
+СТАТЬЯ
+https://techrocks.ru/2021/02/19/prettier-configuration/
