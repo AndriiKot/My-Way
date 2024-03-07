@@ -1,0 +1,7 @@
+
+git checkout main
+
+or 
+
+git checkout HEAD
+

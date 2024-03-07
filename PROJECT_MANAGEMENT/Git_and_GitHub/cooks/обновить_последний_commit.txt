@@ -16,4 +16,4 @@ git commit --amend --no-edit
 Изменить автора последнего комментария
 git commit --amend --no-edit --author="name_author < mail >"
 
-
+ 
