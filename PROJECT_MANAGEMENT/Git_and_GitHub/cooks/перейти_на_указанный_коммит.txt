@@ -1,0 +1,28 @@
+
+git checkout -b "fixing"
+    Создаёт новую ветку 'fixing' и переход на неё
+
+git checkout fixing
+    Переходит на ветку 'fixing'
+
+git checkout <tag name>
+    Переход на tag по изменения
+
+git checkout <hash>
+    (при команде 'git log' будет указано только HEAD)
+    Перейти на старый коммит при помощи хеш (чтобы вернутся
+    git checkout <name branch>
+    при команде 'git log' будет указано <name branch> и HEAD)
+
+git checkout -- *
+    Отменяет все изменения которые не попали в коммит
+    и не была произведена команда 'add'
+
+git checkout -- file1.txt 
+    Отменяет изменения которые находятся
+    в статусе Untracked файла fil1.txt
+     
+    
+    
+
+
