@@ -1,0 +1,13 @@
+﻿git bash
+	touch myFile.txt
+git bash
+	echo "Hello, my first File" > myFile.txt
+git bash
+	cat myFile.txt
+git bash
+	touch watch.js
+
+cmd
+	code .
+git bash
+	code .
