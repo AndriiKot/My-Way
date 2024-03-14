@@ -1,0 +1,13 @@
+﻿// Если элемент блочный например: div
+// То его можно выровнять по вертикали при помощи 'margin: auto'
+
+element {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// или сокращенная запись
+
+element {
+  margin: 0 auto;
+}
