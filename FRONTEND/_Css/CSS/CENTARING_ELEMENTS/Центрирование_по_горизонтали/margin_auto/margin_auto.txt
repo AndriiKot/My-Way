@@ -1,0 +1,10 @@
+﻿
+.marker {
+    margin: auto;
+    height: 25px;
+    width: 200px;  
+    background-color: red;
+}
+
+
+

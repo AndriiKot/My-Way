@@ -7,6 +7,14 @@ cmd:
 vue create .
 
 cmd:
+? Generate project in current directory? (Y/n) 
+  Y
+
+cmd:
+> Default ([Vue 3] babel, eslint)
+  Enter
+
+cmd:
 code .
     открываем проект в редакторе по умолчанию(Например: VsCode)
 
