@@ -1,11 +1,13 @@
 <template>
   <h1>App vue</h1>
   <my-component />
-  <h3>Счетчик: {{ counter }}</h3>
+  <my-second-component />
 </template>
 
 <script>
+import MySecondComponent from './MySecondComponent.vue'
   export default {
+  components: { MySecondComponent },
     data() {
       return {
         counter: 1

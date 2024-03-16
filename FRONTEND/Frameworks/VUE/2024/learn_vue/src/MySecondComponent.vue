@@ -1,14 +1,15 @@
 ﻿<template>
-  <h2>My First Component</h2>
-  <h3>Счетчик: {{ counter }}</h3>
+    <h2>My Second Component</h2>
+    <h3>Счетчик: {{ counter }}</h3>
 </template>
 
 <script>
     export default {
         data () {
             return {
-                counter: 1
+                counter: 2
             }
         }
     }
 </script>
+
