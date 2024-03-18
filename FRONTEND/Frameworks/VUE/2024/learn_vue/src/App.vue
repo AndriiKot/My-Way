@@ -5,9 +5,7 @@
 </template>
 
 <script>
-import MySecondComponent from './MySecondComponent.vue'
   export default {
-  components: { MySecondComponent },
     data() {
       return {
         counter: 1
