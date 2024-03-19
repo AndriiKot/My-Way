@@ -1,0 +1,17 @@
+﻿SELECT title
+FROM film;
+
+SELECT title, film_id, rating
+FROM film;
+
+SELECT *
+FROM  film;
+
+SELECT *,*
+FROM film;
+
+SELECT title,title, rating
+FROM film;
+
+
+

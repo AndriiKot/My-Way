@@ -1,0 +1,9 @@
+﻿SELECT DISTINCT rating
+FROM film;
+
+SELECT DISTINCT rating, description
+FROM film;
+
+!!! Ключевое слово DISTINCT применяется ко всем столбцам, а не
+    только к тому, перед которым оно стоит. 
+!!!
