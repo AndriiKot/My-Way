@@ -1,0 +1,6 @@
+﻿
+cmd:
+    bash
+$
+find .git/objects
+git reflog 

@@ -1,4 +1,5 @@
-﻿const fs = require('fs');
+﻿const fs = require('node:fs');
+
 fs.readFile('../array/map_and_filter.js',
 (err, text) => {
     console.log('Length: ', text.length)

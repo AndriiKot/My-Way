@@ -1,5 +1,6 @@
 <template>
   <h1>App vue</h1>
+  <my-fifth-component-version-1 />
   <my-component />
   <my-second-component />
   <my-second-component-version-2 />
