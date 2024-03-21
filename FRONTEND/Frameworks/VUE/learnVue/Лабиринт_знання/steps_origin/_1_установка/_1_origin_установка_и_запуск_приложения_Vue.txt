@@ -1,0 +1,40 @@
+﻿
+cmd:
+md vue_learn
+    имя папки должно быть маленькими буквами
+
+cmd:
+vue create .
+
+cmd:
+? Generate project in current directory? (Y/n) 
+  Y
+
+cmd:
+> Default ([Vue 3] babel, eslint)
+  Enter
+
+cmd:
+code .
+    открываем проект в редакторе по умолчанию(Например: VsCode)
+
+VsCode:
+    устанавливаем расширение подцветки синтаксиса Vue приложений 
+    Например: Vetur 
+
+cmd: 
+npm run serve
+
+создание своего компонента и импортирование его в проект
+  - Local:   http://localhost:8080/ 
+  - Network: http://192.168.0.68:8080/
+
+  Note that the development build is not optimized.
+  To create a production build, run npm run build.
+
+
+
+
+
+
+

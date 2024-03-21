@@ -32,6 +32,7 @@ cd REPOSITORY-NAME
 git filter-repo --path FOLDER-NAME/
 Creating a new repository
 git remote add origin https://HOSTNAME/USERNAME/REPOSITORY-NAME.git
+???git branch -M main
 git remote -v
 git push -u origin BRANCH-NAME
 

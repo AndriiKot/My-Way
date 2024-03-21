@@ -1,0 +1,16 @@
+﻿
+md vue_learn
+vue create .
+? Generate project in current directory? (Y/n) 
+  Y
+> Default ([Vue 3] babel, eslint)
+  Enter
+code .
+npm run serve
+	- Local:   http://localhost:8080/ 
+
+
+
+
+
+
