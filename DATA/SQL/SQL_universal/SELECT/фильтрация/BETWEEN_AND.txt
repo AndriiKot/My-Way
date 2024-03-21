@@ -1,0 +1,10 @@
+﻿BETWEEN ... AND ...
+!!! ВКЛЮЧИТЕЛЬНО !!!
+
+
+SELECT title, film_id, rating
+FROM film f
+WHERE f.length BETWEEN 50 AND 100;
+    Получим данные которые входят в диапазон от 50 до 100  !!! ВКЛЮЧИТЕЛЬНО !!!
+
+
