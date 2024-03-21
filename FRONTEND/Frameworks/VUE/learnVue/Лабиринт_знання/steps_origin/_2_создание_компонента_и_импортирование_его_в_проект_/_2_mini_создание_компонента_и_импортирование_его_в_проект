@@ -1,0 +1,29 @@
+﻿1.
+cd src
+copy con MyComponentVue.vue
+cd MyComponentVue.vue
+
+MyComponentVue.vue:
+    <template> ... </template>
+
+2.
+cd main.js
+main.js: 
+    import MyComponentVue from './MyComponentVue' // Импортируем наш компонент
+    const app = createApp(App);
+    app.component('my-component', MyComponentVue);  // даём компоненту имя по которому мы будем обращаться 
+    app.mount('#app');  // добавляем компонент в тег атрибутом 'id="app"'
+
+3.
+cd App.vue 
+App.vue: 
+<template>
+    <h1>App</h1>
+    <my-component />  // добавляем наш компонент по имени 
+</template>
+    
+  
+
+    
+
+
