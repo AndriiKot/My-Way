@@ -1,0 +1,59 @@
+﻿1.
+MyComponentVue1.vue:
+    <template>
+      <h1>My {{ msg }}</h1>
+    </template>
+
+    <script>
+      export default {
+        name: 'MyComponentVue1',
+        props: {
+          msg: String
+        }
+      } 
+    </script>
+
+
+!!! 
+  ...
+      pros; {
+          msg: String
+      }
+  ...
+!!!
+
+2.
+App.vue:
+<template>
+  <MyComponentVue1 msg="My Fist Vue Component" />
+</template>
+
+<script>
+import MyComponentVue1 from "./components/MyComponentVue1.vue";
+
+export default {
+  name: "App",
+  components: {
+    MyComponentVue1
+  }
+};
+</script>
+
+!!!
+  ...
+    components: {
+      MyComponentVue1
+    }
+  ...
+!!!
+
+3.
+main.js
+import { createApp } from 'vue'
+import App from './App.vue'
+
+createApp(App).mount('#app')
+
+
+
+

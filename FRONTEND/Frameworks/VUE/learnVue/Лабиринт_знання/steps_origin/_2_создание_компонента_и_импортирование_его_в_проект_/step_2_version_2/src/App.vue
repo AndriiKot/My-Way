@@ -1,16 +1,16 @@
 <template>
-  <MyComponentVue1 msg="My Fist Vue Component"/>
+  <MyComponentVue1 msg="My Fist Vue Component" />
 </template>
 
 <script>
-import MyComponentVue1 from './components/MyComponentVue1.vue'
+import MyComponentVue1 from "./components/MyComponentVue1.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     MyComponentVue1
   }
-}
+};
 </script>
 
 <style>
