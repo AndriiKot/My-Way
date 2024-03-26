@@ -11,6 +11,7 @@ WHERE f.length > 100;
 >=      Больше или равно
 BETWEEN Вхождение в диапазон
 IS NULL Значение NULL
+IN (value1, value2, ...)
 
 Порядок команд ранние изученных:
 SELECT title, film_id, rating

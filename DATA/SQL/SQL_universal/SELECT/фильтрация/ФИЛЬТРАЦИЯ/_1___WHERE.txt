@@ -1,0 +1,38 @@
+﻿SELECT title, film_id, rating
+FROM film f
+WHERE f.length > 100;
+
+=       Равенство
+<>      Неравенство
+!=      Неравенство
+<       Меньше
+<=      Меньше или равно 
+>       Больше
+>=      Больше или равно
+BETWEEN Вхождение в диапазон
+IS NULL Значение NULL
+IN (value1, value2, ...)
+
+Порядок команд ранние изученных:
+SELECT title, film_id, rating
+FROM film f
+WHERE f.length > 100
+ORDER BY f.title 
+LIMIT 10
+OFFSET 20;
+
+--BETWEEN
+
+SELECT title, film_id, rating
+FROM film f
+WHERE f.length BETWEEN 50 AND 100;
+    Получим данные которые входят в диапазон от 50 до 100  !!! ВКЛЮЧИТЕЛЬНО !!!
+
+
+
+
+
+
+
+
+

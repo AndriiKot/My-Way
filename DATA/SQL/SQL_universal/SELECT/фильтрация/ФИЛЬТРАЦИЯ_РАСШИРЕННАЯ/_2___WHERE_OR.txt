@@ -1,0 +1,21 @@
+﻿SELECT title, film_id, rating
+FROM film f
+WHERE f.length > 100 OR f.rating = 'G';
+
+SELECT title, film_id, rating
+FROM film f
+WHERE f.length > 100 AND f.rating = 'G';
+
+
+
+
+
+
+
+
+
+
+
+
+
+

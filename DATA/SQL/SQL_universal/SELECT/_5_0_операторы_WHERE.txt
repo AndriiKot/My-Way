@@ -9,6 +9,7 @@
 BETWEEN Вхождение в диапазон (BETWEEN .. AND ...)
 IS NULL Значение NULL
 IS NOT NULL Значение не равно NULL
+IN (value1, value2, ...)
 
 В некоторых СУБД (!>, !<)
 

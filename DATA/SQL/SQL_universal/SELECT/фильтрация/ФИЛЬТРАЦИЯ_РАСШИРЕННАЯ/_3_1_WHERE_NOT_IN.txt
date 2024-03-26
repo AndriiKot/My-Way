@@ -1,0 +1,30 @@
+﻿SELECT title, film_id, rating
+FROM film f
+WHERE f.length NOT IN (100,120,130);
+
+SELECT title, film_id, rating
+FROM film f
+WHERE  f.rating NOT IN ('G','R');
+
+!!! Самое большое преимущество логического оператора IN 
+    в том, что в нем может содержаться ещё одна инструкции 
+    SELECT
+!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
