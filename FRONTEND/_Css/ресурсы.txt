@@ -1,0 +1,6 @@
+﻿
+Рецепты CSS, JS, HTML:
+https://xhtml.ru/
+
+Передача данных между CSS и JavaScript с помощью CSS-переменных:
+https://xhtml.ru/2021/javascript/sharing-data-between-css-and-javascript-using-custom-properties/

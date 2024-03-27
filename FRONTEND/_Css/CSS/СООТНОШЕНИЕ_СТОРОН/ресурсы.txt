@@ -1,0 +1,3 @@
+﻿
+CSS aspect-ratio
+https://xhtml.ru/2021/css/aspect-ratio/
