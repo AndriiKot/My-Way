@@ -1,0 +1,3 @@
+﻿SELECT 
+	TRIM(f.title)
+FROM film f;

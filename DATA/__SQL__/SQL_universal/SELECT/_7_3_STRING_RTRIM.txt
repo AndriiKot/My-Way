@@ -1,0 +1,3 @@
+﻿SELECT 
+	RTRIM(f.title)
+FROM film f;

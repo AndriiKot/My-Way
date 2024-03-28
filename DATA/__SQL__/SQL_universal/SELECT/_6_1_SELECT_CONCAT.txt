@@ -1,0 +1,7 @@
+﻿SELECT 
+	f.title || '  ' ||  '(' || f.rental_rate || ')'
+FROM film f;
+
+SELECT 
+	Concat(f.title, ' (',f.rental_rate, ')')
+FROM film f;

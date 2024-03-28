@@ -1,0 +1,16 @@
+﻿"use strict";
+
+const fs = require("node:fs");
+
+fs.readFile("readFile_writeFile.js", "utf8", (err, data) => {
+  if (err) throw err;
+  console.log(`File size: ${data.length}`);
+  const lines = data.split("\r\n").filter((line) => !!line);
+  const content = lines.join("\r\n");
+  fs.writeFile("readFile_writeFile.txt", content, (err) => {
+    if (err) throw err;
+    console.log(`New file size: ${content.length}`);
+  });
+});
+
+console.log('Read file async example');
