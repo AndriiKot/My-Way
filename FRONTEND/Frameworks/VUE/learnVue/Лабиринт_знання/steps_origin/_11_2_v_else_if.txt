@@ -1,3 +1,6 @@
+﻿cmd:
+cd MyFirstComponent.vue
+
 <template>
   <div class="container-fluid">
     <h1>App</h1>
@@ -5,7 +8,9 @@
     <h2>Список заметок:</h2>
     <input type="text" :placeholder="clue" v-model="inputValue" />
     <p>{{ inputValue }}</p>
++
     <div v-if="notes.length === 1">
++
       Одна заметка!
       <ul class="list-group">
         <li class="list-group-item" v-for="note in notes" :key="note">
@@ -17,7 +22,9 @@
         <br />
       </ul>
     </div>
++
     <ul class="list-group" v-else-if="notes.length !== 0">
++
       <li class="list-group-item" v-for="note in notes" :key="note">
         {{ note }}
         <button class="btn btn-danger" @click="deleteNote(note)">
@@ -26,7 +33,9 @@
       </li>
       <br />
     </ul>
++
     <div v-else>Список заметок пуст!</div>
++
   </div>
 </template>
 
@@ -47,3 +56,24 @@ export default {
   },
 };
 </script>
+
+cmd:
+cd App.vue
+
+<template>
+  <my-first-component />
+</template>
+
+
+cmd:
+cd main.js
+
+import { createApp } from 'vue'
+import App from './App.vue'
+import MyFirstComponent from './MyFirstComponent.vue'
+
+const app = createApp(App);
+app.component('my-first-component', MyFirstComponent);
+app.mount('#app')
+
+
