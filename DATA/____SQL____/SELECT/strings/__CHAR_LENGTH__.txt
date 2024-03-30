@@ -1,0 +1,5 @@
+﻿SELECT CHAR_LENGTH(f.title)
+FROM film f
+order by f.title;
+
+

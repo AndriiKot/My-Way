@@ -1,0 +1,4 @@
+﻿
+habr:
+min() max() clamp()
+https://habr.com/ru/companies/ruvds/articles/501634/

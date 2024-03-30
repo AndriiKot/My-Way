@@ -1,0 +1,5 @@
+﻿
+SELECT 3*2;
+SELECT Trim(' abc  ');
+SELECT Now();
+
