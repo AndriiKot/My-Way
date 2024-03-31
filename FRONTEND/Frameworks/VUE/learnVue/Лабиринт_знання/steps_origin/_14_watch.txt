@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="container-fluid">
     <h1>App</h1>
     <hr />
@@ -61,10 +61,12 @@ export default {
       return this.notes.length;
     },
   },
++
   watch: {
     inputValue(value) {
       console.log(value);
     },
   },
++
 };
 </script>

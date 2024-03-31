@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="container-fluid">
     <h1>App</h1>
     <hr />
@@ -32,7 +32,9 @@
       <br />
     </ul>
     <div v-else>Список заметок пуст!</div>
++
     <div>{{ calculateNotes }}</div>
++
   </div>
 </template>
 
@@ -52,19 +54,17 @@ export default {
     },
     addNewNote() {
       const note = this.inputValue;
-      if (note && !this.notes.includes(note)) this.notes.push(note);
+      if (note && !this.notes.includes(note)) this.notes.push(note)
       this.inputValue = "";
     },
   },
++
   computed: {
     calculateNotes() {
-      return this.notes.length;
+      console.log("calculateNotes: " + this.notes.length);  
+      return this.notes.length
     },
   },
-  watch: {
-    inputValue(value) {
-      console.log(value);
-    },
-  },
++
 };
 </script>
