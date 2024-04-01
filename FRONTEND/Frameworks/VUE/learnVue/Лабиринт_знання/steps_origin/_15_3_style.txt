@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div :class="notes.length > 3 ? 'background-green' : 'container-fluid'">
     <h1>App</h1>
     <hr />
@@ -30,12 +30,14 @@
       }"
       v-else-if="notes.length !== 0"
     >
++
       <li
         :class="['list-group-item', 'background-blue', {'background-black': notes.length > 3}]"
         class="list-group-item"
         v-for="note in notes"
         :key="note"
       >
++
         {{ note }}
         <button class="btn btn-danger" @click="deleteNote(note)">
           Удалить

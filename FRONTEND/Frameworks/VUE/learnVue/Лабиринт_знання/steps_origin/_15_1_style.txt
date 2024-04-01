@@ -1,5 +1,7 @@
-<template>
-  <div :class="notes.length > 3 ? 'background-green' : 'container-fluid'">
+﻿<template>
++
+  <div :class="notes.length > 5 ? 'background-green' : 'container-fluid'">
++
     <h1>App</h1>
     <hr />
     <h2>Список заметок:</h2>
@@ -22,20 +24,8 @@
         <br />
       </ul>
     </div>
-    <ul
-      :class="{
-        'list-group': true,
-        'background-green': true,
-        'background-blue': notes.length > 3,
-      }"
-      v-else-if="notes.length !== 0"
-    >
-      <li
-        :class="['list-group-item', 'background-blue', {'background-black': notes.length > 3}]"
-        class="list-group-item"
-        v-for="note in notes"
-        :key="note"
-      >
+    <ul class="list-group" v-else-if="notes.length !== 0">
+      <li class="list-group-item" v-for="note in notes" :key="note">
         {{ note }}
         <button class="btn btn-danger" @click="deleteNote(note)">
           Удалить
@@ -88,12 +78,5 @@ export default {
 
 .background-green {
   background-color: green;
-}
-.background-blue {
-  background-color: blue;
-}
-
-.background-black {
-  background-color: black;
 }
 </style>
