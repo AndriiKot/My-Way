@@ -1,0 +1,7 @@
+﻿SELECT LTRIM(f.title)
+FROM film f
+order by f.title;
+
+
+-- Удаляет пробелы c левого краям
+

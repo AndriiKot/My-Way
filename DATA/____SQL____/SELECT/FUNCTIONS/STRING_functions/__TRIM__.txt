@@ -1,0 +1,7 @@
+﻿SELECT TRIM(f.title)
+FROM film f
+order by f.title;
+
+
+-- Удаляет пробелы по краям
+

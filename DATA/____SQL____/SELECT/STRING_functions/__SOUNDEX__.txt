@@ -1,0 +1,12 @@
+﻿SELECT name, contact
+FROM Customers
+WHERE SOUNDEX(contact) = SOUNDEX('Michael Green');
+
+name             contact
+---------------  ----------------
+Kids Place       Michelle Green
+
+Michael Green и Michelle Green звучат схожим образом
+елси звучания в 'SOUNDEX' совпадут, то 'WHERE' корректно 
+отфильтрует необходимые данные.
+

@@ -1,0 +1,4 @@
+﻿SELECT LOWER(f.title)
+FROM film f
+order by f.title;
+

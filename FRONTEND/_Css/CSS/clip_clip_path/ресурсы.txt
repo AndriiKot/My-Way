@@ -1,0 +1,6 @@
+﻿
+дока clip:
+https://doka.guide/css/clip/
+
+дока clip-path:
+https://doka.guide/css/clip-path/

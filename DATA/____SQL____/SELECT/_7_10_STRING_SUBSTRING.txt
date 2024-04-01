@@ -1,0 +1,4 @@
+﻿SELECT SUBSTRING('Hello, Oxi!',8); -- Oxi!
+SELECT SUBSTRING('Hello, Oxi!',8,3); -- 'Oxi'
+
+--(<string>, <start string(nubmer)>, <end string(number)>

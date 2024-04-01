@@ -1,0 +1,3 @@
+﻿SELECT CONCAT(f.title, ': ', f.rating)
+FROM: films f;
+
