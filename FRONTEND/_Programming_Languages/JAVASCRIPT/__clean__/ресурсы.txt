@@ -1,0 +1,6 @@
+﻿
+clean-code-javascript ru:
+https://github.com/BoryaMogila/clean-code-javascript-ru/
+
+clean-code-javscript ua:
+https://github.com/stackNavigator/clean-code-javascript-ua
