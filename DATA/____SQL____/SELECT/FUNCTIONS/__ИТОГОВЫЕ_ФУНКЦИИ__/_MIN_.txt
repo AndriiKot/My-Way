@@ -1,0 +1,18 @@
+﻿!!! Строки со значением NULL игнорируются !!!
+!!! ЧИСЛА, ДАТЫ, СТРОКИ !!!
+!!! НАДО ОБЯЗАТЕЛЬНО ЗАДАВАТЬ ИМЯ СТОЛБЦА !!!
+
+SELECT MIN(prod_price) AS min_price
+FROM Products;
+
+SELECT MIN(prod_price) AS min_price
+       MIN(other_)     AS min_other_
+FROM
+    Products;
+
+
+SELECT MIN(prod_price) AS min_price
+FROM Products
+WHERE TITLE LIKE 'A%';
+
+

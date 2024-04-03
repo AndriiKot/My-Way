@@ -1,0 +1,18 @@
+﻿!!! Строки со значением NULL игнорируются !!!
+!!! ЧИСЛА, ДАТЫ, СТРОКИ !!!
+!!! НАДО ОБЯЗАТЕЛЬНО ЗАДАВАТЬ ИМЯ СТОЛБЦА !!!
+
+SELECT MAX(prod_price) AS max_price
+FROM Products;
+
+SELECT MAX(prod_price) AS max_price
+       MAX(other_)     AS max_other_
+FROM
+    Products;
+
+
+SELECT MAX(prod_price) AS max_price
+FROM Products
+WHERE TITLE LIKE 'A%';
+
+
