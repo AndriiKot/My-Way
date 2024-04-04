@@ -1,0 +1,43 @@
+﻿!!! значения NULL  !!--ИГНОРИРУЮТСЯ--!!!
+
+SELECT AVG(DISTINCT length) AS avg_length
+FROM film f; 
+
+SELECT AVG(DISTINCT length)
+FROM film f
+WHERE title LIKE 'A%';
+
+SELECT AVG(DISTINCT length) AS avg_length,
+       AVG(DISTINCT replacement_cost) AS avg_cost
+FROM film f
+WHERE title LIKE 'A%';
+
+
+AVG()     Определяет среднее значения по столбцу
+    Функцию можно применять для вычисления среднего
+    значения всех столбцов или же определенных столбцов либо строк
+
+
+SELECT AVG(DISTINCT length) AS avg_length
+FROM film f; 
+-- среднее значения продолжительности фильмов только по фильмам у которых различная длина
+
+SELECT AVG(DISTINCT length)
+FROM film f
+WHERE title LIKE 'A%';
+-- среднее значения продолжительности фильмов по фильмам которые 
+-- начинаются на 'A'
+-- И фильмы у которых уникальная продолжительность 
+
+
+SELECT AVG(DISTINCT length) AS avg_length,
+       AVG(DISTINCT replacement_cost) AS avg_cost
+FROM film f
+WHERE title LIKE 'A%';
+
+
+
+
+
+
+

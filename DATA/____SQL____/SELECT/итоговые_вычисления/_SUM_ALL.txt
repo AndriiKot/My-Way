@@ -1,0 +1,23 @@
+﻿!!! Строки со значением NULL игнорируются !!!
+!!! ALL Является аргументом по умолчанию !!! 
+
+SELECT SUM(rental_rate) AS all_rental_rate
+FROM film f;
+
+SELECT SUM(rental_rate * replacement_cost) 
+FROM film f;
+
+
+SELECT SUM(rental_rate) AS all_rental_rate
+FROM film f
+WHERE rental_rate > 4;
+
+
+SELECT
+    SUM(f.length),
+    SUM(rental_rate)
+FROM
+    film f;
+
+
+

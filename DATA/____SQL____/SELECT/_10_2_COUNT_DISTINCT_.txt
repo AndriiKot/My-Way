@@ -1,0 +1,9 @@
+﻿!!!  NULL(<name>) ---ИГНОРИРУЕТСЯ--- !!!
+!!!  DISTINCT нельзя применять к функции COUNT(*) !!!
+
+
+SELECT COUNT(DISTINCT release_year)  -- ИГНОРИРУЕТСЯ NULL
+FROM film f;
+
+
+SELECT COUNT(DISTINCT rental_duration) FROM film f;

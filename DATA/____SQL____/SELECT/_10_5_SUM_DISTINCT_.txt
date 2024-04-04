@@ -1,0 +1,24 @@
+﻿!!! Строки со значением NULL игнорируются !!!
+!!! 
+
+SELECT SUM(DISTINCT rental_rate) AS all_rental_rate
+FROM film f;
+-- Учитываются только уникальные значения
+
+SELECT SUM(rental_rate * replacement_cost) 
+FROM film f;
+
+
+SELECT SUM(DISTINCT rental_rate) AS all_rental_rate
+FROM film f
+WHERE rental_rate > 4;
+
+
+SELECT
+    SUM(DISTINCTf.length),
+    SUM(DISTINCT rental_rate)
+FROM
+    film f;
+
+
+
