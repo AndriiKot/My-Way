@@ -15,7 +15,7 @@ WHERE rental_rate > 4;
 
 
 SELECT
-    SUM(DISTINCTf.length),
+    SUM(DISTINCT f.length),
     SUM(DISTINCT rental_rate)
 FROM
     film f;

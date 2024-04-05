@@ -1,0 +1,5 @@
+﻿SELECT rating,
+       COUNT(*)
+FROM film f 
+GROUP BY rating;
+
