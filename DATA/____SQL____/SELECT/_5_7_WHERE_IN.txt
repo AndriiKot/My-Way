@@ -16,6 +16,18 @@ WHERE  f.rating IN ('G','R');
 !!!
 
 
+!!!
+   SELECT 1 IN (1, 2)           --true [v]
+   SELECT 1 IN (2, 3)           --false []
+   SELECT 1 IN (1, 2, NULL)     -- true [v]
+   SELECT 1 IN (2, 3, NULL)     -- NULL [NULL]
+   SELECT NULL IN (1, 2, NULL)  -- NULL [NULL]
+!!!
+
+
+
+
+
 
 
 

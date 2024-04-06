@@ -1,0 +1,7 @@
+﻿SELECT DIV(5, 2);            -- 2
+SELECT DIV(5.0, 2);          -- 2
+SELECT DIV(3.99, 2);         -- 1
+SELECT DIV(5.0, 2.0);        -- 2
+
+
+

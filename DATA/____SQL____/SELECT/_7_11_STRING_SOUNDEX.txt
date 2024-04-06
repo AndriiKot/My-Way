@@ -7,6 +7,6 @@ name             contact
 Kids Place       Michelle Green
 
 Michael Green и Michelle Green звучат схожим образом
-елси звучания в 'SOUNDEX' совпадут, то 'WHERE' корректно 
+если звучания в 'SOUNDEX' совпадут, то 'WHERE' корректно 
 отфильтрует необходимые данные.
 

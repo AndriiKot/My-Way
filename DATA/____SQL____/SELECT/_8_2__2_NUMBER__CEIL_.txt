@@ -1,0 +1,7 @@
+﻿SELECT FLOOR(3.9);           -- 3
+SELECT FLOOR(3.75);          -- 3
+SELECT FLOOR(3.0789);        -- 3
+SELECT FLOOR(3.994124);      -- 3
+
+
+

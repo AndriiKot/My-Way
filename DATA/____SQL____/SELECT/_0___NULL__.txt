@@ -1,0 +1,84 @@
+﻿  NULL = 'Some string'                  -- ?   [NULL]
+  'Some string' = NULL                  -- ?   [NULL]
+  ''   = 'Some string'                  -- ?   []
+  NULL || 'Some string'                 -- ?   [NULL]
+  'Some string' || NULL                 -- ?   [NULL]
+  ''   || 'Some string'                 -- ?   'Some string'
+  NULL <> 'Some string'                 -- ?   [NULL]
+  NULL = NULL                           -- ?   [NULL]
+  NULL IS NULL                          -- ?   [V]
+  ''   = ''                             -- ?   [v]
+  NULL = ''                             -- ?   [NULL]
+  SELECT 1=1 and NULL = ''              -- ?  [NULL]
+  SELECT 1=1 or NULL = ''               -- ?  [v]
+
+   SELECT 1 in (1, 2, NULL)             -- true [v]
+   SELECT 1 in (2, 3, NULL)             -- NULL [NULL]
+   SELECT NULL in (1, 2, NULL)          -- NULL [NULL]
+
+  
+
+ 1.
+ В таблице 'adress' есть поле 'adress2' 
+ как сравнить значение 'Kiev' на неравенство
+ так чтобы исключит все значения
+ которые равны 'Kiev' а также чтобы
+ в результат вошли и поля которые равны NULL
+ 
+ SELECT * FROM address
+ WHERE address2 <> 'Kiev'
+       OR address2 IS NULL;
+
+2.
+!!!!
+ SELECT *
+ FROM address a
+ where address2 in ('Kiev','',null) --? Null  в данном выражение бессмысленно 
+!!!
+
+3.
+!!!!
+ По умолчанию NULL Значения считаются самыми высокими
+   SELECT *
+   FROM address a
+   ORDER BY address2;   -- NULL выражения будут в самом низу так как сортировка по умолчанию
+                        -- идёт по возрастанию, то есть от самого меньшего к самому высокому
+
+   SELECT *
+   FROM address a
+   ORDER BY address2 DESC; 
+                           --NULL выражения будут в начале так как указана сортировка по убыванию то есть
+                           -- от самого большого к меньшему
+!!!!
+
+!!!!
+4.
+	SELECT *
+	FROM address a 
+	ORDER BY address2 NULLS FIRST;
+!!!!
+
+!!!!
+5.
+	SELECT *
+	FROM address a
+ 	ORDER BY address2 DESC NULLS LAST;
+!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

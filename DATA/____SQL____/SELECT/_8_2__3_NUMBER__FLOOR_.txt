@@ -1,0 +1,7 @@
+﻿SELECT CEIL(3.4);           -- 4
+SELECT CEIL(3.55);          -- 4
+SELECT CEIL(3.0789);        -- 4
+SELECT CEIL(3.094124);      -- 4
+
+
+
