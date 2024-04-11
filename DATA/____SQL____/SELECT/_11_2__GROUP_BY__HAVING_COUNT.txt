@@ -1,0 +1,8 @@
+﻿SELECT rating,
+       COUNT(*)
+FROM film f 
+GROUP BY rating
+HAVING COUNT(*) > 200;
+
+
+

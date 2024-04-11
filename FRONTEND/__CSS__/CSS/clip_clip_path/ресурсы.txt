@@ -4,3 +4,6 @@ https://doka.guide/css/clip/
 
 дока clip-path:
 https://doka.guide/css/clip-path/
+
+habr clip-path, clip:
+https://habr.com/ru/companies/skillfactory/articles/539064/

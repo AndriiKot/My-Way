@@ -3,9 +3,9 @@
 const p1 = document.querySelector('.p1');
 const p2 = document.querySelector('.p2');
 
-const paragraphs = document.querySelectorAll('p');
+var paragraphs = document.querySelectorAll('p');
 
-const len = paragraphs.length;
+var len = paragraphs.length;
 
 for(let i = 0; i < len; i++) {
     const el = paragraphs[i];

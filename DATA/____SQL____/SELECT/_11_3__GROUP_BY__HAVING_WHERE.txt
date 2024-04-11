@@ -1,0 +1,9 @@
+﻿SELECT rating,
+       COUNT(*)
+FROM film f 
+WHERE length > 100
+GROUP BY rating
+HAVING COUNT(*) > 140;
+
+
+
