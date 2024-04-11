@@ -1,0 +1,37 @@
+﻿
+
+.container > * {
+  height: 50%;
+}
+
+
+
+
+
+.d1 {
+  background: LightSkyBlue;
+}
+.d2 {
+  background: LightSalmon;
+}
+.d3 {
+  background: PaleTurquoise;
+}
+.d4 {
+  background: LightPink;
+}
+.d5 {
+  background: PaleGreen;
+}
+
+.container {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  min-width: 300px;
+  font-size: 40px;
+  width: 100%;
+  background: LightGray;
+}
