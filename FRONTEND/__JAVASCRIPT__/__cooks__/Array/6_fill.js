@@ -7,7 +7,7 @@ const result = {
 };
 
 function makeList(arr) {
-  const failureItems = new Array(arr.length).fill('');
+  const failureItems = new Array(arr.length).fill('');     /// DANGER !!! not optimized ///
 
   arr.forEach((element,index) => {
     failureItems[index] =`<li class="text-warning">${element}</li>`;
