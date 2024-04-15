@@ -1,0 +1,25 @@
+﻿Функция POSITION() PostgreSQL используется 
+для поиска местоположения подстроки в заданной строке. 
+Он возвращает начальную позицию подстроки внутри строки 
+или 0, если подстрока не найдена
+
+SELECT
+  id,
+  name,
+  POSITION(',' IN characteristics) AS comma
+FROM
+  monsters
+ORDER BY comma;
+ 
+
+SELECT POSITION('our' in 'w3resource');
+
+position
+----------
+        6
+(1 row)
+
+
+SELECT first_name,last_name,POSITION('an' IN last_name)
+FROM employees
+WHERE POSITION('an' IN last_name)>0;

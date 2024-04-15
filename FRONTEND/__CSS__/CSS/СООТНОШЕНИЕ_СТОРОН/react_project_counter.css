@@ -1,0 +1,73 @@
+﻿.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  overflow: hidden;
+
+  h1 {
+    color: var(--color-4);
+    font-size: 7rem;
+    margin: 0;
+    margin-bottom: 20px;
+    &.plus {
+      color: var(--color-1);
+    }
+    &.minus {
+      color: var(--color-2);
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--color-3);
+  }
+
+  button {
+    position: relative;
+    background: transparent;
+    border: 2px solid transparent;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: all 0.05s ease-in-out;
+    & .spark {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      background-color: rgb(157, 0, 255);
+      pointer-events: none;
+      height: 50%;
+      aspect-ratio: 1;
+      padding: 0;
+    }
+    &.minus {
+      background-color: var(--color-2);
+      color: #fff;
+      box-shadow: 0 4px 0 darken(var(--color-2), 10%);
+      border: 1px solid darken(var(--color-2), 15%);
+    }
+
+    &.plus {
+      background-color: var(--color-1);
+      color: #fff;
+      box-shadow: 0 4px 0 darken(var(--color-1), 10%);
+      border: 1px solid darken(var(--color-1), 15%);
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(2px);
+      box-shadow: none;
+    }
+  }
+}

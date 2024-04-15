@@ -1,0 +1,35 @@
+﻿.d1 {
+  background: LightSkyBlue;
+}
+.d2 {
+  background: LightSalmon;
+}
+.d3 {
+  background: PaleTurquoise;
+  align-self: stretch;
+}
+.d4 {
+  background: LightPink;
+}
+.d5 {
+  background: PaleGreen;
+  align-self: end;
+  grid-area: footer;
+}
+
+
+.container {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+	"header header header"
+	"advert content content"
+	"footer footer footer";
+  grid-gap: 10px;
+  min-height: 300px;
+  font-size: 40px;
+  width: 100%;
+  background: LightGray;
+}

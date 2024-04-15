@@ -6,23 +6,21 @@
   text-align: center;
 
   h1 {
-    color: #000;
     font-size: 7rem;
     margin: 0;
     margin-bottom: 20px;
-
     &.plus {
-      color: #2a9d8f;
+      color: var(--color-1);
     }
     &.minus {
-      color: #e63946;
+      color: var(--color-2);
     }
   }
 
   h2 {
     font-size: 2rem;
     margin: 0;
-    color: #556581;
+    color: var(--color-3);
   }
 
   button {
@@ -37,17 +35,17 @@
     transition: all 0.05s ease-in-out;
 
     &.minus {
-      background-color: #e63946;
+      background-color: var(--color-2);
       color: #fff;
-      box-shadow: 0 4px 0 darken(#e63946, 10%);
-      border: 1px solid darken(#e63946, 15%);
+      box-shadow: 0 4px 0 darken(var(--color-2), 10%);
+      border: 1px solid darken(var(--color-2), 15%);
     }
 
     &.plus {
-      background-color: #2a9d8f;
+      background-color: var(--color-1);
       color: #fff;
-      box-shadow: 0 4px 0 darken(#2a9d8f, 10%);
-      border: 1px solid darken(#2a9d8f, 15%);
+      box-shadow: 0 4px 0 darken(var(--color-1), 10%);
+      border: 1px solid darken(var(--color-1), 15%);
     }
 
     &:hover {

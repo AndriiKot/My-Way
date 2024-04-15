@@ -1,13 +1,14 @@
 import './index.css';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div>
-        <h2>Счетчик:</h2>
+        <h2>Counter:</h2>
         <h1>0</h1>
-        <button className="minus">- Минус</button>
-        <button className="plus">Плюс +</button>
+        <button className="minus">- Minus</button>
+        <button className="plus">Plus +</button>
       </div>
     </div>
   );

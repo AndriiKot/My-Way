@@ -14,7 +14,7 @@ function makeList(arr) {
 }
 
 function makeList2(arr) {
-  const failureItems = new Array(arr.length).fill('');
+  const failureItems = Array.from({ length: arr.length}, () => '' );
 
   arr.forEach((element,index) => {
     failureItems[index] =`<li class="text-warning">${element}</li>`;
