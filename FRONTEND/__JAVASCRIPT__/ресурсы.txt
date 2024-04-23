@@ -5,3 +5,11 @@ https://medium.com/nuances-of-programming/6-%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC
 Hot Examples:
 Hot Examples - Агрегатор примеров использования исходного кода
 https://javascript.hotexamples.com/ru/
+
+Алгоритмы JS
+https://www.mathhelpplanet.com/static.php?p=javascript-algoritmy-poiska
+
+Алгоритмическое мышление на практике. Владимир Агафонкин. JS Fest 2019 Spring:
+https://www.youtube.com/watch?v=kl7a1LWXjtI
+
+
