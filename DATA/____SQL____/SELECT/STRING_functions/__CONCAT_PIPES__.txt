@@ -1,0 +1,14 @@
+﻿SELECT 
+	f.title || '  ' ||  '(' || f.rental_rate || ')' AS title_rental              
+FROM film f;
+
+SELECT 
+	Concat(f.title, ' (',f.rental_rate, ')')   AS   title_rental
+FROM film f;
+
+!!!
+	Любое клиентское приложение может обращаться к полю title_rental
+	по имени, так как если это был реальны столбец таблицы
+!!!
+
+
