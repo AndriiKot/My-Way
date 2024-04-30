@@ -1,3 +1,11 @@
 ﻿SELECT 
 	TRIM(f.title)
 FROM film f;
+
+
+SELECT
+	trim('er' from first_name)   -- удалит соответствие если оно находится в начале или в конце строки
+	trim(first_name,'er')        -- также можно преведущую пример записать так результат будет такой же
+FROM
+     actor a;
+
