@@ -1,0 +1,7 @@
+﻿1.
+npm 4_000_000:
+framer-motion 
+
+2.
+npm 12_000_000
+animate.css
