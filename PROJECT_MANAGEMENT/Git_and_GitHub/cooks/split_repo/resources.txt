@@ -1,0 +1,8 @@
+﻿
+Разделить репозиторий на две части:
+https://support.atlassian.com/bitbucket-cloud/docs/split-a-repository-in-two/
+
+Разделение подпапки в новый репозиторий
+https://docs.github.com/ru/get-started/using-git/splitting-a-subfolder-out-into-a-new-repository
+https://edezekiel.medium.com/git-filter-repo-splitting-a-subfolder-into-a-new-repository-e13d40e448e5
+
