@@ -1,0 +1,17 @@
+﻿
+Как поменять ссылку на удаленный репозиторий
+https://ru.hexlet.io/qna/git/questions/kak-pomenyat-ssylku-na-udalennyy-repozitoriy
+
+git remote -v # смотрим текущие ссылки на удаленный репозиторий
+origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+origin  git@github.com:USERNAME/REPOSITORY.git (push)
+Change your remote URL from SSH to HTTPS with the git remote set-url command.
+
+# Новая ссылка не репозиторий - https://github.com/USERNAME/REPOSITORY_NEW.git
+git remote set-url origin https://github.com/USERNAME/REPOSITORY_NEW.git
+Verify that the remote URL has changed.
+
+# проверяем результат
+git remote -v
+origin  https://github.com/USERNAME/REPOSITORY_NEW.git (fetch)
+origin  https://github.com/USERNAME/REPOSITORY_NEW.git (push)
