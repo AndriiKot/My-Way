@@ -1,3 +1,6 @@
-﻿less-plugin-clean-css
-$ npm i ???
+﻿less-plugin-clean-css:
+
+$ npm install -g less-plugin-clean-css
+npm install -g less-plugin-clean-css
+
 $ lessc --clean-css _styles.less ../_main.css
