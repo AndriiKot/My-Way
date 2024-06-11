@@ -1,3 +1,13 @@
-﻿lessc -v
-npm i -g less
+﻿npm i -g less
+lessc -v
 lessc -h
+
+
+lessc _styles.less > ../_main.css
+lessc --clean-css _styles.less ../_main.css
+
+
+LESS minify:
+npm install -g less-plugin-clean-css
+lessc --clean-css _styles.less ../_main.css
+
