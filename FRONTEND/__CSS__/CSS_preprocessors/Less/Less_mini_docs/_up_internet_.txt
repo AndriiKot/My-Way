@@ -1,0 +1,6 @@
+﻿
+less-plugin-clean-css
+--clean-css
+
+Less используя системы сборки
+
