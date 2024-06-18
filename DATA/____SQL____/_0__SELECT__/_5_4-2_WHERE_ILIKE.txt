@@ -1,0 +1,9 @@
+select 
+	title,
+	film_id,
+	rating 
+from 
+film f 
+where f.title  ilike 'a%';
+
+-- Находит все фильмы название которых начинается на 'a' или 'A'

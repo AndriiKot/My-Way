@@ -1,0 +1,21 @@
+﻿IS NULL
+    Проверяем указанное поле на отсутствие Значение
+
+SELECT title, film_id, rating
+FROM film f
+WHERE f.length IS NULL;
+
+
+IS NOT NULL
+    Проверяем чтобы в указанном поле было Значение
+
+SELECT title, film_id, rating
+FROM film f
+WHERE f.length IS NOT NULL;
+
+SELECT * FROM students WHERE NOT tuition_received;
+SELECT * FROM students WHERE tuition_received = false;
+
+
+
+
