@@ -3,14 +3,15 @@
 const container1 = document.querySelector(".container-1");
 const container2 = document.querySelector(".container-2");
 
-
+// VanillaJS
 const buttonVanillaJs = document.createElement("button");
 buttonVanillaJs.textContent = "Vanilla JS"; 
 // or buttonVanillaJs.innerText = "Vanilla JS";
 
-container2.appendChild(buttonVanillaJs);
-// or container1.append(buttonVanillaJs);
+container1.append(buttonVanillaJs);
+// or container1.appendChild(buttonVanillaJs);
 
-// resource
-// https://www.shecodes.io/athena/10275-javascript-difference-between-append-appendchild
-// appendChild() добавляет елемент в конец контейнера 
+
+// React
+const buttonReact = React.createElement("button");
+console.log(buttonReact);
