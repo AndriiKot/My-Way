@@ -1,5 +1,8 @@
-﻿import Inspect from "vite-plugin-inspect";
+﻿import { defineConfig } from "vite";
+import inspect from "vite-plugin-inspect";
 
-export default {
-  plugins: [Inspect()],
-};
+export default defineConfig({
+  plugins: [
+    inspect()
+  ]
+});

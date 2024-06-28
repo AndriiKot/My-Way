@@ -1,0 +1,93 @@
+﻿
+git merge <name branch>
+    Example:
+        Если мы хотим  ветку  'main' слить с веткой 'fixing'
+        то переходим на ветку 'main'
+        git checkout main
+        git branch  
+            main
+        git merge fixing
+
+git merge -m "Merging commit " <name branch>
+
+если будут конфликты веток то git предложит разрешить конфликты 
+
+можно мержить ветки через удалённый репозиторий команда 'pull request'
+
+git checkout -b "fixing"
+    Создаёт новую ветку 'fixing' и переход на неё
+
+
+
+git branch -v
+    Посмотреть последний коммит на каждой из веток
+
+git branch --merged
+    Показывает все слитые ветки
+
+git branch --no-merged
+    Показывает все не слитые ветки
+    
+git branch
+    Посмотреть на какой ветки находитесь
+    а также выводит список всех ЛОКАЛЬНЫХ веток 
+
+git branch -r   
+    Выводит список УДАЛЁННЫХ веток
+
+git branch -m <branch_new_name>
+    Переименование текущей ветки
+
+git branch -a
+    (git branch --all)
+    Показывает все ветки включая и удалённые
+
+git branch -r
+    Показывает все удалённые ветки
+
+git branch <name new branch>
+    Создать новую ветку без перехода в неё
+
+git branch -d fixing
+    удаление ветки 'fixing'
+    если есть в этой ветки каки-то изменения то удаление
+    не будет произведено и выдаст предупреждение 
+    
+git branch -D fixing
+    Принудительное удаление 
+    Удаление ветки с именем 'fixing'
+
+
+git branch -m <olg branch name> <new branch name>
+    Переименование ветки
+    
+
+
+
+git checkout -b "fixing"
+    Создаёт новую ветку 'fixing' и переход на неё
+
+git checkout fixing
+    Переходит на ветку 'fixing'
+
+git checkout <tag name>
+    Переход на tag по изменения
+
+git checkout <hash>
+    (при команде 'git log' будет указано только HEAD)
+    Перейти на старый коммит при помощи хеш (чтобы вернутся
+    git checkout <name branch>
+    при команде 'git log' будет указано <name branch> и HEAD)
+
+git checkout -- *
+    Отменяет все изменения которые не попали в коммит
+    и не была произведена команда 'add'
+
+git checkout -- file1.txt 
+    Отменяет изменения которые находятся
+    в статусе Untracked файла fil1.txt
+     
+    
+    
+
+

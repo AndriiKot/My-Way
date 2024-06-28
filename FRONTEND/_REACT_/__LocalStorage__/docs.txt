@@ -1,0 +1,3 @@
+﻿
+Используем localStorage в React:
+https://stasonmars.ru/javascript/ispolzuem-localstorage-v-react/

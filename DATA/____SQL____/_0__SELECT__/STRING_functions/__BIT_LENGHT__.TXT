@@ -1,0 +1,6 @@
+﻿SELECT
+  BIT_LENGTH(name) + CHAR_LENGTH(race) AS calculation
+FROM
+  demographics;
+
+-- bit_length(string)	int	Число бит в строке	bit_length('jose')	32
