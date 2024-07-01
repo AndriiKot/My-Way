@@ -1,0 +1,9 @@
+﻿.marker {
+  margin: auto;
+  height: 25px;
+  width: 200px;
+  background-color: red;
+}
+
+/* Если размеры элемента заданы то поставить его 
+    по центру можно при помощи margin: auto; */
