@@ -1,0 +1,5 @@
+﻿
+npm lint-staged:
+9 000 000
+https://www.npmjs.com/package/lint-staged
+

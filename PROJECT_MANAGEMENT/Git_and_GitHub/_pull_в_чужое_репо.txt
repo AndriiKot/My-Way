@@ -1,0 +1,3 @@
+﻿
+Отправить Pull Request в чужой репозиторий на github:
+https://jeka.by/post/1053/github-send-PR-to-other-repository/

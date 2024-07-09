@@ -1,0 +1,9 @@
+﻿.images:hover img {
+    filter: grayscale(100%);
+    opacity: .5;
+}
+
+.images img:hover {
+    filter:grayscale(0);
+    opacity: 1;
+} 

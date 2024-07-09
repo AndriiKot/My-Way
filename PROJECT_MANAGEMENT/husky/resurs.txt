@@ -1,0 +1,3 @@
+﻿
+husky docs:
+https://typicode.github.io/husky/

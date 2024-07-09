@@ -1,0 +1,4 @@
+﻿
+Timur Lazy Proxy
+GitHub:
+https://github.com/HowProgrammingWorks/Lazy/blob/master/JavaScript/2-proxy.js

@@ -1,4 +1,8 @@
 ﻿
+Project 1 
+Диплом:
+https://github.com/HowProgrammingWorks/ThesisTopics?tab=readme-ov-file
+
 Базовый синтаксис JavaScript(2018)
  YouTube:
 	https://www.youtube.com/watch?v=xJn3k1f4BiM&t=2584s
