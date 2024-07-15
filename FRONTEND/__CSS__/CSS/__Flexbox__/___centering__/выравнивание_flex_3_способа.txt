@@ -1,0 +1,41 @@
+﻿
+ресур
+http://dev-docs.likeuse.ru/ann/149/
+
+1.
+.flex-container {
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+2.
+
+.flex-container {
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.flex-element {
+	align-self: center;
+}
+
+3.
+
+.flex-container {
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flex-element {
+	margin: auto;
+}
+
+
+ 
