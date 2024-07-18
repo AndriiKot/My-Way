@@ -7,6 +7,6 @@
     & img:hover {
       border-radius: 40px 0 40px 0;
       overflow: hidden;
-      transition: border-radius ease 0.3s;
+      transition: border-radius ease 0.3s;   /* TRANSTION EXAMPLE */
     }
   }

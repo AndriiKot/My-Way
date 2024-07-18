@@ -1,14 +1,9 @@
-﻿
-.element {
-  transform-origin: left;
+﻿﻿.images:hover img {
+    filter: grayscale(100%);
+    opacity: .5;
 }
 
-.element:hover {
-  transform: scale(.7);
-}
-
-Все изменения с элементом будут происходить относительно левой стороны
-В данном примере элемент уменьшится в размере но стартовая точка элемента будет с лева
-по умолчанию стартовая точка у элемента находится в центре элемента.
-
-
+.images img:hover {
+    filter:grayscale(0);
+    opacity: 1;
+} 

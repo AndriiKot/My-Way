@@ -1,0 +1,4 @@
+﻿
+
+object-fit object-position:
+https://html5book.ru/svoystva-object-fit-i-object-position/
