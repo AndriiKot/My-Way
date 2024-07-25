@@ -1,0 +1,8 @@
+﻿select 
+  *
+from
+  inventory i
+     right outer join film f
+	using(film_id)
+where 
+  i.inventory_id is null;

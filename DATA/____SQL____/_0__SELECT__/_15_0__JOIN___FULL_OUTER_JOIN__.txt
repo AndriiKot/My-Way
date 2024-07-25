@@ -1,0 +1,6 @@
+﻿select 
+  *
+from
+  film f
+     full outer join inventory i
+	using(film_id)

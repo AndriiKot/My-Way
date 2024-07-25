@@ -1,0 +1,5 @@
+﻿select 
+  *
+from
+  inventory i
+     cross join film f
