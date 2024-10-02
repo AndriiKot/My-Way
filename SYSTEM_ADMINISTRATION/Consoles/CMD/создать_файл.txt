@@ -1,4 +1,6 @@
 ﻿
+echo. > index.js
+    создать пустой файл 'index.js' с кодировкой UTF-8 без DOM
 echo "Some text" > text_1.txt 
     создаёт файл 'text_1.txt' с содержимым 'Some text'
 

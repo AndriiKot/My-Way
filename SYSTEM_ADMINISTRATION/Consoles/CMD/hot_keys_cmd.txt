@@ -2,7 +2,8 @@
 Win + R: cmd
 
 CMD:
-
+echo. > index.js
+				Создание пустого файла 'index.js' с кодировкой UTF-8 без DOM
 type file_1.txt
         Чтения файла file_1.txt и вывод содержимого в консоль
 
