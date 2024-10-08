@@ -4,6 +4,10 @@ Win + R: cmd
 CMD:
 echo. > index.js
 				Создание пустого файла 'index.js' с кодировкой UTF-8 без DOM
+				
+move folder _praxe_
+				переместить папку 'folder' со всем содержимым в папку '_praxe'
+
 type file_1.txt
         Чтения файла file_1.txt и вывод содержимого в консоль
 

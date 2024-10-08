@@ -1,0 +1,19 @@
+﻿
+delete Article
+cmd:
+
+curl -X DELETE http://localhost:3000/articles/0
+
+[null, {
+    "title": "Title 2"
+  },
+  {
+    "title": "Title 3"
+  },
+  {
+    "title": "Example 4"
+  },
+  {
+    "title": "Example 4"
+  }
+]

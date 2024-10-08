@@ -1,0 +1,5 @@
+
+
+curl http://localhost:3000/articles
+curl --data "title=Example 4" http://localhost:3000/articles
+curl -X DELETE http://localhost:3000/articles/0

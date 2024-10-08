@@ -1,0 +1,5 @@
+﻿
+add new Article
+cmd:
+
+curl --data "title=Example 4" http://localhost:3000/articles
