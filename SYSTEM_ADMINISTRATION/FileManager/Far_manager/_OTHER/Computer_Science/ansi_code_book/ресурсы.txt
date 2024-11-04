@@ -1,3 +1,0 @@
-﻿
-Ansi code small tutorial:
-https://dvmn.org/encyclopedia/python_strings/ansi-codes/
