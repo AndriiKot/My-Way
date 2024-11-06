@@ -1,0 +1,182 @@
+File:
+Enter         Execute, change folder
+Shift+Enter   Execute in separate window
+F3            View
+Ctrl+Q        Toggle quick view panel
+F4            Edit
+Shift+F4      Create
+F5            Copy
+Shift+F5      Copy file under cursor
+F6            Move
+Shift+F6      Rename
+F7            Create new folder
+Alt+F7        Perform find file(folder) command
+Ctrl+A        Set file attributes
+Ctrl+Ins      Copy file name to the clipboard
+Ctrl+C        Copy file name to the clipboard
+Ctrl+Alt+Ins  Copy full file name to the clipboard
+Ctrl+V, 
+Shift+Ins     Insert text from the clipboard
+Ctrl+Enter, 
+Ctrl+J        Insert a file name
+Ctrl+F        Insert a full file name
+Ctrl+Shift+Enter   Insert a file name from passive panel    ?
+Ctrl+;             Insert a full file name from passive panel  ?
+Alt +  [a-z]       Search file by name
+Ctrl+Z             Describe file
+
+Select files:
+Shift+­→/←­/↓/↑, Ins
+Select file
+Gray +
+Select group
+Gray -
+Deselect group
+Gray *
+Invert selection
+Ctrl + <Gray +>
+Select files with the same selection as the current file
+Ctrl + <Gray ->
+Deselect files with the same selection as the current file
+Ctrl + <Gray *>
+Invert selection including folders
+Alt + <Gray +>
+Select files with the same name as the current one
+Alt + <Gray ->
+Deselect files with the same name as the current one
+Shift + <Gray +>
+Select all files
+Shift + <Gray ->
+Deselect all files
+Ctrl+M
+Restore previous selection
+Ctrl+H
+Toggle hidden and system files displaying
+Ctrl+I
+File filters menu
+ 	
+Editor:
+Ctrl+F1
+Hide/show left panel
+Ctrl+F2
+Hide/show right panel
+Ctrl+P
+Hide/show inactive panel
+Ctrl+O
+Hide/show both panels
+Ctrl+A­lt+­Shift
+Hide both panels, as long as keys are held down
+Ctrl+U
+Swap panels
+Ctrl+→/←
+Change panels width
+Ctrl+↓/↑
+Change panels height
+Ctrl+S­hif­t+↓/↑
+Change current panel height
+Ctrl+B
+Hide/show bottom key bar
+Ctrl+N
+Toggle short/long file names
+Ctrl+[ / Ctrl+]
+Insert path from left/right panel
+Ctrl+F12
+Display sort modes menu
+LeftCtrl+ 1-0
+Change view mode
+Alt+F9
+Toggles the size of the Far window
+Shift+F9
+Save config­uration
+F12, Ctrl+Tab
+Switch screens
+
+Content:
+F2
+Save
+Shift+F2
+Save as
+F6
+Switch view/edit modes
+F7
+Search
+Shift+F7
+Next search result
+Alt+F7
+Previous search result
+Ctrl+F7
+Replace
+Shift+F8
+Change code page
+Alt+F8
+Jump to line
+Shift+ F10
+Save & exit
+Ctrl+Y
+Remove line
+Ctrl+T
+Delete line content after cursor
+Ctrl+N/E
+Jump to first/last screen line
+Alt+U/I
+Shift line one pos. to the left/right
+ 	
+Navigation:
+Ctrl+\
+Change to the root folder
+Ctrl+PgUp
+Change to the parent folder
+Ctrl+PgDn
+Change folder
+Alt+F8
+Displays commands history
+Ctrl+E
+Put previous command from history to command line
+Ctrl+X
+Put next command from history to command line
+Ctrl+T
+Toggle tree panel
+Alt+F10
+Perform find folder command
+Alt+F11
+Display view and edit history
+Alt+F12
+Display folder history
+Ctrl+L
+Toggle info panel
+Ctrl+S­hif­t+1-0
+Create folder shortcut
+RightC­trl+1-0
+Jump to a folder shortcut
+
+External applic­ations:
+F11
+Show plugin commands
+Shift+Alt+ F9
+Configue plugins
+Shift+F1
+Create an archive
+Shift+F2
+Extract from the archive
+Ctrl+W
+Task list
+Ctrl+G
+Apply command to selected files
+
+Commands History:
+Enter
+Re-execute a command
+Shift+ Enter
+Re-execute a command in a new window
+Ctrl+ Alt+Enter
+Re-execute a command as admini­strator
+Ctrl+Enter
+Copy a command to the command line
+Del
+Clear the commands history
+Ins
+Lock/u­nlock a history item
+Shift+Del
+Delete the current history item
+Ctrl+C or Ctrl+Ins
+Copy the text of the current command to clipboard

@@ -1,0 +1,36 @@
+
+
+Guid video:
+YuoTube Chanel 'Kunzite Ru'
+https://www.youtube.com/watch?v=k-wci8PSFKA&list=PLrVtfeCoHwxbKzNB-5qjJQC_5vVC3oKL9
+
+1.
+https://www.farmanager.com/download.php?l=en
+downlaod Nighty builds 
+
+2.
+Install for all users of this machine
+
+3.
+Distionation Folder:
+C:\Soft\Far3x64
+
+4. Porabiliti
+Far.exe.example.ini > copy to(Shift + F5) > Far.exe.ini
+[General]
+UseSystemProfiles=0
+UserProfileDir=%FARHOME%\Profile
+UserLocalProfileDir=%FARHOME%\Profile
+TemplateProfile=%FARHOME%\Default.farconfig
+GlobalUserMenuDir=%FARHOME%
+DefaultLanguage=English
+
+5. F10 
+
+6. step 4 and 5 create folder:
+C:\Soft\Far3x64\Profile
+
+7. F9 (Options)
+
+
+
