@@ -32,5 +32,11 @@ C:\Soft\Far3x64\Profile
 
 7. F9 (Options)
 
+Dowload Plugins:
+NameEditor(Batch rename)
+FileUnlock
+
+Все плагины распоковуются в папку Soft\Far3x64\Plugins
+
 
 

@@ -1,0 +1,24 @@
+
+YouTube
+Kunzite Ru:
+https://www.youtube.com/watch?v=k-wci8PSFKA&list=PLrVtfeCoHwxbKzNB-5qjJQC_5vVC3oKL9
+
+Shift + F4     Создать файл
+F2             Сохранить изменения в файле
+Shift + F8     Поменять кодировку в открытом файле
+
+кириллица  (ANSI: windows; OEM: dos; UTF-8)
+
+F12            (Desktop; Panel; Edit)  Удобно для работы с несколькоми файлами
+Shift + Down   выделить быстро те файлы которые идут ниже за курсором
+F8             Переместить в корзину
+Shift + Delete Окончательно удалить выделенные объекты
+F11            Выбор плагинов
+Batch rename   Плагин для массового переименования файлов
+               F4 перейти в режим редактора
+               Ctrl + F7  искать по маске или тексту Replace переименовать
+Alt + Delete   Удаляет окончательно файл удаляет кластер файла
+File Unlocke   F11 -> File UnLock -> закрыть все: Удалит файл если он занят какимето процессами
+PortaDev       Плагин для работы с Android
+
+
