@@ -1,0 +1,18 @@
+
+YouTube
+Kunzite Ru:
+https://www.youtube.com/watch?v=k-wci8PSFKA&list=PLrVtfeCoHwxbKzNB-5qjJQC_5vVC3oKL9
+
+Shift + F4     Создать файл
+Ctrl + left,
+Ctrl + right        Растянуть меню в право или с жать в лево
+
+Enter -> ArcLite,   Распаковка файла при помощи ArcLite
+F5
+Ctrl + \            Быстрый переход в корень диска
+
+Shift + left,       Выделение текста  по вертикали
+Shift + right
+
+Alt + up,
+Alt + down          Выделение текста по горизонтали
