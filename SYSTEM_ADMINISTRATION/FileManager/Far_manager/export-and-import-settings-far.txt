@@ -1,0 +1,10 @@
+﻿
+Far.exe export / "name.xml"
+Example: 
+Far.exe export / "bkp.xml"
+
+Far.exe import / "bkp.xml"
+
+
+
+
