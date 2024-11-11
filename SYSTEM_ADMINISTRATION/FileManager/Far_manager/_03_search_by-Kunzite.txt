@@ -1,7 +1,8 @@
 
 YouTube
 Kunzite Ru:
+23 min 25 sec
 https://www.youtube.com/watch?v=heczSny3kI0
 
-Alt + F7             поиск файлов и катологов
+Alt + F7             поиск файлов и каталогов
 Ctrl + A             полная информация о файле

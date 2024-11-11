@@ -1,6 +1,7 @@
 
 YouTube
 Kunzite Ru:
+15 min 19 sec
 https://www.youtube.com/watch?v=k-wci8PSFKA&list=PLrVtfeCoHwxbKzNB-5qjJQC_5vVC3oKL9
 
 Shift + F4     Создать файл
@@ -18,8 +19,8 @@ Alt + up,
 Alt + down          Выделение текста по горизонтали
 
 
-Ctrl + F7           В открытом файле на редоктирования вызвать меню Replace и заменить
-                    нужые симолы или удалить
+Ctrl + F7           В открытом файле на редактирования вызвать меню Replace и заменить
+                    нужные символы или удалить
 
 
 

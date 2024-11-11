@@ -1,9 +1,13 @@
 ﻿
-Far.exe export / "name.xml"
-Example: 
-Far.exe export / "bkp.xml"
+В конце видео:
+https://www.youtube.com/watch?v=wDA9WWLY_ZE
 
-Far.exe import / "bkp.xml"
+Far.exe export /"name.xml"
+
+Example: 
+Far.exe export /"bkp.xml"
+
+Far.exe import /"bkp.xml"
 
 
 
