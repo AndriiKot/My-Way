@@ -1,0 +1,2 @@
+
+Setting > Open Setting (UI) > Exclude >.git delete
