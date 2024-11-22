@@ -1,0 +1,11 @@
+
+
+git init
+
+git add *.js
+git add LICENSE
+git commit -m "Initial project version"
+
+
+
+

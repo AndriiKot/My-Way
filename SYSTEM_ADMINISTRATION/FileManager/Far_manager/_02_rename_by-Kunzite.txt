@@ -4,7 +4,7 @@ Kunzite Ru:
 15 min 19 sec
 https://www.youtube.com/watch?v=k-wci8PSFKA&list=PLrVtfeCoHwxbKzNB-5qjJQC_5vVC3oKL9
 
-Shift + F4     Создать файл
+Shift + F4          Создать файл
 Ctrl + left,
 Ctrl + right        Растянуть меню в право или с жать в лево
 
@@ -17,6 +17,9 @@ Shift + right
 
 Alt + up,
 Alt + down          Выделение текста по горизонтали
+
+Alt + left,
+Alt + right         Выделение текста по вертикали
 
 
 Ctrl + F7           В открытом файле на редактирования вызвать меню Replace и заменить
