@@ -8,7 +8,7 @@ $ git clone https://github.com/libgit2/libgit2
 git clone <url> my-folder
     для того что-бы клонировать удалённый репозиторий в указанную папку
 Example:
-git clne https://github.com/liggit2/libgit2 MyFolder
+git clone https://github.com/liggit2/libgit2 MyFolder
     создаться папка с именем "MyFolder" и туда будут скопированный удаленный репозиторий
 
 
