@@ -39,3 +39,4 @@ or
 git config --help
 
 git config -h  (короткая документация по config в командной строке)
+    
