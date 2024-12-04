@@ -1,0 +1,14 @@
+﻿
+git clone https://github.com/github/gitignore.git
+
+cd gitignore/Global
+
+cat *.gitignore >> C:\Users\Ваше_Имя_Пользователя\.gitignore_global
+    создаем файл .gitignore_global и заполняем его содержимым всех файлов .gitignore
+
+git config --global core.excludesfile C:\Users\Ваше_Имя_Пользователя\.gitignore_global
+git config --global core.excludesfile
+    устанавливаем файл .gitignore_global
+
+git config --global --get core.excludesfile
+    проверить установку файла .gitignore_global

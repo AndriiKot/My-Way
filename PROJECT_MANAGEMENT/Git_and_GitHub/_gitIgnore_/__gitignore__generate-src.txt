@@ -1,0 +1,5 @@
+﻿
+.gitignore generate:
+https://www.toptal.com/developers/gitignore
+
+		

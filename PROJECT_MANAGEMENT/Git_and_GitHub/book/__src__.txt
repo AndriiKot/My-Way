@@ -1,0 +1,6 @@
+﻿
+en book
+https://git-scm.com/book/en/v2
+
+ru book
+https://git-scm.com/book/ru/v2
