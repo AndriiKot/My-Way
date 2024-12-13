@@ -1,0 +1,42 @@
+
+git config
+(all options config)
+
+
+where git                       Windows
+Get-command git                 PowerShell
+which git                       macOX/Linux
+
+
+git config --list --show-origin
+--list               all installed settings
+--show-origin        path to file where setting is defined(показывает где находятся настройки (полный путь к файлам))
+
+!!! First steps !!!
+git config --global user.name "User Name"
+git config --global user.email user@mail.com
+
+.editor:
+git config --global core.editor "code --wait"
+(VS Code)
+git config --global --unset-all core.editor (удаление всех значений core.editor полезно если "code --wait" не работает)
+
+
+.default Branch
+git config --global init.defaultBranch main
+
+
+git config --list
+(показывает все настройки по умолчанию)
+
+git config user.name
+git config user.email
+(показывает name и email)
+
+
+git help config (документация по команде config открывается в браузере)
+or
+git config --help
+
+git config -h  (короткая документация по config в командной строке)
+    
