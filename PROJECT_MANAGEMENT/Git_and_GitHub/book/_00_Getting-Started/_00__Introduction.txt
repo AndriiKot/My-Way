@@ -1,6 +1,0 @@
-
-1. Modified (Untracked files: ...) изменён
-2. Staged   (Changes to be committed ...) индексирован
-3. Committed  зафиксирован
-
-
