@@ -1,4 +1,6 @@
 ﻿
+https://github.com/github/gitignore.git
+
 git clone https://github.com/github/gitignore.git
 
 cd gitignore/Global
