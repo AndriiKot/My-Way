@@ -29,6 +29,9 @@ https://www.youtube.com/watch?v=Sj5jdTxmfKg
 
 
 FOR EXPERT:
+0. commit style:
+https://www.conventionalcommits.org/en/v1.0.0/
+
 1.
 webdevkin.ru
 playlist:
