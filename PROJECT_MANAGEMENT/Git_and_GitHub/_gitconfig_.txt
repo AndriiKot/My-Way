@@ -1,0 +1,9 @@
+﻿
+Windows перейти в файл .gitconfig и отрыть его при помоши notepad
+notepad %USERPROFILE%\.gitconfig
+
+
+Linux
+nano ~/.gitconfig
+
+
