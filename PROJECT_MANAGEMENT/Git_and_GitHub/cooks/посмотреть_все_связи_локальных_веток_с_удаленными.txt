@@ -1,0 +1,9 @@
+﻿
+git branch -vv
+
+Engish_Lessos__programm__>git branch -vv
+* Card-views c5ac8a8 App: 'English Lessons' 'Card-vies' ! refactor: btn add()  !
+  main       1aca259 [origin/master: ahead 66] App: 'English Lessons' ! data: add lesson 38 !
+
+показывает все локальнные ветки и связь их с удаленными ветками
+

@@ -1,0 +1,7 @@
+﻿
+DDGO.text() посмотреть сылки и документацию
+функция в python3 enumerate()
+
+for index, item in emuerate(list):
+ ...
+ ...
