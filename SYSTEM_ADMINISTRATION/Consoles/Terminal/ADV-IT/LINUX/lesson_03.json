@@ -1,0 +1,85 @@
+{
+  "questions": {
+    "ru": {
+      "Как посмотреть время работы системы?": "uptime",
+      "Как показать установленную систему?": "uname -a",
+      "Как получить информацию о процессоре?": "lscpu",
+      "Как вывести информацию о всех директориях в данной директории?": [
+        "ls -l",
+        "ls -a -l"
+      ],
+      "Как вывести текст в консоль?": "echo \"Hello World\"",
+      "Как вывести переменную окружения PATH?": "echo $PATH",
+      "Как вывести имя текущего пользователя?": [
+        "echo $USER",
+        "whoami",
+        "id -n -u",
+        "id -un",
+        "id -nu"
+      ],
+      "Как найти все команды по ключевому слову?": "man -k \"название команды\"",
+      "Как открыть конкретную команду в текстовом редакторе?": "man \"название команды\"",
+      "Как найти конкретную команду и открыть ее в текстовом редакторе info?": "info \"название команды\"",
+      "Как получить описание команды в консоль?": "whatis \"название команды\"",
+      "Как найти путь к команде?": "whereis \"название команды\"",
+      "Как найти директории и файлы в системе?": [
+        "locate \"название директории или файла\"",
+        "plocate \"название директории или файла\""
+      ],
+      "Как проверить эхо-запросы на указанный IP-адрес?": "ping <адрес>",
+      "Как проверить эхо-запросы 3 раза?": "ping -c 3 <адрес>",
+      "Как проверить эхо-запросы 3 раза с интервалом 1 секунда?": "ping -c 3 -i 1 <адрес>",
+      "Как посмотреть запущенные процессы текущего пользователя?": "ps",
+      "Как приостановить процесс и вернуть его?": [
+        "ping google.com -> Ctrl + Z",
+        "fg"
+      ],
+      "Как вывести все файлы системы и всех подключенных дисков?": [
+        "ls -al -R /",
+        "sudo ls -al -R /"
+      ],
+      "Как запустить программу из текущей директории?": "необходимо использовать ./название_программы"
+    },
+    "en": {
+      "How to check system uptime?": "uptime",
+      "How to show the installed system?": "uname -a",
+      "How to get information about the CPU?": "lscpu",
+      "How to list all directories in the current directory?": [
+        "ls -l",
+        "ls -a -l"
+      ],
+      "How to print text to the console?": "echo \"Hello World\"",
+      "How to print the PATH environment variable?": "echo $PATH",
+      "How to print the current user's name?": [
+        "echo $USER",
+        "whoami",
+        "id -n -u",
+        "id -un",
+        "id -nu"
+      ],
+      "How to find all commands by keyword?": "man -k \"command name\"",
+      "How to open a specific command in a text editor?": "man \"command name\"",
+      "How to find a specific command and open it in the info editor?": "info \"command name\"",
+      "How to get the description of a command in the console?": "whatis \"command name\"",
+      "How to find the path to a command?": "whereis \"command name\"",
+      "How to find directories and files in the system?": [
+        "locate \"directory or file name\"",
+        "plocate \"directory or file name\""
+      ],
+      "How to check echo requests to a specified IP address?": "ping <address>",
+      "How to check echo requests 3 times?": "ping -c 3 <address>",
+      "How to check echo requests 3 times with a 1 second interval?": "ping -c 3 -i 1 <address>",
+      "How to see the running processes of the current user?": "ps",
+      "How to suspend a process and bring it back?": [
+        "ping google.com -> Ctrl + Z",
+        "fg"
+      ],
+      "How to list all files in the system and all mounted disks?": [
+        "ls -al -R /",
+        "sudo ls -al -R /"
+      ],
+      "How to run a program from the current directory?": "you need to use ./program_name"
+    }
+  }
+}
+
