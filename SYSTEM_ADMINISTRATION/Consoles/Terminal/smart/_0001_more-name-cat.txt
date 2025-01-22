@@ -1,0 +1,5 @@
+﻿
+more text* | cat
+tail *.txt | cat
+head *.txt | cat
+
