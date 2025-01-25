@@ -1,0 +1,29 @@
+
+grep linux <file name> 
+	найти в
+
+grep linux -r ./*
+   рекрусивный поиск
+
+grep -i linux ./*
+	-i игнорирование регистра
+
+grep -E "(kgb.gov|intel.com)"   myfile.txt
+grep -E "regx"   <name file>
+
+grep -rl <text> <name file>
+
+
+testirovanie@org.com, а я помню только что присутствует в искомом "test" и ".com", 
+но мне не нужны все результаты только с test или с .com ?
+test\w*@\w*.com
+grep -E 'test\w*@\w*\.com'   myfile.txt
+
+
+Например: найти "key???1" А пропустить нужно символы под знаком вопроса.
+Ответить
+key.{3}1    . это любой символ, а в фигурных скобках сколько этих символов подряд
+
+
+
+	
