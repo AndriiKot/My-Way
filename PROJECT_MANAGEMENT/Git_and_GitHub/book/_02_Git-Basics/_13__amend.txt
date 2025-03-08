@@ -1,0 +1,13 @@
+
+git commit --amend
+
+Example
+Если забыли поиндексировать
+изменения в файле
+
+git commit -m "Initial commit"
+git add forgotten_file
+git commit  --amend
+
+
+

@@ -6,4 +6,7 @@ Shift + Ctrl + up (down, pg up , pg dn) в косноли для того что
 
 Shift + MOUSE    Для выделения текста в консоли
 
+rename all files:
+    F11 > Batch rename > select files > F4 (открыть в редакторе кода)
+    > (\d+) > flag [regex] > apartment_$1
 

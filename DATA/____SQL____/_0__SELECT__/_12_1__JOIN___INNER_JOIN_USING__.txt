@@ -2,12 +2,12 @@
 select * from "language" l ;
 
 select 
-	f.title,
-	l."name" as language_name
+    f.title,
+    l."name" as language_name
 from
-	film f
-	inner join "language" l 
-		using(f.language_id = l.language_id);
+    film f
+    inner join "language" l 
+        using(f.language_id = l.language_id);
 
 
-		
+        
