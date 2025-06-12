@@ -1,0 +1,225 @@
+Basic:
+command [options...] [argumets...]
+
+1.
+ls
+  (ls - command)
+
+2.
+ls /home
+   (/home - argumets) показывает содержимое папки /home
+ls Documents/
+ls Music/
+  (Documents/ and Music/ arguments)
+
+clear        очистить терминал
+CtrlLeft + L очистить терминал
+
+3.
+ls -l
+  (-l  - options) опции всегда с - !!!
+
+ls -r
+  (-r reverse)
+
+ls -rl
+ls -lr
+ls -r -l
+ls -l -r
+  (комбинация команд reverse and long)
+
+!!
+Printing Working Directry
+
+pwd
+    показывает где вы находитись
+ls -l /
+    показывает файлы и папки коренвой папки
+/ - корнивая папка
+ls -lR /
+    рекурсивный вывод папок и файлов
+
+!!!
+cd [options] [path]
+
+cd /
+    переход в корнивую папку
+cd 
+
+cd ..
+
+cd Documents
+cd Documents/
+ (tab > Doc > Documents/)
+
+pwd
+
+
+Absoulute Paths
+/ - всегда начинается со слеша (/)
+
+
+cd ..
+cd .
+cd
+cd ~ or cd
+    переход в домашнию деректорию
+
+
+ls [options] [files]
+
+ls -l /var/log
+
+drwxr-xr-x : d - деректория 
+
+-rw-r----- : - в начале (файл)
+
+read - читать
+write - писать
+execute - запускать
+
+drwxr-xr-x:
+rwx - прова собственика
+r-x - нельзя записывать (группы собствиниках ) 
+r-x - права доступа всех остальных
+
+первые - owner
+вторые - group
+третье - other
+
+-rw-r----- :
+
+rw- - читать, писать  но нельзя запускать (owner)
+r-- - читать, не может писать и запускать (group)
+--- - прав нет (other)
+
+drwxr-xr-x 1 root utmp 334 Dec 10 2020 
+
+root - кто собственик (owner)
+utmp - кто група (group)
+334 - размер
+Dec 10 2020 11:19 - дата последнего изменения в файле
+если год не указанный то это значит что последнии из
+менения были в текущем году
+
+ls -lt /var/log
+    вывод файлов с сартировкой по времени от саммых свежих до самый поздних
+    ls -ltr /var/log (сортировка по времени от поздних до самых свежих)
+
+ls -l -S /var/log
+ls -Sl   /var/log
+ls -S -l /var/log
+ls -lS   /var/log
+    сортировка по размеру от самых крупных до саммых мелких файлов
+
+ls -rlS /var/log
+ls -Slr /var/log ...
+    сортировка по размеру от самых меликих до саммых крупных
+
+
+su 
+su - 
+su -l
+su --login
+  вести свой пароль
+# - прова root (
+$ - права пользователя
+
+whoami : andrii
+su -l  : password
+whoami : root
+
+
+exit
+    выйти из права пользователя
+
+sudo 
+    для ввода одной команды под именем (root)
+
+man su
+man sudo
+    справка по командам
+
+:~$ означает что мы в деректории home
+
+touch test-file.txt
+    создать файл 
+
+sudo vipw
+    реест прав доступа
+vim etc/group
+
+cd ~/Documents
+
+chmod 
+    изменения прав дома
+
+chmod [<SET> <ACTION> <PERMISIONS>]... FILE
+
+u   User  (owner)
+g   group
+o   other
+a   all
+
+nano hello.sh
+
+#!/bin/bash
+echo "Hello World!!!"
+
+chmod u+x hello.sh
+    прова запуска для (owner) запуска файла
+
+sudo chmod 
+
+./hello.sh
+    запуск файла (скрипта) ./обезательно должен быть перед файлом без пробелов !!
+./hello.sh (без пробелов)
+
+sudo chown root hello.sh
+    меняет пользователя на root
+    при запуске от пользоваетеля будет отказано в исиолнения файла 
+    
+sudo chmod g-x 
+    заберает права на исполнения у группы
+
+man cp 
+    посмотрет описание команды cp
+
+cp [OPTIONS] SOURCE ... DIRECTORE
+                                                                          
+cp /etc/passwd .
+  копирует файл passwd который находится по обсолютному пути /etc/passwd 
+  копирует в тикушую папку
+
+сp -R path-folder1 path-folder2
+  деректории копируются с опцией -R
+
+dd if=/dev/sda of=/dev/sdb
+    копия данных для полного копирование всех данных
+    скопировать жесткий диск
+
+mv SOURCE DESTANATION
+  перемешение файлов
+  Moving Files
+mv file1.txt file2.txt file3.txt Folder1
+   перемещает три файла в деректорию Folder1
+
+rename files
+
+mv file-name1.txt file-name2.txt
+    переименовывает файл(фактически перемещает так как в люнуксе нет команды переименнования)
+
+rm [OPTIONS] files
+
+rm -r Folder1
+    -r для удаление Деректории (тоесть сначала удаляется все
+      содержимое рекрусивно а потом уже и сама деректория)
+
+grep [OPTIONS] pattern [FILE]
+
+
+                                             
+
+
+
+

@@ -1,0 +1,3 @@
+﻿Йеп. И они оба есть в homebrew например.
+https://meldmerge.org/
+https://github.com/jesseduffield/lazygit

@@ -1,0 +1,3 @@
+
+linux books commands:
+https://edu-cisco.org/docs/lp/Linux-handbook-comands-A-Z-SEDICOMM-University.pdf

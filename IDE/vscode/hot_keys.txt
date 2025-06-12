@@ -1,4 +1,17 @@
-﻿TOP TO DAY:
+﻿Must have:
+    Command Pallete:  Ctrl + LeftShift + P      (показывает список горяцийх клавиш)
+    Go to Definition: F12                       (показывакет где объявленна данная переменная)
+    Go to File:       Ctrl + P                  (навигация по всему проекту но масске)
+    Search Find in Files:  Ctrl + LeftShift + F (Найти по масски по всему проекту строку (например переменную))
+    Search Replce in Files: Ctrl + LeftShift + H (Переименовать переменную или скроку во всем проекту)   
+    Transform(Upper case, camel cass, ...)       (Перевод переменной к определёному стилю)
+    File Reavel Active File in Explorer View     (Показывает где по дереву находится файл в котором в данном моменте происзодит редоктироваине)       
+    Go back           
+    Go Forward
+    Rename symbol    F2 (переименования по всему проекту переменной с импортами и прочими удобствами)
+    Copy line down   LeftShift + Alt + rowDown   (копирования строки на которой находится у казатиль)
+    
+TOP TO DAY:
     Shift + Alt + up-row or down-row копирует строку на которой установленный курсор
     F12                         Перейти к переменной 
     Ctrl + Sift + E             Переключение межу файлом и боковой панелью

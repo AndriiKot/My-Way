@@ -1,0 +1,26 @@
+Adding a permanent alias in Powershell (Windows):
+In a Powershell window with admin rights, execute:
+
+краткое руководство:
+notepad $profile.AllUsersAllHosts
+set-alias -name pn -value pnpm
+pnpm self-update
+
+
+powershell:
+notepad $profile.AllUsersAllHosts
+
+In the profile.ps1 file that opens, put:
+
+powershell:
+set-alias -name pn -value pnpm
+
+Save the file and close the window. 
+You may need to close any open Powershell 
+window in order for the alias to take effect.
+
+Updating pnpm
+To update pnpm, run the self-update command:
+
+powershell:
+pnpm self-update
